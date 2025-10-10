@@ -1,0 +1,36 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend part of NK massage project",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aestepanova/NK_massage.git"
+  },
+  "keywords": [
+    "massage",
+    "nodejs",
+    "frontend",
+    "nk_massage",
+    "api"
+  ],
+  "author": "aestepanova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aestepanova/NK_massage/issues"
+  },
+  "homepage": "https://github.com/aestepanova/NK_massage#readme",
+  "dependencies": {
+    "eslint": "^9.37.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.9"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.1"
+  }
+}
