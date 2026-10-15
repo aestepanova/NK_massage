@@ -713,94 +713,6 @@ h1 {
   margin-left: 1.5625rem;
   font-size: var(--text-caption);
 }
-.booking-dialog {
-  width: calc(100% - 40px);
-  max-width: 31.875rem;
-  background: var(--paper);
-  color: var(--ink);
-  border: 0;
-  border-radius: 7px;
-  padding: 3rem;
-  box-shadow: 0 25px 90px #1e291733;
-  max-height: calc(100dvh - 2rem);
-  overflow-y: auto;
-}
-.booking-dialog::backdrop {
-  background: #212a20a6;
-  backdrop-filter: blur(4px);
-}
-.booking-dialog h2 {
-  margin-top: 1.25rem;
-  font-size: var(--text-heading);
-}
-.dialog-close {
-  position: absolute;
-  right: 16px;
-  top: 11px;
-  font-size: 1.875rem;
-  width: 38px;
-  height: 38px;
-  background: none;
-  line-height: 1;
-}
-.dialog-intro {
-  color: var(--muted);
-  margin-top: 0.9375rem;
-  font-size: var(--text-body);
-}
-.booking-dialog label {
-  display: block;
-  margin-top: 1.75rem;
-  font-size: var(--text-meta);
-}
-.booking-dialog select {
-  width: 100%;
-  padding: 0.9375rem 0.625rem;
-  border: 1px solid #bec5b0;
-  border-radius: 3px;
-  background: var(--paper);
-  color: var(--ink);
-  margin-top: 0.5625rem;
-  font-size: var(--text-body);
-}
-.booking-summary {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3125rem;
-  padding-block: 1.375rem;
-}
-.booking-summary span {
-  color: var(--muted);
-  font-size: var(--text-meta);
-}
-.booking-summary strong {
-  font-size: 1.125rem;
-  font-weight: 500;
-}
-.preview-message {
-  line-height: 1.8;
-  color: var(--muted);
-  padding-top: 1.125rem;
-  border-top: 1px solid var(--line);
-  font-size: var(--text-meta);
-}
-.dialog-done {
-  width: 100%;
-  margin-top: 1.375rem;
-}
-body.modal-open {
-  overflow: hidden;
-}
-.booking-telegram {
-  width: 100%;
-  margin-top: 1.375rem;
-}
-.booking-dialog .dialog-done {
-  width: auto;
-  margin: 1.125rem auto 0;
-  display: flex;
-  font-size: var(--text-meta);
-}
 @media(min-width:1600px) {
   .hero {
     padding-block: 4.625rem 5.25rem;
@@ -1160,9 +1072,6 @@ body.modal-open {
     grid-row: 2;
     margin-left: auto;
   }
-  .booking-dialog {
-    padding: 2.5rem 1.625rem 1.75rem;
-  }
 }
 @media(max-width:370px) {
   .wordmark {
@@ -1456,19 +1365,6 @@ body.modal-open {
 .contact-location {
   margin-top: 0.9375rem;
 }
-.booking-summary strong {
-  font-size: 1.125rem;
-  line-height: 1.5;
-}
-.booking-phone {
-  display: block;
-  text-align: center;
-  margin-top: 1.125rem;
-  font-size: var(--text-meta);
-}
-.booking-phone:hover {
-  text-decoration: underline;
-}
 @media(max-width:1150px) {
   .first-price {
     padding: 2rem;
@@ -1572,9 +1468,6 @@ body.modal-open {
     margin-top: 1.375rem;
   }
   .contact-phone {
-    font-size: 1.0625rem;
-  }
-  .booking-summary strong {
     font-size: 1.0625rem;
   }
 }
@@ -2131,3 +2024,85 @@ body.modal-open {
 }
 .document-arrow:disabled { opacity: .35; cursor: default; }
 .document-position { color: var(--muted); font-size: var(--text-meta); }
+
+/* Direct contact works without JavaScript or an intermediate selection. */
+.contact-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex: 0 0 auto;
+}
+.contact-link {
+  gap: .625rem;
+  text-align: center;
+  line-height: 1.5;
+}
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: .75rem;
+  min-width: 0;
+}
+.contact-actions .contact-link {
+  min-width: 0;
+  flex: 1 1 auto;
+  gap: .625rem;
+}
+.hero-actions {
+  display: grid;
+  justify-items: start;
+  gap: 1rem;
+}
+.hero-contact-actions {
+  width: 100%;
+  max-width: 34rem;
+}
+.button-outline {
+  background: transparent;
+  color: var(--olive-dark);
+  border-color: var(--olive);
+}
+.button-outline:hover {
+  background: var(--sand);
+  color: var(--olive-dark);
+}
+.first-visit-actions {
+  flex-direction: column;
+}
+.first-visit-actions .contact-link {
+  width: 100%;
+}
+.footer-contact-actions {
+  justify-content: center;
+  max-width: 34rem;
+  margin: 1.75rem auto 0;
+}
+.footer-contact-actions .button-light {
+  margin-top: 0;
+}
+.button-outline-light {
+  color: var(--paper);
+  border-color: #c9d0bb;
+}
+.button-outline-light:hover {
+  background: #ffffff14;
+  color: var(--paper);
+}
+.contact-inner>.contact-number {
+  margin-top: .875rem;
+  font-size: var(--text-meta);
+}
+.direct-telegram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+@media(max-width:28rem) {
+  .contact-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-actions .contact-link {
+    width: 100%;
+  }
+}

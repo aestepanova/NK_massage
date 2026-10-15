@@ -20,52 +20,6 @@ document.addEventListener('keydown', event => {
 });
 window.matchMedia('(min-width: 951px)').addEventListener('change', closeMenu);
 
-const dialog = document.querySelector('.booking-dialog');
-const choice = document.querySelector('#session-choice');
-const duration = document.querySelector('#selected-duration');
-const price = document.querySelector('#selected-price');
-const sessions = {
-  first: ['55 минут · диагностический сеанс', '5 700 ₽ вместо 7 800 ₽'],
-  body: ['Базовый формат · 55 минут', '5 700–7 800 ₽'],
-  extended: ['85 минут и более длительные сеансы · до 2 часов', 'Стоимость согласуем при записи'],
-  combined: ['Базовый сеанс · 55 минут · индивидуальное сочетание техник', '5 700–7 800 ₽ за базовый сеанс'],
-  chinese: ['В составе индивидуального сеанса · базово 55 минут', '5 700–7 800 ₽ за базовый сеанс'],
-  feet: ['В составе индивидуального сеанса · базово 55 минут', '5 700–7 800 ₽ за базовый сеанс'],
-  face: ['Массаж лица · отдельная составляющая по запросу', 'Формат и стоимость согласуем лично'],
-  course: ['Количество встреч обсудим после первого сеанса', 'Скидка 10% на абонемент'],
-  qigong: ['Отдельное индивидуальное занятие', 'Длительность и стоимость — при записи'],
-  training: ['Обучение техникам Цзин-ло · с учётом вашей подготовки', 'Программу, длительность и стоимость обсудим лично']
-};
-let trigger;
-function updateSession() {
-  const selected = sessions[choice.value] || sessions.first;
-  duration.textContent = selected[0];
-  price.textContent = selected[1];
-}
-document.querySelectorAll('[data-book]').forEach(button => {
-  button.addEventListener('click', () => {
-    trigger = button;
-    choice.value = button.dataset.book || 'first';
-    updateSession();
-    closeMenu();
-    dialog.showModal();
-    document.body.classList.add('modal-open');
-    choice.focus();
-  });
-});
-choice.addEventListener('change', updateSession);
-document.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
-document.querySelector('.dialog-done').addEventListener('click', () => dialog.close());
-dialog.addEventListener('click', event => {
-  if (event.target !== dialog) return;
-  const rect = dialog.getBoundingClientRect();
-  if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close();
-});
-dialog.addEventListener('close', () => {
-  document.body.classList.remove('modal-open');
-  trigger?.focus();
-});
-
 const workVideos = document.querySelectorAll('.work-gallery video');
 workVideos.forEach(video => {
   video.addEventListener('contextmenu', event => event.preventDefault());
