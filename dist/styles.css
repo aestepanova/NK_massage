@@ -2106,3 +2106,94 @@ h1 {
     width: 100%;
   }
 }
+
+/* Massage tools and individual learning are separate parts of the offer. */
+.inline-link {
+  color: var(--olive-dark);
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}
+.session-materials {
+  padding-top: clamp(1.5rem, 3vw, 2.25rem);
+}
+.session-materials h3 {
+  font-family: var(--serif);
+  font-size: clamp(1.75rem, 1.4rem + .8vw, 2.25rem);
+  font-weight: 400;
+  line-height: 1.2;
+}
+.session-materials>.body-copy {
+  max-width: 62ch;
+  margin-top: .875rem;
+}
+.materials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(1rem, 3vw, 2rem);
+  margin-top: 1.5rem;
+}
+.materials-grid article {
+  min-width: 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+.materials-grid h4 {
+  font-size: var(--text-body);
+  font-weight: 500;
+  line-height: 1.5;
+}
+.materials-grid p {
+  margin-top: .5rem;
+  color: var(--muted);
+  font-size: var(--text-body);
+  line-height: 1.65;
+}
+.learning-section {
+  background: var(--sand);
+}
+.learning-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 3vw, 2rem);
+}
+.learning-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+.learning-card h3 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(1.75rem, 1.4rem + 1vw, 2.5rem);
+  line-height: 1.2;
+  margin-top: .75rem;
+}
+.learning-card .body-copy {
+  margin-block: 1rem 1.5rem;
+}
+.learning-card .contact-link {
+  margin-top: auto;
+  max-width: 100%;
+}
+.learning-note {
+  max-width: 70ch;
+  margin-top: 1.25rem;
+  color: var(--muted);
+  font-size: var(--text-body);
+  line-height: 1.65;
+}
+@media(max-width:48rem) {
+  .materials-grid,.learning-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media(max-width:28rem) {
+  .learning-card .contact-link {
+    width: 100%;
+    padding-inline: .75rem;
+  }
+}
