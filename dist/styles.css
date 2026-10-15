@@ -285,6 +285,7 @@ h1 {
 }
 .hero-visual {
   position: relative;
+  height: fit-content;
   padding-left: 1.25rem;
 }
 .photo-frame {
@@ -440,11 +441,10 @@ h1 {
 .approach-principles {
   margin-top: 1.875rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   padding-top: 1.5625rem;
   border-top: 1px solid var(--line);
-  flex-wrap: wrap;
-  gap: 1rem 1.5rem;
+  gap: 1rem;
 }
 .approach-principles>div {
   display: flex;
