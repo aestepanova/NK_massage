@@ -440,8 +440,9 @@ h1 {
 }
 .approach-principles {
   margin-top: 1.875rem;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: minmax(0, max-content);
+  justify-content: center;
   padding-top: 1.5625rem;
   border-top: 1px solid var(--line);
   gap: 1rem;
@@ -1041,7 +1042,6 @@ body.modal-open {
   .approach-principles {
     padding-top: 1.3125rem;
     margin-top: 1.5625rem;
-    justify-content: flex-start;
     row-gap: 0.9375rem;
   }
   .identity-art {
@@ -1372,9 +1372,6 @@ body.modal-open {
   gap: 1.375rem;
   align-items: start;
 }
-.document-link:nth-child(2) {
-  margin-top: 3.4375rem;
-}
 .document-preview {
   display: block;
   position: relative;
@@ -1570,9 +1567,6 @@ body.modal-open {
   .education-documents {
     margin-top: 2.25rem;
     gap: 1.25rem;
-  }
-  .document-link:nth-child(2) {
-    margin-top: 1.875rem;
   }
   .review-author {
     margin-top: 1.375rem;
