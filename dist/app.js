@@ -67,6 +67,7 @@ dialog.addEventListener('close', () => {
 
 const workVideos = document.querySelectorAll('.work-gallery video');
 workVideos.forEach(video => {
+  video.addEventListener('contextmenu', event => event.preventDefault());
   video.addEventListener('play', () => {
     workVideos.forEach(other => {
       if (other !== video) other.pause();
@@ -74,32 +75,48 @@ workVideos.forEach(video => {
   });
 });
 
-const reviewTrack = document.querySelector('.review-track');
-const reviewSlides = [...reviewTrack.querySelectorAll('.review-slide')];
-const reviewPrevious = document.querySelector('.review-previous');
-const reviewNext = document.querySelector('.review-next');
-const reviewPosition = document.querySelector('.review-position');
-function currentReview() {
-  return Math.max(0, Math.min(reviewSlides.length - 1, Math.round(reviewTrack.scrollLeft / reviewTrack.clientWidth)));
+function setupCarousel(prefix) {
+  const track = document.querySelector(`.${prefix}-track`);
+  const previous = document.querySelector(`.${prefix}-previous`);
+  const next = document.querySelector(`.${prefix}-next`);
+  const position = document.querySelector(`.${prefix}-position`);
+  const slides = [...track.children];
+  function current() {
+    return Math.max(0, Math.min(slides.length - 1, Math.round(track.scrollLeft / track.clientWidth)));
+  }
+  function update() {
+    const index = current();
+    previous.disabled = index === 0;
+    next.disabled = index === slides.length - 1;
+    position.textContent = `${index + 1} из ${slides.length}`;
+  }
+  function move(step) {
+    const index = Math.max(0, Math.min(slides.length - 1, current() + step));
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    track.scrollTo({ left: index * track.clientWidth, behavior: reduced ? 'auto' : 'smooth' });
+  }
+  previous.addEventListener('click', () => move(-1));
+  next.addEventListener('click', () => move(1));
+  track.addEventListener('scroll', update, { passive: true });
+  track.addEventListener('keydown', event => {
+    if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+    event.preventDefault();
+    move(event.key === 'ArrowRight' ? 1 : -1);
+  });
+  window.addEventListener('resize', update);
+  update();
 }
-function updateReviewControls() {
-  const index = currentReview();
-  reviewPrevious.disabled = index === 0;
-  reviewNext.disabled = index === reviewSlides.length - 1;
-  reviewPosition.textContent = `${index + 1} из ${reviewSlides.length}`;
+setupCarousel('review');
+setupCarousel('document');
+
+const principles = document.querySelector('.approach-principles');
+function fitPrinciples() {
+  const rows = [...principles.children];
+  const gap = parseFloat(getComputedStyle(principles).columnGap) || 0;
+  const width = rows.reduce((total, row) => total + row.getBoundingClientRect().width, 0);
+  principles.classList.toggle('is-inline', width + gap * (rows.length - 1) <= principles.clientWidth - 1);
 }
-function moveReview(step) {
-  const index = Math.max(0, Math.min(reviewSlides.length - 1, currentReview() + step));
-  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  reviewTrack.scrollTo({ left: index * reviewTrack.clientWidth, behavior: reducedMotion ? 'auto' : 'smooth' });
-}
-reviewPrevious.addEventListener('click', () => moveReview(-1));
-reviewNext.addEventListener('click', () => moveReview(1));
-reviewTrack.addEventListener('scroll', updateReviewControls, { passive: true });
-reviewTrack.addEventListener('keydown', event => {
-  if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
-  event.preventDefault();
-  moveReview(event.key === 'ArrowRight' ? 1 : -1);
-});
-window.addEventListener('resize', updateReviewControls);
-updateReviewControls();
+if (typeof ResizeObserver !== 'undefined') new ResizeObserver(fitPrinciples).observe(principles);
+window.addEventListener('resize', fitPrinciples);
+if (document.fonts) document.fonts.ready.then(fitPrinciples);
+fitPrinciples();
