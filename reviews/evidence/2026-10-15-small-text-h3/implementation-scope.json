@@ -1,0 +1,1030 @@
+{
+  "removed": {
+    "font-size": 123,
+    "letter-spacing": 12,
+    "font-weight": 4,
+    "line-height": 20
+  },
+  "removed_empty_rules": 47,
+  "modified_old_rules": 124,
+  "empty_rule_selectors": [
+    ".eyebrow",
+    ".session-description h3",
+    ".visit-steps h3",
+    ".hero .eyebrow",
+    ".approach-principles p",
+    ".hero .eyebrow",
+    ".hero-actions .text-link",
+    ".photo-caption",
+    ".approach-principles p",
+    ".session-description h3",
+    ".hero .eyebrow",
+    ".hero-actions .text-link",
+    ".approach-copy>.body-copy",
+    ".approach-principles p",
+    ".session-description h3",
+    ".session-meta span",
+    ".session-meta strong",
+    ".session-footnote>p",
+    ".visit-steps h3",
+    ".visit-steps p",
+    ".questions summary",
+    ".contact-inner>p:not(.eyebrow)",
+    ".hero .eyebrow",
+    ".session-description h3",
+    ".hero-note",
+    ".approach-principles p",
+    ".session-description p",
+    ".session-meta>span",
+    ".session-footnote>p,.section-heading>p",
+    ".visit-intro>.body-copy,.visit-steps p",
+    ".questions details p",
+    ".hero-note",
+    ".photo-caption",
+    ".approach-copy>.body-copy",
+    ".approach-principles p",
+    ".session-description p",
+    ".session-meta>span,.session-meta strong",
+    ".session-footnote>p",
+    ".section-heading>p",
+    ".first-price>p",
+    ".visit-intro>.body-copy,.visit-steps p",
+    ".document-link>span:last-child",
+    ".questions details p",
+    ".booking-phone",
+    ".hero-actions .text-link",
+    ".hero-note",
+    ".price-promotions"
+  ],
+  "changed_rules": [
+    {
+      "selector": ".eyebrow",
+      "removed": [
+        "font-size:10px",
+        "letter-spacing:.18em",
+        "font-weight:600",
+        "line-height:1.5"
+      ]
+    },
+    {
+      "selector": ".body-copy",
+      "removed": [
+        "line-height:1.9",
+        "font-size:14px"
+      ]
+    },
+    {
+      "selector": ".button",
+      "removed": [
+        "font-size:12px",
+        "font-weight:500"
+      ]
+    },
+    {
+      "selector": ".button-small",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".text-link",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".navigation",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".hero .eyebrow",
+      "removed": [
+        "font-size:9px",
+        "letter-spacing:.17em"
+      ]
+    },
+    {
+      "selector": ".hero-description",
+      "removed": [
+        "font-size:14px",
+        "line-height:1.85"
+      ]
+    },
+    {
+      "selector": ".hero-note",
+      "removed": [
+        "line-height:1.7",
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".hero-note strong",
+      "removed": [
+        "font-weight:400"
+      ]
+    },
+    {
+      "selector": ".photo-caption",
+      "removed": [
+        "font-size:8px",
+        "letter-spacing:.15em"
+      ]
+    },
+    {
+      "selector": ".approach-identity>.muted",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".approach-copy>.body-copy",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".approach-principles span",
+      "removed": [
+        "font-size:8px"
+      ]
+    },
+    {
+      "selector": ".approach-principles p",
+      "removed": [
+        "font-size:9px",
+        "line-height:1.8"
+      ]
+    },
+    {
+      "selector": ".section-heading>p",
+      "removed": [
+        "font-size:11px",
+        "line-height:1.9"
+      ]
+    },
+    {
+      "selector": ".session-number",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".session-description h3",
+      "removed": [
+        "font-size:33px",
+        "line-height:1.2",
+        "letter-spacing:-.02em"
+      ]
+    },
+    {
+      "selector": ".session-description h3 span",
+      "removed": [
+        "font-size:9px",
+        "letter-spacing:.08em"
+      ]
+    },
+    {
+      "selector": ".session-description p",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".session-meta>span",
+      "removed": [
+        "font-size:9px"
+      ]
+    },
+    {
+      "selector": ".session-meta strong",
+      "removed": [
+        "font-size:14px",
+        "font-weight:500"
+      ]
+    },
+    {
+      "selector": ".session-footnote>p",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".visit-intro>.body-copy",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".visit-steps>article>span",
+      "removed": [
+        "font-size:9px"
+      ]
+    },
+    {
+      "selector": ".visit-steps h3",
+      "removed": [
+        "font-size:29px",
+        "letter-spacing:-.025em"
+      ]
+    },
+    {
+      "selector": ".visit-steps p",
+      "removed": [
+        "font-size:11px",
+        "line-height:1.9"
+      ]
+    },
+    {
+      "selector": ".questions summary",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".questions details p",
+      "removed": [
+        "font-size:11px",
+        "line-height:1.9"
+      ]
+    },
+    {
+      "selector": ".contact-inner>p:not(.eyebrow)",
+      "removed": [
+        "font-size:12px",
+        "line-height:1.9"
+      ]
+    },
+    {
+      "selector": ".contact-location",
+      "removed": [
+        "font-size:9px",
+        "letter-spacing:.06em"
+      ]
+    },
+    {
+      "selector": ".site-footer>p",
+      "removed": [
+        "font-size:9px"
+      ]
+    },
+    {
+      "selector": ".back-to-top",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".site-footer>small",
+      "removed": [
+        "font-size:9px"
+      ]
+    },
+    {
+      "selector": ".dialog-intro",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".booking-dialog label",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".booking-dialog select",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".booking-summary span",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".preview-message",
+      "removed": [
+        "font-size:11px",
+        "line-height:1.8"
+      ]
+    },
+    {
+      "selector": ".booking-dialog .dialog-done",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".hero .eyebrow",
+      "removed": [
+        "font-size:8px"
+      ]
+    },
+    {
+      "selector": ".approach-principles p",
+      "removed": [
+        "font-size:8px"
+      ]
+    },
+    {
+      "selector": ".hero .eyebrow",
+      "removed": [
+        "font-size:7px",
+        "letter-spacing:.1em"
+      ]
+    },
+    {
+      "selector": ".hero-description",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".hero-actions .button",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".hero-actions .text-link",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".photo-caption",
+      "removed": [
+        "font-size:7px"
+      ]
+    },
+    {
+      "selector": ".hero-note",
+      "removed": [
+        "font-size:9px"
+      ]
+    },
+    {
+      "selector": ".approach-principles p",
+      "removed": [
+        "font-size:9px"
+      ]
+    },
+    {
+      "selector": ".session-description h3",
+      "removed": [
+        "font-size:29px"
+      ]
+    },
+    {
+      "selector": ".header-book",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".hero .eyebrow",
+      "removed": [
+        "font-size:7.5px",
+        "letter-spacing:.13em"
+      ]
+    },
+    {
+      "selector": ".hero-description",
+      "removed": [
+        "font-size:13px"
+      ]
+    },
+    {
+      "selector": ".hero-actions .button",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".hero-actions .text-link",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".hero-note",
+      "removed": [
+        "font-size:9px"
+      ]
+    },
+    {
+      "selector": ".photo-caption",
+      "removed": [
+        "font-size:7px"
+      ]
+    },
+    {
+      "selector": ".approach-copy>.body-copy",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".approach-principles p",
+      "removed": [
+        "font-size:9px"
+      ]
+    },
+    {
+      "selector": ".section-heading>p",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".session-number",
+      "removed": [
+        "font-size:8px"
+      ]
+    },
+    {
+      "selector": ".session-description h3",
+      "removed": [
+        "font-size:27px",
+        "line-height:1.05"
+      ]
+    },
+    {
+      "selector": ".session-description h3 span",
+      "removed": [
+        "font-size:8px"
+      ]
+    },
+    {
+      "selector": ".session-description p",
+      "removed": [
+        "font-size:10px",
+        "line-height:1.8"
+      ]
+    },
+    {
+      "selector": ".session-meta span",
+      "removed": [
+        "font-size:9px"
+      ]
+    },
+    {
+      "selector": ".session-meta strong",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".session-footnote>p",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".session-footnote .text-link",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".visit-steps h3",
+      "removed": [
+        "font-size:27px"
+      ]
+    },
+    {
+      "selector": ".visit-steps p",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".questions summary",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".contact-inner>p:not(.eyebrow)",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".site-footer>p",
+      "removed": [
+        "font-size:8px"
+      ]
+    },
+    {
+      "selector": ".back-to-top",
+      "removed": [
+        "font-size:9px"
+      ]
+    },
+    {
+      "selector": ".site-footer>small",
+      "removed": [
+        "font-size:8px"
+      ]
+    },
+    {
+      "selector": ".hero .eyebrow",
+      "removed": [
+        "font-size:6.5px"
+      ]
+    },
+    {
+      "selector": ".session-description h3",
+      "removed": [
+        "font-size:24px"
+      ]
+    },
+    {
+      "selector": ".hero-note",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".approach-copy>.body-copy",
+      "removed": [
+        "font-size:13px",
+        "line-height:1.9"
+      ]
+    },
+    {
+      "selector": ".approach-principles p",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".session-description p",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".session-meta>span",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".session-meta strong",
+      "removed": [
+        "font-size:12px",
+        "line-height:1.5"
+      ]
+    },
+    {
+      "selector": ".session-footnote>p,.section-heading>p",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".price-label",
+      "removed": [
+        "font-size:10px",
+        "letter-spacing:.15em"
+      ]
+    },
+    {
+      "selector": ".discount-label",
+      "removed": [
+        "letter-spacing:.04em",
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".first-price>p",
+      "removed": [
+        "font-size:13px",
+        "line-height:1.85"
+      ]
+    },
+    {
+      "selector": ".regular-prices article>p:not(.eyebrow)",
+      "removed": [
+        "font-size:13px",
+        "line-height:1.9"
+      ]
+    },
+    {
+      "selector": ".visit-intro>.body-copy,.visit-steps p",
+      "removed": [
+        "font-size:13px"
+      ]
+    },
+    {
+      "selector": ".education-copy>.body-copy",
+      "removed": [
+        "font-size:13px"
+      ]
+    },
+    {
+      "selector": ".education-facts>span",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".document-link>span:last-child",
+      "removed": [
+        "font-size:11px",
+        "line-height:1.8"
+      ]
+    },
+    {
+      "selector": ".review-author",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".questions details p",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".contact-location",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".booking-phone",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".first-price .button",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".hero-description",
+      "removed": [
+        "font-size:14px"
+      ]
+    },
+    {
+      "selector": ".hero-note",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".photo-caption",
+      "removed": [
+        "font-size:7px",
+        "letter-spacing:.1em"
+      ]
+    },
+    {
+      "selector": ".approach-copy>.body-copy",
+      "removed": [
+        "font-size:13px"
+      ]
+    },
+    {
+      "selector": ".approach-principles p",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".session-description p",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".session-meta>span,.session-meta strong",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".session-footnote>p",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".section-heading>p",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".first-price>p",
+      "removed": [
+        "font-size:13px"
+      ]
+    },
+    {
+      "selector": ".first-price .button",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".visit-intro>.body-copy,.visit-steps p",
+      "removed": [
+        "font-size:13px"
+      ]
+    },
+    {
+      "selector": ".document-link>span:last-child",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".review-author",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".questions details p",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".booking-phone",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".hero-actions .button",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".hero-actions .text-link",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".hero-note",
+      "removed": [
+        "font-size:9px"
+      ]
+    },
+    {
+      "selector": ".first-price .button",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".review-origin",
+      "removed": [
+        "font-size:12px",
+        "line-height:1.85"
+      ]
+    },
+    {
+      "selector": ".review-origin",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".review-position",
+      "removed": [
+        "font-size:12px"
+      ]
+    },
+    {
+      "selector": ".price-promotions",
+      "removed": [
+        "font-size:12px",
+        "line-height:1.9"
+      ]
+    },
+    {
+      "selector": ".price-promotions",
+      "removed": [
+        "font-size:11px"
+      ]
+    },
+    {
+      "selector": ".work-gallery figcaption>span",
+      "removed": [
+        "font-size:10px"
+      ]
+    },
+    {
+      "selector": ".work-scroll-hint",
+      "removed": [
+        "font-size:10px"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "role": "explanation",
+      "selectors": {
+        ".hero-description": 1,
+        ".body-copy": 4,
+        ".section-heading>p": 3,
+        ".session-description p": 5,
+        ".session-footnote>p": 1,
+        ".first-price>p": 1,
+        ".regular-prices article>p:not(.eyebrow)": 2,
+        ".visit-steps p": 3,
+        ".questions details p": 5,
+        ".contact-inner>p:not(.eyebrow)": 1,
+        ".dialog-intro": 1,
+        ".review-origin": 1,
+        ".price-promotions": 1
+      },
+      "nodes": 29,
+      "family": "var(--sans)",
+      "size": "14px",
+      "line-height": "1.8",
+      "weight": "400",
+      "spacing": "0"
+    },
+    {
+      "role": "caption",
+      "selectors": {
+        ".hero-note": 1,
+        ".hero-note p": 1,
+        ".approach-identity>.muted": 1,
+        ".approach-principles p": 3,
+        ".session-meta>span": 5,
+        ".education-facts>span": 2,
+        ".review-author": 4,
+        ".review-author span": 3,
+        ".review-position": 1,
+        ".contact-location": 1,
+        ".site-footer>p": 1,
+        ".site-footer>small": 1,
+        ".booking-summary span": 1,
+        ".preview-message": 1,
+        ".work-gallery figcaption>span": 4,
+        ".work-scroll-hint": 1
+      },
+      "nodes": 31,
+      "family": "var(--sans)",
+      "size": "12px",
+      "line-height": "1.6",
+      "weight": "400",
+      "spacing": "0"
+    },
+    {
+      "role": "caption-emphasis",
+      "selectors": {
+        ".hero-note strong": 1,
+        ".session-meta strong": 5
+      },
+      "nodes": 6,
+      "family": "var(--sans)",
+      "size": "12px",
+      "line-height": "1.6",
+      "weight": "500",
+      "spacing": "0"
+    },
+    {
+      "role": "photo-caption",
+      "selectors": {
+        ".photo-caption": 1
+      },
+      "nodes": 1,
+      "family": "var(--sans)",
+      "size": "12px",
+      "line-height": "1.6",
+      "weight": "400",
+      "spacing": ".06em"
+    },
+    {
+      "role": "interface",
+      "selectors": {
+        ".button": 5,
+        ".text-link": 6,
+        ".back-to-top": 1,
+        ".booking-phone": 1,
+        ".document-link>span:last-child": 2,
+        ".booking-dialog label": 1,
+        ".questions summary": 5,
+        ".navigation": 1
+      },
+      "nodes": 22,
+      "family": "var(--sans)",
+      "size": "12px",
+      "line-height": "1.5",
+      "weight": "500",
+      "spacing": "0"
+    },
+    {
+      "role": "select",
+      "selectors": {
+        ".booking-dialog select": 1
+      },
+      "nodes": 1,
+      "family": "var(--sans)",
+      "size": "12px",
+      "line-height": "1.5",
+      "weight": "400",
+      "spacing": "0"
+    },
+    {
+      "role": "eyebrow",
+      "selectors": {
+        ".eyebrow": 14,
+        ".hero .eyebrow": 1
+      },
+      "nodes": 14,
+      "family": "var(--sans)",
+      "size": "10px",
+      "line-height": "1.5",
+      "weight": "600",
+      "spacing": ".18em"
+    },
+    {
+      "role": "price-label",
+      "selectors": {
+        ".price-label": 1
+      },
+      "nodes": 1,
+      "family": "var(--sans)",
+      "size": "10px",
+      "line-height": "1.5",
+      "weight": "600",
+      "spacing": ".15em"
+    },
+    {
+      "role": "badge",
+      "selectors": {
+        ".discount-label": 1,
+        ".session-description h3 span": 1
+      },
+      "nodes": 2,
+      "family": "var(--sans)",
+      "size": "12px",
+      "line-height": "1.5",
+      "weight": "500",
+      "spacing": ".04em"
+    },
+    {
+      "role": "number",
+      "selectors": {
+        ".session-number": 5,
+        ".visit-steps>article>span": 3,
+        ".approach-principles span": 3
+      },
+      "nodes": 11,
+      "family": "var(--sans)",
+      "size": "10px",
+      "line-height": "1.5",
+      "weight": "500",
+      "spacing": "0"
+    },
+    {
+      "role": "h3",
+      "selectors": {
+        ".session-description h3": 5,
+        ".visit-steps h3": 3
+      },
+      "nodes": 8,
+      "family": "var(--serif)",
+      "size": "var(--type-item-size)",
+      "line-height": "1.2",
+      "weight": "400",
+      "spacing": "-.02em"
+    }
+  ],
+  "unique_assigned_nodes": 126,
+  "aliases": [
+    ".approach-copy>.body-copy",
+    ".booking-dialog .dialog-done",
+    ".button-small",
+    ".education-copy>.body-copy",
+    ".first-price .button",
+    ".header-book",
+    ".hero-actions .button",
+    ".hero-actions .text-link",
+    ".session-footnote .text-link",
+    ".session-meta span",
+    ".visit-intro>.body-copy"
+  ],
+  "bytes_before": 29391,
+  "bytes_after": 28477
+}

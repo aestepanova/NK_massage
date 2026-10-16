@@ -1,0 +1,182 @@
+[
+  {
+    "clientWidth": 306,
+    "height": 960,
+    "layout": [
+      {
+        "height": 212.02413940429688,
+        "selector": "h1",
+        "width": 274.36077880859375
+      },
+      {
+        "height": 85.68181610107422,
+        "selector": "#contact-title",
+        "width": 274.36077880859375
+      }
+    ],
+    "scrollWidth": 306,
+    "selection": [
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(48, 61, 54)",
+        "selector": "h1"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(104, 110, 102)",
+        "selector": ".hero-description"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(213, 221, 191)",
+        "selector": "#contact-title em"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(245, 243, 233)",
+        "selector": "a[href^=\"tel:\"]"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(32, 71, 61)",
+        "selector": ".contact-inner .button"
+      }
+    ],
+    "width": 320
+  },
+  {
+    "clientWidth": 376,
+    "height": 960,
+    "layout": [
+      {
+        "height": 234.3536834716797,
+        "selector": "h1",
+        "width": 336.3636169433594
+      },
+      {
+        "height": 97.91192626953124,
+        "selector": "#contact-title",
+        "width": 336.3636169433594
+      }
+    ],
+    "scrollWidth": 376,
+    "selection": [
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(48, 61, 54)",
+        "selector": "h1"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(104, 110, 102)",
+        "selector": ".hero-description"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(213, 221, 191)",
+        "selector": "#contact-title em"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(245, 243, 233)",
+        "selector": "a[href^=\"tel:\"]"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(32, 71, 61)",
+        "selector": ".contact-inner .button"
+      }
+    ],
+    "width": 390
+  },
+  {
+    "clientWidth": 754,
+    "height": 960,
+    "layout": [
+      {
+        "height": 218.0326690673828,
+        "selector": "h1",
+        "width": 343.26702880859375
+      },
+      {
+        "height": 56.093746185302734,
+        "selector": "#contact-title",
+        "width": 706.5411376953125
+      }
+    ],
+    "scrollWidth": 754,
+    "selection": [
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(48, 61, 54)",
+        "selector": "h1"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(104, 110, 102)",
+        "selector": ".hero-description"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(213, 221, 191)",
+        "selector": "#contact-title em"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(245, 243, 233)",
+        "selector": "a[href^=\"tel:\"]"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(32, 71, 61)",
+        "selector": ".contact-inner .button"
+      }
+    ],
+    "width": 768
+  },
+  {
+    "clientWidth": 1426,
+    "height": 960,
+    "layout": [
+      {
+        "height": 306.0298156738281,
+        "selector": "h1",
+        "width": 600
+      },
+      {
+        "height": 68.33806610107422,
+        "selector": "#contact-title",
+        "width": 1240
+      }
+    ],
+    "scrollWidth": 1426,
+    "selection": [
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(48, 61, 54)",
+        "selector": "h1"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(104, 110, 102)",
+        "selector": ".hero-description"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(213, 221, 191)",
+        "selector": "#contact-title em"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(245, 243, 233)",
+        "selector": "a[href^=\"tel:\"]"
+      },
+      {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(32, 71, 61)",
+        "selector": ".contact-inner .button"
+      }
+    ],
+    "width": 1440
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "active": true,
+  "bounds": {
+    "bottom": 581.6484375,
+    "left": 71.8359375,
+    "right": 233.15625,
+    "top": 535.75
+  },
+  "focusVisible": true,
+  "outline": {
+    "color": "rgb(243, 242, 232)",
+    "offset": "6px",
+    "width": "2px"
+  },
+  "rect": {
+    "bottom": 573.6484375,
+    "height": 29.8984375,
+    "left": 79.8359375,
+    "right": 225.15625,
+    "top": 543.75,
+    "width": 145.3203125,
+    "x": 79.8359375,
+    "y": 543.75
+  },
+  "scrollMarginBlock": "0px",
+  "scrollY": 9844,
+  "selection": "Начнём с\nодного сеанса",
+  "url": "http://127.0.0.1:4177/",
+  "viewport": {
+    "dpr": 1,
+    "height": 568,
+    "width": 320
+  },
+  "wholeOutline": false
+}

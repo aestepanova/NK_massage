@@ -1,0 +1,360 @@
+{
+  "start": {
+    "active": "BODY",
+    "margin": "12px",
+    "scrollY": 0
+  },
+  "trace": [
+    {
+      "tab": 1,
+      "className": "skip-link",
+      "id": "",
+      "phone": false,
+      "scrollY": 0,
+      "tag": "A",
+      "text": "Перейти к содержанию"
+    },
+    {
+      "tab": 2,
+      "className": "wordmark",
+      "id": "",
+      "phone": false,
+      "scrollY": 0,
+      "tag": "A",
+      "text": "\n      \n      Наталья КузнецоваМАССАЖ И ТЕЛЕСНЫЕ ПРАКТИКИ\n    "
+    },
+    {
+      "tab": 3,
+      "className": "menu-toggle",
+      "id": "",
+      "phone": false,
+      "scrollY": 0,
+      "tag": "BUTTON",
+      "text": ""
+    },
+    {
+      "tab": 4,
+      "className": "button",
+      "id": "",
+      "phone": false,
+      "scrollY": 286.5,
+      "tag": "BUTTON",
+      "text": "Начать с первого сеанса ↗"
+    },
+    {
+      "tab": 5,
+      "className": "text-link",
+      "id": "",
+      "phone": false,
+      "scrollY": 314,
+      "tag": "A",
+      "text": "Познакомиться ↓"
+    },
+    {
+      "tab": 6,
+      "className": "session-select",
+      "id": "",
+      "phone": false,
+      "scrollY": 859.5,
+      "tag": "BUTTON",
+      "text": "↗"
+    },
+    {
+      "tab": 7,
+      "className": "session-select",
+      "id": "",
+      "phone": false,
+      "scrollY": 2239.5,
+      "tag": "BUTTON",
+      "text": "↗"
+    },
+    {
+      "tab": 8,
+      "className": "session-select",
+      "id": "",
+      "phone": false,
+      "scrollY": 2865.5,
+      "tag": "BUTTON",
+      "text": "↗"
+    },
+    {
+      "tab": 9,
+      "className": "session-select",
+      "id": "",
+      "phone": false,
+      "scrollY": 3397,
+      "tag": "BUTTON",
+      "text": "↗"
+    },
+    {
+      "tab": 10,
+      "className": "session-select",
+      "id": "",
+      "phone": false,
+      "scrollY": 3666.5,
+      "tag": "BUTTON",
+      "text": "↗"
+    },
+    {
+      "tab": 11,
+      "className": "text-link",
+      "id": "",
+      "phone": false,
+      "scrollY": 3702.5,
+      "tag": "A",
+      "text": "Стоимость массажа ↓"
+    },
+    {
+      "tab": 12,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 4391.5,
+      "tag": "VIDEO",
+      "text": "Открыть видео сеанса массажа."
+    },
+    {
+      "tab": 13,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 4696,
+      "tag": "VIDEO",
+      "text": "Открыть видео сеанса массажа."
+    },
+    {
+      "tab": 14,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 4748,
+      "tag": "VIDEO",
+      "text": "Открыть видео сеанса массажа."
+    },
+    {
+      "tab": 15,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 4603,
+      "tag": "VIDEO",
+      "text": "Открыть видео работы со спиной и плечами."
+    },
+    {
+      "tab": 16,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 4599.5,
+      "tag": "VIDEO",
+      "text": "Открыть видео работы со спиной и плечами."
+    },
+    {
+      "tab": 17,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 4599.5,
+      "tag": "VIDEO",
+      "text": "Открыть видео работы со спиной и плечами."
+    },
+    {
+      "tab": 18,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 4599.5,
+      "tag": "VIDEO",
+      "text": "Открыть видео работы с ногами и стопами."
+    },
+    {
+      "tab": 19,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 4599.5,
+      "tag": "VIDEO",
+      "text": "Открыть видео работы с ногами и стопами."
+    },
+    {
+      "tab": 20,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 4599.5,
+      "tag": "VIDEO",
+      "text": "Открыть видео работы с ногами и стопами."
+    },
+    {
+      "tab": 21,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 4599.5,
+      "tag": "VIDEO",
+      "text": "Открыть видео массажных приёмов."
+    },
+    {
+      "tab": 22,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 4599.5,
+      "tag": "VIDEO",
+      "text": "Открыть видео массажных приёмов."
+    },
+    {
+      "tab": 23,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 4599.5,
+      "tag": "VIDEO",
+      "text": "Открыть видео массажных приёмов."
+    },
+    {
+      "tab": 24,
+      "className": "button",
+      "id": "",
+      "phone": false,
+      "scrollY": 5292.5,
+      "tag": "BUTTON",
+      "text": "Записаться на знакомство ↗"
+    },
+    {
+      "tab": 25,
+      "className": "text-link",
+      "id": "",
+      "phone": false,
+      "scrollY": 5922,
+      "tag": "BUTTON",
+      "text": "Обсудить длительность ↗"
+    },
+    {
+      "tab": 26,
+      "className": "text-link",
+      "id": "",
+      "phone": false,
+      "scrollY": 6329.5,
+      "tag": "BUTTON",
+      "text": "Узнать об абонементе ↗"
+    },
+    {
+      "tab": 27,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 6611.5,
+      "tag": "A",
+      "text": "Посмотреть в Telegram ↗"
+    },
+    {
+      "tab": 28,
+      "className": "text-link",
+      "id": "",
+      "phone": false,
+      "scrollY": 6965.5,
+      "tag": "BUTTON",
+      "text": "Записаться на первый сеанс ↗"
+    },
+    {
+      "tab": 29,
+      "className": "document-link",
+      "id": "",
+      "phone": false,
+      "scrollY": 7768,
+      "tag": "A",
+      "text": "Диплом о переподготовке ↗"
+    },
+    {
+      "tab": 30,
+      "className": "document-link",
+      "id": "",
+      "phone": false,
+      "scrollY": 8190.5,
+      "tag": "A",
+      "text": "Программа и часы обучения ↗"
+    },
+    {
+      "tab": 31,
+      "className": "review-track",
+      "id": "review-track",
+      "phone": false,
+      "scrollY": 8739.5,
+      "tag": "DIV",
+      "text": "\n          Наталья замечательно промяла мне стопы, работала над каждой точкой и даже использовала дл"
+    },
+    {
+      "tab": 32,
+      "className": "review-arrow review-next",
+      "id": "",
+      "phone": false,
+      "scrollY": 8791,
+      "tag": "BUTTON",
+      "text": "→"
+    },
+    {
+      "tab": 33,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 9255,
+      "tag": "SUMMARY",
+      "text": "Нужно ли сразу покупать абонемент?+"
+    },
+    {
+      "tab": 34,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 9326,
+      "tag": "SUMMARY",
+      "text": "Сколько длится сеанс?+"
+    },
+    {
+      "tab": 35,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 9328,
+      "tag": "SUMMARY",
+      "text": "Что означает «диагностический сеанс»?+"
+    },
+    {
+      "tab": 36,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 9328,
+      "tag": "SUMMARY",
+      "text": "Можно ли попросить более мягкий массаж?+"
+    },
+    {
+      "tab": 37,
+      "className": "",
+      "id": "",
+      "phone": false,
+      "scrollY": 9343.5,
+      "tag": "SUMMARY",
+      "text": "Можно ли прийти перед важным событием?+"
+    },
+    {
+      "tab": 38,
+      "className": "button button-light",
+      "id": "",
+      "phone": false,
+      "scrollY": 9874,
+      "tag": "BUTTON",
+      "text": "Первый сеанс — 5 700 ₽ ↗"
+    },
+    {
+      "tab": 39,
+      "className": "contact-phone",
+      "id": "",
+      "phone": true,
+      "scrollY": 10033,
+      "tag": "A",
+      "text": "+7 929 537-33-38"
+    }
+  ]
+}

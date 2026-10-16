@@ -1,0 +1,88 @@
+{
+  "url": "http://127.0.0.1:4188/reviews/concepts/2026-10-16-premium-hero/",
+  "browser": "Codex In-app Browser (IAB), own tab 1, desktop viewport emulation",
+  "dist_sha256_baseline_count": 27,
+  "dist_sha256_actual_count": 27,
+  "dist_identical": true,
+  "static_checks": [
+    {
+      "command": "python3 scripts/check_site.py",
+      "exit_code": 0,
+      "output": "OK: 1 HTML page(s), local links/CSS URLs and 1 JavaScript file(s) checked"
+    },
+    {
+      "command": "python3 scripts/check_site.py --root sites/natalia-kuznetsova",
+      "exit_code": 0,
+      "output": "OK: 2 HTML page(s), local links/CSS URLs and 1 JavaScript file(s) checked"
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568,
+      "scrollWidth": 305,
+      "h1FontSize": 56,
+      "h1LineHeight": 67.2,
+      "portraitY": 649.9609375,
+      "portraitHeight": 341.25
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "h1FontSize": 64,
+      "h1LineHeight": 76.8,
+      "portraitY": 678.765625,
+      "portraitHeight": 418.75
+    },
+    {
+      "width": 768,
+      "height": 1000,
+      "scrollWidth": 753,
+      "h1FontSize": 76,
+      "h1LineHeight": 91.2,
+      "portraitY": 179.1953125,
+      "portraitHeight": 550
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1425,
+      "h1FontSize": 92,
+      "h1LineHeight": 110.4,
+      "portraitY": 214.1953125,
+      "portraitHeight": 600
+    }
+  ],
+  "h1_selection": {
+    "method": "Native drag at 320 followed by viewport resizing; full text read back using read-only DOM and visual screenshot per width",
+    "text": "Время вернуться\nк себе.",
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "visible_clipping": false
+  },
+  "booking": {
+    "widths": [
+      320,
+      1440
+    ],
+    "trigger": "Начать с первого сеанса",
+    "selectedValue": "first",
+    "duration": "55 минут",
+    "price": "5 700 ₽ вместо 7 800 ₽",
+    "escapeCloses": true,
+    "focusReturnsToTrigger": true,
+    "focusVisible": true
+  },
+  "viewport_reset": true,
+  "defects": [],
+  "not_run": [
+    "Real phone / touch selection",
+    "Complete page regression: FAQ, reviews, all video playback, all services, dark-background focus, reduced-motion emulation"
+  ],
+  "scope_verdict": "проверено: узкий сценарий отдельного макета; полная регрессия сайта не выполнялась"
+}

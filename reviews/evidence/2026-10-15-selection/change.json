@@ -1,0 +1,9 @@
+{
+  "before": "::selection{background:#d7ddc5}",
+  "after": "::selection{background:#d7ddc5;color:#203c32}",
+  "changed_dist_file": "sites/natalia-kuznetsova/dist/styles.css",
+  "other_dist_files_unchanged": 26,
+  "computed_contrast_before": 1.01,
+  "computed_contrast_after": 8.57,
+  "ui_verification": "PASS: independent QA at actual widths 320, 390, 768, 1440; see independent-qa.json"
+}

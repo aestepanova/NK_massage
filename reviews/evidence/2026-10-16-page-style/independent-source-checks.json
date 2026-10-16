@@ -1,0 +1,21 @@
+{
+  "sha_diff": {
+    "modified": [
+      "index.html"
+    ],
+    "added": [
+      "assets/sections.css"
+    ],
+    "removed": []
+  },
+  "book_mapping_counts_preserved": true,
+  "select_options_preserved": true,
+  "select_option_count": 9,
+  "review_quotes_preserved": true,
+  "faq_text_preserved_ignoring_plus": true,
+  "hero_dom_preserved": true,
+  "video_attrs_preserved": true,
+  "video_source_attrs_preserved": true,
+  "all4video_native_controls_noautoplay_preloadnone": true,
+  "document_sources_preserved": true
+}

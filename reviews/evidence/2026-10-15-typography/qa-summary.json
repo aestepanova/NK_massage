@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-15",
+  "scope": "Independent QA of H2 unification and nearest regression. No full-site QA repeated.",
+  "browser": "Codex In-app Browser via CUA",
+  "url": "http://127.0.0.1:4174/",
+  "verdict": "H2 change checked with no new defect; one existing dark-focus issue reproduced; reduced-motion emulation not run.",
+  "checks": [
+    {
+      "criterion": "Static site check",
+      "result": "PASS",
+      "evidence": "qa-static-proof.json; python3 -B scripts/check_site.py exit0"
+    },
+    {
+      "criterion": "Only styles.css changed among 27 dist files",
+      "result": "PASS",
+      "evidence": "qa-static-proof.json"
+    },
+    {
+      "criterion": "17 prior exact-selector sizes removed, one shared role",
+      "result": "PASS",
+      "evidence": "qa-static-proof.json"
+    },
+    {
+      "criterion": "Six main H2 at320/390/768/1440",
+      "result": "PASS",
+      "actualSizes": [
+        43,
+        48,
+        48,
+        58
+      ],
+      "actualLineHeight": [
+        46.44,
+        51.84,
+        51.84,
+        62.64
+      ],
+      "actualLetterSpacing": [
+        -1.29,
+        -1.44,
+        -1.44,
+        -1.74
+      ],
+      "evidence": "qa-after-metrics.json"
+    },
+    {
+      "criterion": "Visual wrapping, adjacency and no clipping/overlap in6 changed sections at4 widths",
+      "result": "PASS",
+      "evidence": "qa-{320,390,768,1440}-{approach,sessions,work,prices,first-visit,education}.jpg"
+    },
+    {
+      "criterion": "No document horizontal overflow",
+      "result": "PASS",
+      "actualInnerWidth": [
+        320,
+        390,
+        768,
+        1440
+      ],
+      "actualClientAndScrollWidth": [
+        305,
+        375,
+        753,
+        1425
+      ],
+      "evidence": "qa-after-metrics.json"
+    },
+    {
+      "criterion": "H1,FAQ/contact/dialog,H3 role sizes preserved",
+      "result": "PASS",
+      "evidence": "Normalized CSS diff and baseline hashes in qa-static-proof.json; computed styles in qa-after-metrics.json; original browser-metrics.json for1440/390/320"
+    },
+    {
+      "criterion": "2 families and5 faces; original font sources",
+      "result": "PASS",
+      "evidence": "qa-static-proof.json and qa-font-checks.json",
+      "details": "FontFaceSet.size5,statusloaded; checks for all5 declared styles true. Sources unchanged. Per-glyph renderer identity not inspected."
+    },
+    {
+      "criterion": "Selection foreground#203c32 retained and readable on changed H2",
+      "result": "PASS",
+      "evidence": "qa-after-metrics.json and qa-390-h2-selection.jpg"
+    },
+    {
+      "criterion": "Mobile menu open/Escape/link closes at390",
+      "result": "PASS",
+      "evidence": "qa-near-regression.json and qa-390-menu-open.jpg"
+    },
+    {
+      "criterion": "Booking formats first/body and matching prices at390",
+      "result": "PASS",
+      "evidence": "qa-near-regression.json and qa-390-booking-first.jpg"
+    },
+    {
+      "criterion": "Escape closes booking and returns visible focus to trigger at390",
+      "result": "PASS",
+      "evidence": "qa-near-regression.json and qa-390-booking-escape-focus.jpg"
+    },
+    {
+      "criterion": "Visible focus in dark contact",
+      "result": "FAIL",
+      "existing": true,
+      "evidence": "qa-dark-focus.json and qa-390-contact-focus.jpg",
+      "details": "Phone keyboard focus outline#315d50 on#20473d is very low contrast; unchanged by this H2 diff and already listed in TODO."
+    },
+    {
+      "criterion": "Reduced-motion live emulation",
+      "result": "NOT RUN",
+      "details": "No documented media emulation API used; unchanged reduce rule confirmed statically in qa-static-proof.json."
+    },
+    {
+      "criterion": "FAQ interaction/review carousel/video playback",
+      "result": "NOT RUN",
+      "details": "Explicitly outside this small unchanged-behavior QA scope."
+    },
+    {
+      "criterion": "Real phone/alternative browser",
+      "result": "NOT RUN",
+      "details": "Viewport resizing only."
+    }
+  ],
+  "filesModifiedByQA": "Only qa-*.jpg and qa-*.json in designated evidence directory. No site code/TODO/documents changed."
+}

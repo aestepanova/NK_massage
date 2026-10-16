@@ -1,4 +1,4 @@
-// Native controls remain available when JavaScript is disabled or enhancement fails.
+// Native controls remain available without JavaScript or complete player markup.
 document.querySelectorAll('.video-player').forEach(player => {
   const video = player.querySelector('video');
   const ui = player.querySelector('.video-ui');
@@ -10,7 +10,7 @@ document.querySelectorAll('.video-player').forEach(player => {
   const progress = player.querySelector('.video-progress');
   const loading = player.querySelector('.video-loading');
   const error = player.querySelector('.video-error');
-  if (!video || !ui || !start || !controls || !toggle || !mute || !progress || !loading || !error) return;
+  if (!video || !ui || !start || !startLabel || !controls || !toggle || !mute || !progress || !loading || !error) return;
   const title = document.getElementById(video.getAttribute('aria-labelledby'))?.textContent || 'Видео';
   let started = false;
   let attempt = 0;
@@ -93,9 +93,13 @@ document.querySelectorAll('.video-player').forEach(player => {
   });
   video.addEventListener('ended', () => {
     busy(false);
+    player.classList.remove('is-playing');
+    const restoreFocus = controls.contains(document.activeElement);
+    controls.hidden = true;
     startLabel.textContent = 'Смотреть снова';
     start.setAttribute('aria-label', `Смотреть снова: ${title}`);
     start.hidden = false;
+    if (restoreFocus) start.focus({ preventScroll: true });
   });
   video.addEventListener('error', showError);
   video.querySelectorAll('source').forEach(source => source.addEventListener('error', showError));

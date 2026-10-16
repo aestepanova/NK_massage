@@ -1,0 +1,34 @@
+{
+  "method": "sRGB channel linearization: x/12.92 for x<=0.04045, else ((x+0.055)/1.055)^2.4. Relative luminance 0.2126R + 0.7152G + 0.0722B. Contrast (Llighter+0.05)/(Ldarker+0.05). This is a ring/background color contrast calculation only, not a complete WCAG assessment.",
+  "background": {
+    "hex": "#20473d",
+    "rgb": [
+      32,
+      71,
+      61
+    ],
+    "luminance": 0.05150474500759754
+  },
+  "before": {
+    "hex": "#315d50",
+    "rgb": [
+      49,
+      93,
+      80
+    ],
+    "luminance": 0.09060856471297873,
+    "contrastRatio": 1.3852412978571031
+  },
+  "after": {
+    "hex": "#f3f2e8",
+    "rgb": [
+      243,
+      242,
+      232
+    ],
+    "luminance": 0.8838514314402712,
+    "contrastRatio": 9.200076620756727
+  },
+  "outlineWidth": "2px",
+  "outlineOffset": "6px"
+}

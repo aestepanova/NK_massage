@@ -1,0 +1,122 @@
+[
+  {
+    "name": "session",
+    "source": "/Users/user/Downloads/Telegram/IMG_5607.MOV",
+    "baseline": "/Users/user/Developer/portfolio-nk/sites/natalia-kuznetsova/dist/assets/video/session.mp4",
+    "candidate": "/private/tmp/nk-video-encode-20261016/session.mp4",
+    "baseline_bytes": 2640320,
+    "candidate_bytes": 1361203,
+    "reduction_percent": 48.45,
+    "sha256": "a354b869edff00e5c2dfc4ce7a9ed5baa91b463cf4359c6dc0f37fe74dc86421",
+    "metadata": {
+      "duration_seconds": 11.89,
+      "streams": [
+        "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 821 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 85 kb/s (default)"
+      ],
+      "log": "session-metadata.log"
+    },
+    "mp4_atoms": [
+      "ftyp",
+      "moov",
+      "free",
+      "mdat"
+    ],
+    "ssim_vs_baseline": 0.986706,
+    "comparison_frames_baseline_left_candidate_right": [
+      "/private/tmp/nk-video-encode-20261016/session-compare-3s.jpg",
+      "/private/tmp/nk-video-encode-20261016/session-compare-7s.jpg"
+    ],
+    "decode_pass": true
+  },
+  {
+    "name": "back-shoulders",
+    "source": "/Users/user/Downloads/Telegram/IMG_5605.MOV",
+    "baseline": "/Users/user/Developer/portfolio-nk/sites/natalia-kuznetsova/dist/assets/video/back-shoulders.mp4",
+    "candidate": "/private/tmp/nk-video-encode-20261016/back-shoulders.mp4",
+    "baseline_bytes": 5343421,
+    "candidate_bytes": 2633902,
+    "reduction_percent": 50.71,
+    "sha256": "bd7fad2d79a7489f288f9160efdd5adf4e07af271731804eaead876b7042e63d",
+    "metadata": {
+      "duration_seconds": 19.02,
+      "streams": [
+        "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 1003 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 96 kb/s (default)"
+      ],
+      "log": "back-shoulders-metadata.log"
+    },
+    "mp4_atoms": [
+      "ftyp",
+      "moov",
+      "free",
+      "mdat"
+    ],
+    "ssim_vs_baseline": 0.978778,
+    "comparison_frames_baseline_left_candidate_right": [
+      "/private/tmp/nk-video-encode-20261016/back-shoulders-compare-3s.jpg",
+      "/private/tmp/nk-video-encode-20261016/back-shoulders-compare-7s.jpg"
+    ],
+    "decode_pass": true
+  },
+  {
+    "name": "legs-feet",
+    "source": "/Users/user/Downloads/Telegram/IMG_5602.MOV",
+    "baseline": "/Users/user/Developer/portfolio-nk/sites/natalia-kuznetsova/dist/assets/video/legs-feet.mp4",
+    "candidate": "/private/tmp/nk-video-encode-20261016/legs-feet.mp4",
+    "baseline_bytes": 4108120,
+    "candidate_bytes": 2109255,
+    "reduction_percent": 48.66,
+    "sha256": "6aaef9b1e2c8e261b1ac1dd2b436b05371ec49f76a9d3ef2929d76c8edfdb73e",
+    "metadata": {
+      "duration_seconds": 15.32,
+      "streams": [
+        "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 1009 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 83 kb/s (default)"
+      ],
+      "log": "legs-feet-metadata.log"
+    },
+    "mp4_atoms": [
+      "ftyp",
+      "moov",
+      "free",
+      "mdat"
+    ],
+    "ssim_vs_baseline": 0.984401,
+    "comparison_frames_baseline_left_candidate_right": [
+      "/private/tmp/nk-video-encode-20261016/legs-feet-compare-3s.jpg",
+      "/private/tmp/nk-video-encode-20261016/legs-feet-compare-7s.jpg"
+    ],
+    "decode_pass": true
+  },
+  {
+    "name": "hands",
+    "source": "/Users/user/Downloads/Telegram/IMG_5603.MOV",
+    "baseline": "/Users/user/Developer/portfolio-nk/sites/natalia-kuznetsova/dist/assets/video/hands.mp4",
+    "candidate": "/private/tmp/nk-video-encode-20261016/hands.mp4",
+    "baseline_bytes": 4017525,
+    "candidate_bytes": 2041225,
+    "reduction_percent": 49.19,
+    "sha256": "ae57e1f494ffc4286045f245996e82e3bc4130620e9326a0e70c13796155bec0",
+    "metadata": {
+      "duration_seconds": 17.85,
+      "streams": [
+        "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 810 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+        "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 95 kb/s (default)"
+      ],
+      "log": "hands-metadata.log"
+    },
+    "mp4_atoms": [
+      "ftyp",
+      "moov",
+      "free",
+      "mdat"
+    ],
+    "ssim_vs_baseline": 0.987188,
+    "comparison_frames_baseline_left_candidate_right": [
+      "/private/tmp/nk-video-encode-20261016/hands-compare-3s.jpg",
+      "/private/tmp/nk-video-encode-20261016/hands-compare-7s.jpg"
+    ],
+    "decode_pass": true
+  }
+]

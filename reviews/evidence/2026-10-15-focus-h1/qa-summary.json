@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-15",
+  "verdict": "проверено",
+  "scope": "Independent QA of two CSS corrections plus nearest regressions; not publication approval.",
+  "url": "http://localhost:4176/",
+  "browser": "Codex In-app Browser, desktop viewport overrides",
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 1440,
+      "height": 1000
+    }
+  ],
+  "criteria": [
+    {
+      "criterion": "H1: double-click «вернуться» and full mouse drag selection on 320/390/768/1440",
+      "status": "PASS",
+      "evidence": "qa-h1-word-{width}.jpg; qa-h1-full-{width}.jpg; qa-metrics.json. Actual mouse actions, selection string confirmed. Visual review: descenders of р in Время and вернуться intact."
+    },
+    {
+      "criterion": "Contact H2 mouse selection and preserved selection colors on all four widths",
+      "status": "PASS",
+      "evidence": "qa-contact-selection-{width}.jpg; qa-metrics.json; qa-static-proof.json. Full string selected, letters intact; #203c32 on #d7ddc5, ratio 8.57:1."
+    },
+    {
+      "criterion": "Real Tab focus on contact button and phone",
+      "status": "PASS",
+      "evidence": "qa-contact-button-focus-{width}.jpg; qa-contact-phone-focus-{width}.jpg; qa-contact-phone-focus-scrolled-320.jpg; raw :focus-visible=true, solid 2px outline, offset 6px, #f3f2e8 on actual #20473d. sRGB pairwise ratio 9.20:1; not a full WCAG audit. At 320×568 after Tab, top and side edges are visible; lower edge appears after ordinary scroll. Full ring is not claimed in every viewport scroll state. Outline geometry/offset were unchanged by the CSS correction."
+    },
+    {
+      "criterion": "Hero composition, CTA and no horizontal page overflow on four widths",
+      "status": "PASS",
+      "evidence": "qa-h1-full-{width}.jpg; qa-metrics.json. innerWidth 320/390/768/1440; clientWidth=scrollWidth=bodyScrollWidth 305/375/753/1425. Hero content and image/CTA do not overlap."
+    },
+    {
+      "criterion": "320×568 hero CTA reachable by Tab; Enter booking; Escape focus return; first service price",
+      "status": "PASS",
+      "evidence": "qa-hero-cta-tab-320x568.jpg; qa-dialog-320x568.jpg; qa-metrics.json: Tab scrollY=295 and CTA fully visible; Enter -> first/55 минут/5 700 ₽ вместо 7 800 ₽; Escape -> closed, focus returned to original CTA and :focus-visible=true."
+    },
+    {
+      "criterion": "Mobile menu smoke on 390 px",
+      "status": "PASS",
+      "evidence": "qa-menu-open-390.jpg; qa-metrics.json: open display flex/aria-expanded true; Escape closes and focuses menu button; reopen and Мой подход closes, URL #approach."
+    },
+    {
+      "criterion": "FAQ smoke on 390 px",
+      "status": "PASS",
+      "evidence": "qa-faq-390.jpg; qa-metrics.json: Сколько длится сеанс? details open=true, duration answer visible."
+    },
+    {
+      "criterion": "Review carousel smoke on 390 px",
+      "status": "PASS",
+      "evidence": "qa-reviews-390.jpg; qa-metrics.json: next button -> 2 из 4; ArrowRight on track -> settled 3 из 4, scrollLeft 670, clientWidth 335."
+    },
+    {
+      "criterion": "General light-background keyboard focus preserved",
+      "status": "PASS",
+      "evidence": "qa-hero-cta-tab-320x568.jpg (real Tab); qa-reviews-390.jpg (real ArrowRight on focused track); qa-static-proof.json proves global focus rule unchanged."
+    },
+    {
+      "criterion": "H2/H3/small-text type sizes and families preserved",
+      "status": "PASS",
+      "evidence": "qa-metrics.json current styles at all four widths, qa-static-proof.json exact CSS transformation limited to H1 line-height and contact outline color. HTML, JS and 24 assets unchanged (26 files total)."
+    },
+    {
+      "criterion": "Static check",
+      "status": "PASS",
+      "evidence": "python3 -B scripts/check_site.py, exit 0: OK: 1 HTML page(s), local links/CSS URLs and 1 JavaScript file(s) checked. qa-static-proof.json."
+    },
+    {
+      "criterion": "Video/reduced-motion rules preserved statically",
+      "status": "PASS",
+      "evidence": "qa-static-proof.json: 26 non-CSS files unchanged; reduced-motion CSS unchanged; app.js play handler pauses other videos unchanged. qa-metrics.json: all four videos autoplay false, preload none, paused true, readyState 0 on initial page."
+    },
+    {
+      "criterion": "Live video playback and stop-previous behavior / live reduced-motion emulation",
+      "status": "NOT RUN",
+      "evidence": "Explicitly outside this narrow CSS regression scope. Static rules/JS/assets preserved; no live playback claim."
+    },
+    {
+      "criterion": "Real phone and other browsers; complete nine-format booking rerun",
+      "status": "NOT RUN",
+      "evidence": "Desktop Codex In-app Browser viewport overrides only. Narrow scope checked first booking format; unchanged HTML/JS verified by SHA."
+    }
+  ],
+  "defects": [],
+  "observations": [
+    {
+      "id": "320-focus-auto-scroll",
+      "severity": "observation",
+      "actual": "From selected contact H2, Tab to phone at 320×568 places phone bottom at y=568.15: upper and side edges of the light outline are visible; lower edge is outside viewport and becomes visible after ordinary scroll.",
+      "followup": "Ordinary downward scroll preserves focus and shows full ring; qa-contact-phone-focus-scrolled-320.jpg. On 390/768/1440 full ring visible without extra scroll. Color-change correction verified; no claim of automatic centering."
+    }
+  ],
+  "console_errors_warnings": [],
+  "static_proof": "qa-static-proof.json",
+  "raw_metrics": "qa-metrics.json",
+  "screenshot_files": [
+    "qa-contact-button-focus-1440.jpg",
+    "qa-contact-button-focus-320.jpg",
+    "qa-contact-button-focus-390.jpg",
+    "qa-contact-button-focus-768.jpg",
+    "qa-contact-phone-focus-1440.jpg",
+    "qa-contact-phone-focus-320.jpg",
+    "qa-contact-phone-focus-390.jpg",
+    "qa-contact-phone-focus-768.jpg",
+    "qa-contact-phone-focus-scrolled-320.jpg",
+    "qa-contact-selection-1440.jpg",
+    "qa-contact-selection-320.jpg",
+    "qa-contact-selection-390.jpg",
+    "qa-contact-selection-768.jpg",
+    "qa-dialog-320x568.jpg",
+    "qa-faq-390.jpg",
+    "qa-h1-full-1440.jpg",
+    "qa-h1-full-320.jpg",
+    "qa-h1-full-390.jpg",
+    "qa-h1-full-768.jpg",
+    "qa-h1-word-1440.jpg",
+    "qa-h1-word-320.jpg",
+    "qa-h1-word-390.jpg",
+    "qa-h1-word-768.jpg",
+    "qa-hero-cta-tab-320x568.jpg",
+    "qa-menu-open-390.jpg",
+    "qa-reviews-390.jpg"
+  ],
+  "cleanup": {
+    "viewport_reset": true,
+    "qa_tab_closed": true,
+    "shared_server": "left running; no start/stop commands used"
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "ctaBottom": 602.375,
+    "h1LineHeight": "76.8px",
+    "h1Size": "64px",
+    "overflow": false,
+    "portraitTop": 678.765625,
+    "priceTop": 479.9765625,
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  {
+    "ctaBottom": 573.5703125,
+    "h1LineHeight": "67.2px",
+    "h1Size": "56px",
+    "overflow": false,
+    "portraitTop": 649.9609375,
+    "priceTop": 451.171875,
+    "viewport": [
+      320,
+      568
+    ]
+  },
+  {
+    "ctaBottom": 807.0546875,
+    "h1LineHeight": "91.2px",
+    "h1Size": "76px",
+    "overflow": false,
+    "portraitTop": 179.1953125,
+    "priceTop": 670.7578125,
+    "viewport": [
+      768,
+      1024
+    ]
+  },
+  {
+    "ctaBottom": 795,
+    "h1LineHeight": "110.4px",
+    "h1Size": "92px",
+    "overflow": false,
+    "portraitTop": 214.1953125,
+    "priceTop": 658.703125,
+    "viewport": [
+      1440,
+      1000
+    ]
+  }
+]

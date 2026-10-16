@@ -1,0 +1,569 @@
+{
+  "method": "Compare native IAB JPEG screenshot of same H1 unselected and mouse selected at unchanged scroll/viewport. A missing core glyph pixel has max(R,G,B)<105 unselected and min(R,G,B)>150 selected. Crop is union bounds of H1 text Ranges scaled from innerWidth to JPEG width. This checks only strongly dark foreground becoming light background; JPEG/antialiasing limitations remain. Visual inspection is separately required. Coordinates are JPEG pixels, origin top-left.",
+  "rows": [
+    {
+      "stage": "before",
+      "innerWidth": 320,
+      "lineHeight": "70.68px",
+      "fontSize": "76px",
+      "kind": "word",
+      "imageDimensions": [
+        305,
+        804
+      ],
+      "screenshotScale": 0.953125,
+      "cropXYXY": [
+        15,
+        142,
+        272,
+        366
+      ],
+      "missingDarkPixels": 79,
+      "missingBoundingBoxXYXY": [
+        58,
+        210,
+        64,
+        228
+      ],
+      "missingBeyondOnePixelTolerance": 76,
+      "remainingBoundingBoxXYXY": [
+        58,
+        211,
+        64,
+        228
+      ]
+    },
+    {
+      "stage": "before",
+      "innerWidth": 320,
+      "lineHeight": "70.68px",
+      "fontSize": "76px",
+      "kind": "selection",
+      "imageDimensions": [
+        305,
+        804
+      ],
+      "screenshotScale": 0.953125,
+      "cropXYXY": [
+        15,
+        142,
+        272,
+        366
+      ],
+      "missingDarkPixels": 178,
+      "missingBoundingBoxXYXY": [
+        58,
+        210,
+        148,
+        295
+      ],
+      "missingBeyondOnePixelTolerance": 175,
+      "remainingBoundingBoxXYXY": [
+        58,
+        211,
+        148,
+        295
+      ]
+    },
+    {
+      "stage": "before",
+      "innerWidth": 390,
+      "lineHeight": "78.12px",
+      "fontSize": "84px",
+      "kind": "word",
+      "imageDimensions": [
+        375,
+        812
+      ],
+      "screenshotScale": 0.9615384615384616,
+      "cropXYXY": [
+        19,
+        143,
+        305,
+        392
+      ],
+      "missingDarkPixels": 94,
+      "missingBoundingBoxXYXY": [
+        63,
+        219,
+        74,
+        239
+      ],
+      "missingBeyondOnePixelTolerance": 94,
+      "remainingBoundingBoxXYXY": [
+        63,
+        219,
+        74,
+        239
+      ]
+    },
+    {
+      "stage": "before",
+      "innerWidth": 390,
+      "lineHeight": "78.12px",
+      "fontSize": "84px",
+      "kind": "selection",
+      "imageDimensions": [
+        375,
+        812
+      ],
+      "screenshotScale": 0.9615384615384616,
+      "cropXYXY": [
+        19,
+        143,
+        305,
+        392
+      ],
+      "missingDarkPixels": 239,
+      "missingBoundingBoxXYXY": [
+        63,
+        219,
+        172,
+        314
+      ],
+      "missingBeyondOnePixelTolerance": 239,
+      "remainingBoundingBoxXYXY": [
+        63,
+        219,
+        172,
+        314
+      ]
+    },
+    {
+      "stage": "before",
+      "innerWidth": 768,
+      "lineHeight": "72.68px",
+      "fontSize": "79px",
+      "kind": "word",
+      "imageDimensions": [
+        753,
+        828
+      ],
+      "screenshotScale": 0.98046875,
+      "cropXYXY": [
+        23,
+        191,
+        298,
+        428
+      ],
+      "missingDarkPixels": 107,
+      "missingBoundingBoxXYXY": [
+        69,
+        263,
+        119,
+        283
+      ],
+      "missingBeyondOnePixelTolerance": 90,
+      "remainingBoundingBoxXYXY": [
+        69,
+        263,
+        86,
+        283
+      ]
+    },
+    {
+      "stage": "before",
+      "innerWidth": 768,
+      "lineHeight": "72.68px",
+      "fontSize": "79px",
+      "kind": "selection",
+      "imageDimensions": [
+        753,
+        828
+      ],
+      "screenshotScale": 0.98046875,
+      "cropXYXY": [
+        23,
+        191,
+        298,
+        428
+      ],
+      "missingDarkPixels": 213,
+      "missingBoundingBoxXYXY": [
+        69,
+        263,
+        167,
+        355
+      ],
+      "missingBeyondOnePixelTolerance": 196,
+      "remainingBoundingBoxXYXY": [
+        69,
+        263,
+        167,
+        355
+      ]
+    },
+    {
+      "stage": "before",
+      "innerWidth": 1440,
+      "lineHeight": "102.01px",
+      "fontSize": "110.88px",
+      "kind": "word",
+      "imageDimensions": [
+        1425,
+        835
+      ],
+      "screenshotScale": 0.9895833333333334,
+      "cropXYXY": [
+        91,
+        240,
+        480,
+        576
+      ],
+      "missingDarkPixels": 215,
+      "missingBoundingBoxXYXY": [
+        149,
+        341,
+        226,
+        371
+      ],
+      "missingBeyondOnePixelTolerance": 215,
+      "remainingBoundingBoxXYXY": [
+        149,
+        341,
+        226,
+        371
+      ]
+    },
+    {
+      "stage": "before",
+      "innerWidth": 1440,
+      "lineHeight": "102.01px",
+      "fontSize": "110.88px",
+      "kind": "selection",
+      "imageDimensions": [
+        1425,
+        835
+      ],
+      "screenshotScale": 0.9895833333333334,
+      "cropXYXY": [
+        91,
+        240,
+        480,
+        576
+      ],
+      "missingDarkPixels": 573,
+      "missingBoundingBoxXYXY": [
+        149,
+        300,
+        335,
+        472
+      ],
+      "missingBeyondOnePixelTolerance": 573,
+      "remainingBoundingBoxXYXY": [
+        149,
+        300,
+        335,
+        472
+      ]
+    },
+    {
+      "stage": "after",
+      "innerWidth": 320,
+      "lineHeight": "91.2px",
+      "fontSize": "76px",
+      "kind": "word",
+      "imageDimensions": [
+        305,
+        804
+      ],
+      "screenshotScale": 0.953125,
+      "cropXYXY": [
+        15,
+        152,
+        272,
+        415
+      ],
+      "missingDarkPixels": 0,
+      "missingBoundingBoxXYXY": null,
+      "missingBeyondOnePixelTolerance": 0,
+      "remainingBoundingBoxXYXY": null
+    },
+    {
+      "stage": "after",
+      "innerWidth": 320,
+      "lineHeight": "91.2px",
+      "fontSize": "76px",
+      "kind": "selection",
+      "imageDimensions": [
+        305,
+        804
+      ],
+      "screenshotScale": 0.953125,
+      "cropXYXY": [
+        15,
+        152,
+        272,
+        415
+      ],
+      "missingDarkPixels": 0,
+      "missingBoundingBoxXYXY": null,
+      "missingBeyondOnePixelTolerance": 0,
+      "remainingBoundingBoxXYXY": null
+    },
+    {
+      "stage": "after",
+      "innerWidth": 390,
+      "lineHeight": "100.8px",
+      "fontSize": "84px",
+      "kind": "word",
+      "imageDimensions": [
+        375,
+        812
+      ],
+      "screenshotScale": 0.9615384615384616,
+      "cropXYXY": [
+        19,
+        154,
+        305,
+        446
+      ],
+      "missingDarkPixels": 0,
+      "missingBoundingBoxXYXY": null,
+      "missingBeyondOnePixelTolerance": 0,
+      "remainingBoundingBoxXYXY": null
+    },
+    {
+      "stage": "after",
+      "innerWidth": 390,
+      "lineHeight": "100.8px",
+      "fontSize": "84px",
+      "kind": "selection",
+      "imageDimensions": [
+        375,
+        812
+      ],
+      "screenshotScale": 0.9615384615384616,
+      "cropXYXY": [
+        19,
+        154,
+        305,
+        446
+      ],
+      "missingDarkPixels": 1,
+      "missingBoundingBoxXYXY": [
+        198,
+        228,
+        198,
+        228
+      ],
+      "missingBeyondOnePixelTolerance": 0,
+      "remainingBoundingBoxXYXY": null,
+      "isolatedEdgePixels": [
+        {
+          "xy": [
+            198,
+            228
+          ],
+          "unselectedRGB": [
+            79,
+            78,
+            73
+          ],
+          "selectedRGB": [
+            186,
+            195,
+            174
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "after",
+      "innerWidth": 768,
+      "lineHeight": "94.8px",
+      "fontSize": "79px",
+      "kind": "word",
+      "imageDimensions": [
+        753,
+        828
+      ],
+      "screenshotScale": 0.98046875,
+      "cropXYXY": [
+        23,
+        202,
+        298,
+        482
+      ],
+      "missingDarkPixels": 0,
+      "missingBoundingBoxXYXY": null,
+      "missingBeyondOnePixelTolerance": 0,
+      "remainingBoundingBoxXYXY": null
+    },
+    {
+      "stage": "after",
+      "innerWidth": 768,
+      "lineHeight": "94.8px",
+      "fontSize": "79px",
+      "kind": "selection",
+      "imageDimensions": [
+        753,
+        828
+      ],
+      "screenshotScale": 0.98046875,
+      "cropXYXY": [
+        23,
+        202,
+        298,
+        482
+      ],
+      "missingDarkPixels": 0,
+      "missingBoundingBoxXYXY": null,
+      "missingBeyondOnePixelTolerance": 0,
+      "remainingBoundingBoxXYXY": null
+    },
+    {
+      "stage": "after",
+      "innerWidth": 1440,
+      "lineHeight": "133.056px",
+      "fontSize": "110.88px",
+      "kind": "word",
+      "imageDimensions": [
+        1425,
+        835
+      ],
+      "screenshotScale": 0.9895833333333334,
+      "cropXYXY": [
+        91,
+        256,
+        480,
+        653
+      ],
+      "missingDarkPixels": 0,
+      "missingBoundingBoxXYXY": null,
+      "missingBeyondOnePixelTolerance": 0,
+      "remainingBoundingBoxXYXY": null
+    },
+    {
+      "stage": "after",
+      "innerWidth": 1440,
+      "lineHeight": "133.056px",
+      "fontSize": "110.88px",
+      "kind": "selection",
+      "imageDimensions": [
+        1425,
+        835
+      ],
+      "screenshotScale": 0.9895833333333334,
+      "cropXYXY": [
+        91,
+        256,
+        480,
+        653
+      ],
+      "missingDarkPixels": 2,
+      "missingBoundingBoxXYXY": [
+        335,
+        315,
+        335,
+        356
+      ],
+      "missingBeyondOnePixelTolerance": 2,
+      "remainingBoundingBoxXYXY": [
+        335,
+        315,
+        335,
+        356
+      ],
+      "isolatedEdgePixels": [
+        {
+          "xy": [
+            335,
+            315
+          ],
+          "unselectedRGB": [
+            99,
+            100,
+            94
+          ],
+          "selectedRGB": [
+            222,
+            226,
+            203
+          ]
+        },
+        {
+          "xy": [
+            335,
+            356
+          ],
+          "unselectedRGB": [
+            69,
+            70,
+            64
+          ],
+          "selectedRGB": [
+            218,
+            220,
+            198
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "candidate-1.05",
+      "innerWidth": 390,
+      "lineHeight": "88.2px",
+      "fontSize": "84px",
+      "kind": "word",
+      "imageDimensions": [
+        375,
+        812
+      ],
+      "screenshotScale": 0.9615384615384616,
+      "cropXYXY": [
+        19,
+        148,
+        305,
+        416
+      ],
+      "missingDarkPixels": 53,
+      "missingBoundingBoxXYXY": [
+        66,
+        233,
+        74,
+        243
+      ],
+      "missingBeyondOnePixelTolerance": 49,
+      "remainingBoundingBoxXYXY": [
+        66,
+        234,
+        74,
+        243
+      ]
+    },
+    {
+      "stage": "candidate-1.05",
+      "innerWidth": 390,
+      "lineHeight": "88.2px",
+      "fontSize": "84px",
+      "kind": "selection",
+      "imageDimensions": [
+        375,
+        812
+      ],
+      "screenshotScale": 0.9615384615384616,
+      "cropXYXY": [
+        19,
+        148,
+        305,
+        416
+      ],
+      "missingDarkPixels": 148,
+      "missingBoundingBoxXYXY": [
+        66,
+        233,
+        168,
+        328
+      ],
+      "missingBeyondOnePixelTolerance": 140,
+      "remainingBoundingBoxXYXY": [
+        66,
+        234,
+        168,
+        328
+      ]
+    }
+  ],
+  "onePixelTolerance": "For each raw missing pixel, inspect the selected JPEG 3x3 neighborhood. Count it as remaining only when no pixel there has max(R,G,B)<105. This tolerates a 1px JPEG/antialias edge difference. The final 1-2 raw differences are isolated at right edges of the first-line letters, not descending strokes; visual inspection confirms intact glyphs."
+}

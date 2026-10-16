@@ -1,0 +1,198 @@
+--- before/dist/index.html
++++ after/dist/index.html
+@@ -7,9 +7,10 @@
+   <meta name="robots" content="noindex,nofollow">
+   <meta name="description" content="Классический, спортивный и лимфодренажный массаж у Натальи Кузнецовой в Москве. Индивидуальное сочетание техник, курсовой подход. Первый сеанс — 5 700 ₽.">
+   <title>Наталья Кузнецова — индивидуальный массаж в Москве</title>
+-  <link rel="preload" href="assets/real/cabinet-front.jpg" as="image">
++  <link rel="preload" href="assets/real/natalia-portrait.jpg" as="image">
+   <link rel="stylesheet" href="assets/fonts.css">
+   <link rel="stylesheet" href="styles.css?v=20261015-massage">
++  <link rel="stylesheet" href="assets/hero.css?v=20261016-portrait">
+   <script src="app.js?v=20261015-massage" defer></script>
+ </head>
+ <body>
+@@ -25,35 +26,34 @@
+       <a href="#prices">Стоимость</a>
+       <a href="#education">Образование</a>
+     </nav>
+-    <button class="button button-small header-book" data-book="first">Записаться <span aria-hidden="true">↗</span></button>
++    <button class="button button-small header-book" data-book="first">Записаться <svg class="cta-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+     <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="navigation"><span></span><span></span></button>
+   </header>
+ 
+   <main id="main">
+-    <section class="hero wrap" aria-labelledby="hero-title">
+-      <div class="hero-copy">
+-        <p class="eyebrow"><span class="live-dot"></span> ИНДИВИДУАЛЬНЫЙ МАССАЖ · МОСКВА</p>
+-        <h1 id="hero-title">Время<br>вернуться<br><em>к себе.</em></h1>
+-        <p class="hero-description">Классический, спортивный и лимфодренажный массаж. Сочетаю техники под ваш запрос — сеанс за сеансом.</p>
+-        <div class="hero-actions"><button class="button" data-book="first">Начать с первого сеанса <span aria-hidden="true">↗</span></button><a class="text-link" href="#approach">Познакомиться <span aria-hidden="true">↓</span></a></div>
+-        <div class="hero-note"><span class="note-symbol" aria-hidden="true">✳</span><p>Базовый сеанс — 55 минут.<br><strong>Первый сеанс — 5 700 ₽ вместо 7 800 ₽.</strong></p></div>
++    <section class="hero wrap hero-layout" aria-labelledby="hero-title">
++      <div class="hero-title">
++        <p class="eyebrow">ИНДИВИДУАЛЬНЫЙ МАССАЖ · КИТАЙ-ГОРОД</p>
++        <h1 id="hero-title"><span>Время вернуться</span><em>к себе.</em></h1>
+       </div>
+-      <div class="hero-visual">
+-        <div class="photo-frame"><img src="assets/real/cabinet-front.jpg" width="1206" height="2622" alt="Кабинет Натальи: массажный стол, деревянный стеллаж и круглое зеркало" fetchpriority="high"></div>
+-        <div class="photo-caption"><span class="caption-line"></span> КАБИНЕТ, В КОТОРОМ Я ВАС ЖДУ</div>
+-        <div class="photo-note"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 27V12m0 7C5 19 6 10 6 7c9 0 10 7 10 12Zm0-4C26 15 27 6 25 3c-8 1-9 6-9 12Z" stroke="currentColor" stroke-width="1.2"/></svg><p>В здоровом теле —<br><em>здоровый дух.</em></p></div>
++      <p class="hero-description">Классические, спортивные и лимфодренажные приёмы — в вашем сочетании. Обсудим запрос и интенсивность, а после встречи я дам индивидуальные рекомендации.</p>
++      <figure class="hero-person">
++        <div class="hero-photo-frame"><img src="assets/real/natalia-portrait.jpg" width="720" height="1280" alt="Наталья Кузнецова в белой рабочей одежде" fetchpriority="high"></div>
++        <figcaption><span>Наталья Кузнецова</span><span>Более 5 лет практики</span></figcaption>
++      </figure>
++      <div class="hero-invitation">
++        <p class="hero-price-label">Первый сеанс · 55 минут</p>
++        <p class="hero-price"><strong>5 700 ₽</strong><span>вместо <s>7 800 ₽</s></span></p>
++        <button class="button" data-book="first">Начать с первого сеанса <svg class="cta-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
++        <p class="hero-location">Москва · Китай-город<span>U-Lisa на Старосадском</span></p>
+       </div>
+     </section>
++    <section class="wrap hero-first" aria-labelledby="hero-first-title">
++      <h2 class="hero-first-title" id="hero-first-title">Начнём со знакомства.</h2>
++      <div class="hero-first-copy"><p>Первая встреча — время обсудить ваш запрос, подобрать техники и познакомиться с моим подходом.</p><p>«В здоровом теле — здоровый дух» — мой ориентир в работе с телом.</p></div>
++    </section>
+ 
+-    <div class="welcome-strip"><div class="wrap strip-inner"><p>Более 5 лет практики</p><span aria-hidden="true">✳</span><p>Техники под ваш запрос</p><span aria-hidden="true">✳</span><p>Курсовой подход</p></div></div>
+-
+-    <section class="section wrap approach" id="approach" aria-labelledby="approach-title">
+-      <div class="approach-identity">
+-        <p class="eyebrow">ДАВАЙТЕ ПОЗНАКОМИМСЯ</p>
+-        <div class="portrait-frame"><img src="assets/real/natalia-portrait.jpg" width="720" height="1280" loading="lazy" alt="Наталья Юрьевна Кузнецова"></div>
+-        <p class="identity-signature">Наталья Кузнецова</p>
+-        <p class="muted">Массаж и телесные практики</p>
+-      </div>
++    <section class="section wrap approach approach-text" id="approach" aria-labelledby="approach-title">
+       <div class="approach-copy">
+         <p class="eyebrow">МОЙ ПОДХОД</p>
+         <h2 id="approach-title">Забота о теле —<br><em>как образ жизни.</em></h2>
+@@ -68,11 +68,11 @@
+       <div class="wrap section">
+         <div class="section-heading"><div><p class="eyebrow">ПРАКТИКИ И ОБУЧЕНИЕ</p><h2 id="sessions-title">Разные техники.<br><em>Ваше сочетание.</em></h2></div><p>Чаще я выбираю комбинированный массаж: сочетаю приёмы в зависимости от того, что сейчас нужно вашему телу.</p></div>
+         <div class="session-list">
+-          <article class="session-row"><span class="session-number">01</span><div class="session-description"><h3>Комбинированный массаж</h3><p>Классические, спортивные и лимфодренажные приёмы — с учётом ваших нагрузок, запроса и ощущений.</p></div><div class="session-meta"><span>Индивидуальный</span><strong>подбор техник</strong></div><button class="session-select" data-book="combined" aria-label="Обсудить комбинированный массаж"><span aria-hidden="true">↗</span></button></article>
+-          <article class="session-row"><span class="session-number">02</span><div class="session-description"><h3>Китайская техника <span>ЦЗЫ-НЛО</span></h3><p>Точечная работа в сочетании с другими массажными приёмами.</p></div><div class="session-meta"><span>В составе</span><strong>вашего сеанса</strong></div><button class="session-select" data-book="chinese" aria-label="Обсудить технику ЦЗЫ-НЛО"><span aria-hidden="true">↗</span></button></article>
+-          <article class="session-row"><span class="session-number">03</span><div class="session-description"><h3>Работа со стопами</h3><p>Внимание к стопам как часть индивидуальной работы с телом.</p></div><div class="session-meta"><span>По вашему</span><strong>запросу</strong></div><button class="session-select" data-book="feet" aria-label="Обсудить массаж стоп"><span aria-hidden="true">↗</span></button></article>
+-          <article class="session-row"><span class="session-number">04</span><div class="session-description"><h3>Гимнастика Цигун</h3><p>Индивидуальное обучение упражнениям, движению и дыханию.</p></div><div class="session-meta"><span>Отдельное</span><strong>занятие</strong></div><button class="session-select" data-book="qigong" aria-label="Обсудить занятие Цигун"><span aria-hidden="true">↗</span></button></article>
+-          <article class="session-row"><span class="session-number">05</span><div class="session-description"><h3>Обучение ЦЗЫ-НЛО</h3><p>Освоение техник с учётом ваших задач и подготовки.</p></div><div class="session-meta"><span>Программа</span><strong>под ваши задачи</strong></div><button class="session-select" data-book="training" aria-label="Обсудить обучение техникам ЦЗЫ-НЛО"><span aria-hidden="true">↗</span></button></article>
++          <article class="session-row"><span class="session-number">01</span><div class="session-description"><h3>Комбинированный массаж</h3><p>Классические, спортивные и лимфодренажные приёмы — с учётом ваших нагрузок, запроса и ощущений.</p></div><div class="session-meta"><span>Индивидуальный</span><strong>подбор техник</strong></div><button class="session-select" data-book="combined" aria-label="Обсудить комбинированный массаж"><svg class="cta-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button></article>
++          <article class="session-row"><span class="session-number">02</span><div class="session-description"><h3>Китайская техника <span>ЦЗЫ-НЛО</span></h3><p>Точечная работа в сочетании с другими массажными приёмами.</p></div><div class="session-meta"><span>В составе</span><strong>вашего сеанса</strong></div><button class="session-select" data-book="chinese" aria-label="Обсудить технику ЦЗЫ-НЛО"><svg class="cta-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button></article>
++          <article class="session-row"><span class="session-number">03</span><div class="session-description"><h3>Работа со стопами</h3><p>Внимание к стопам как часть индивидуальной работы с телом.</p></div><div class="session-meta"><span>По вашему</span><strong>запросу</strong></div><button class="session-select" data-book="feet" aria-label="Обсудить массаж стоп"><svg class="cta-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button></article>
++          <article class="session-row"><span class="session-number">04</span><div class="session-description"><h3>Гимнастика Цигун</h3><p>Индивидуальное обучение упражнениям, движению и дыханию.</p></div><div class="session-meta"><span>Отдельное</span><strong>занятие</strong></div><button class="session-select" data-book="qigong" aria-label="Обсудить занятие Цигун"><svg class="cta-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button></article>
++          <article class="session-row"><span class="session-number">05</span><div class="session-description"><h3>Обучение ЦЗЫ-НЛО</h3><p>Освоение техник с учётом ваших задач и подготовки.</p></div><div class="session-meta"><span>Программа</span><strong>под ваши задачи</strong></div><button class="session-select" data-book="training" aria-label="Обсудить обучение техникам ЦЗЫ-НЛО"><svg class="cta-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button></article>
+         </div>
+         <div class="session-footnote"><p>Тейпирование, формат обучения и его стоимость обсудим лично.</p><a class="text-link" href="#prices">Стоимость массажа <span aria-hidden="true">↓</span></a></div>
+       </div>
+@@ -97,11 +97,11 @@
+           <h3>Диагностический<br><em>сеанс</em></h3>
+           <p>Познакомимся, обсудим ваш запрос и подберём техники. После сеанса вы получите индивидуальные рекомендации.</p>
+           <div class="price-amount"><strong>5 700 ₽</strong><s aria-label="Обычная стоимость 7 800 рублей">7 800 ₽</s></div>
+-          <button class="button" data-book="first">Записаться на знакомство <span aria-hidden="true">↗</span></button>
++          <button class="button" data-book="first">Записаться на знакомство <svg class="cta-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+         </article>
+         <div class="regular-prices">
+-          <article><p class="eyebrow">БАЗОВЫЙ ФОРМАТ · 55 МИНУТ</p><h3>Массаж всего тела</h3><strong class="regular-amount">5 700–7 800 ₽</strong><p>Стоимость зависит от объёма работы и выбранных техник. Если нужно больше времени, есть формат 85 минут и более длительные сеансы — до двух часов. Их стоимость согласуем отдельно.</p><button class="text-link" data-book="extended">Обсудить длительность <span aria-hidden="true">↗</span></button></article>
+-          <article><p class="eyebrow">ДЛЯ РЕГУЛЯРНЫХ ВСТРЕЧ</p><h3>Абонемент <em>со скидкой 15%</em></h3><p>Количество встреч и стоимость курса определим после первого сеанса. Скидка действует от стоимости выбранных сеансов.</p><button class="text-link" data-book="course">Узнать об абонементе <span aria-hidden="true">↗</span></button></article>
++          <article><p class="eyebrow">БАЗОВЫЙ ФОРМАТ · 55 МИНУТ</p><h3>Массаж всего тела</h3><strong class="regular-amount">5 700–7 800 ₽</strong><p>Стоимость зависит от объёма работы и выбранных техник. Если нужно больше времени, есть формат 85 минут и более длительные сеансы — до двух часов. Их стоимость согласуем отдельно.</p><button class="text-link" data-book="extended">Обсудить длительность <svg class="cta-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button></article>
++          <article><p class="eyebrow">ДЛЯ РЕГУЛЯРНЫХ ВСТРЕЧ</p><h3>Абонемент <em>со скидкой 15%</em></h3><p>Количество встреч и стоимость курса определим после первого сеанса. Скидка действует от стоимости выбранных сеансов.</p><button class="text-link" data-book="course">Узнать об абонементе <svg class="cta-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button></article>
+         </div>
+       </div>
+       <p class="price-promotions">Индивидуальные предложения и акции на сеансы и абонементы появляются в историях Натальи. <a href="https://t.me/NataUsolar" target="_blank" rel="noopener noreferrer">Посмотреть в Telegram <span aria-hidden="true">↗</span></a></p>
+@@ -109,7 +109,7 @@
+ 
+     <section class="first-visit-section">
+       <div class="section wrap first-visit" id="first-visit" aria-labelledby="visit-title">
+-        <div class="visit-intro"><p class="eyebrow">КАК ПРОХОДИТ ПЕРВАЯ ВСТРЕЧА</p><h2 id="visit-title">Сначала —<br><em>ваша история.</em></h2><p class="body-copy">Первую встречу я называю диагностической: это время познакомиться с вашим запросом и выбрать подход к работе с телом.</p><button class="text-link" data-book="first">Записаться на первый сеанс <span aria-hidden="true">↗</span></button></div>
++        <div class="visit-intro"><p class="eyebrow">КАК ПРОХОДИТ ПЕРВАЯ ВСТРЕЧА</p><h2 id="visit-title">Сначала —<br><em>ваша история.</em></h2><p class="body-copy">Первую встречу я называю диагностической: это время познакомиться с вашим запросом и выбрать подход к работе с телом.</p><button class="text-link" data-book="first">Записаться на первый сеанс <svg class="cta-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+         <div class="visit-steps"><article><span>01</span><div><h3>Поговорим о вас</h3><p>О нагрузках, пожеланиях и особенностях, которые важно учесть перед массажем.</p></div></article><article><span>02</span><div><h3>Подберём техники</h3><p>Обсудим интенсивность и будем ориентироваться на ваши ощущения во время сеанса.</p></div></article><article><span>03</span><div><h3>Наметим продолжение</h3><p>Дам индивидуальные рекомендации. При желании обсудим курс и отдельное обучение упражнениям Цигун.</p></div></article></div>
+       </div>
+     </section>
+@@ -139,7 +139,7 @@
+ 
+     <section class="questions-section wrap" aria-labelledby="questions-title"><div><p class="eyebrow">ПЕРЕД ВИЗИТОМ</p><h2 id="questions-title">Возможно, вы<br><em>хотели спросить.</em></h2></div><div class="questions"><details><summary>Нужно ли сразу покупать абонемент?<span aria-hidden="true">+</span></summary><p>Начать можно с одного диагностического сеанса. Мой подход предполагает последовательную работу и наблюдение за изменениями от встречи к встрече. После знакомства обсудим, подойдёт ли вам курс. При покупке абонемента действует скидка 15%.</p></details><details><summary>Сколько длится сеанс?<span aria-hidden="true">+</span></summary><p>Базовый сеанс длится 55 минут. По запросу можно запланировать 85 минут, полтора или два часа. Длительность и стоимость продлённого сеанса согласуем заранее. Для занятий Цигун и обучения техникам ЦЗЫ-НЛО действуют отдельные условия.</p></details><details><summary>Что означает «диагностический сеанс»?<span aria-hidden="true">+</span></summary><p>Так я называю первую встречу: мы обсуждаем ваш запрос, подбираем техники и интенсивность массажа. Это название формата знакомства; медицинский диагноз на нём не ставится.</p></details><details><summary>Можно ли попросить более мягкий массаж?<span aria-hidden="true">+</span></summary><p>Да. Расскажите о своих предпочтениях перед сеансом и говорите, если во время массажа хочется изменить интенсивность.</p></details><details><summary>Можно ли прийти перед важным событием?<span aria-hidden="true">+</span></summary><p>Расскажите о поводе и сроках — например, о подготовке к свадьбе. Обсудим ваш запрос, объём работы, интенсивность и длительность сеанса.</p></details></div></section>
+ 
+-    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap contact-inner"><svg class="contact-leaf" viewBox="0 0 96 132" fill="none" aria-hidden="true"><path d="M45 128V47m0 36C9 83 8 51 12 34c28 2 35 26 33 49Zm0-23C78 58 85 28 79 8c-28 5-35 28-34 52Zm0 45c24 0 38-17 38-34-23 3-35 16-38 34Z" stroke="currentColor" stroke-width="1"/></svg><p class="eyebrow">МАССАЖ КАК ЧАСТЬ ВАШЕЙ ЖИЗНИ</p><h2 id="contact-title">Начнём с <em>одного сеанса?</em></h2><p>Напишите мне в Telegram — обсудим ваш запрос<br>и подберём время для первой встречи.</p><button class="button button-light" data-book="first">Первый сеанс — 5 700 ₽ <span aria-hidden="true">↗</span></button><a class="contact-phone" href="tel:+79295373338">+7 929 537-33-38</a><span class="contact-location">Наталья Кузнецова · Москва</span></div></section>
++    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap contact-inner"><svg class="contact-leaf" viewBox="0 0 96 132" fill="none" aria-hidden="true"><path d="M45 128V47m0 36C9 83 8 51 12 34c28 2 35 26 33 49Zm0-23C78 58 85 28 79 8c-28 5-35 28-34 52Zm0 45c24 0 38-17 38-34-23 3-35 16-38 34Z" stroke="currentColor" stroke-width="1"/></svg><p class="eyebrow">МАССАЖ КАК ЧАСТЬ ВАШЕЙ ЖИЗНИ</p><h2 id="contact-title">Начнём с <em>одного сеанса?</em></h2><p>Напишите мне в Telegram — обсудим ваш запрос<br>и подберём время для первой встречи.</p><button class="button button-light" data-book="first">Первый сеанс — 5 700 ₽ <svg class="cta-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button><a class="contact-phone" href="tel:+79295373338">+7 929 537-33-38</a><span class="contact-location">Наталья Кузнецова · Москва</span></div></section>
+   </main>
+ 
+   <footer class="site-footer wrap"><a class="footer-name" href="#">Наталья Кузнецова</a><p>Массаж и телесные практики</p><a class="back-to-top" href="#">Наверх <span aria-hidden="true">↑</span></a><small>© 2026</small></footer>
+@@ -151,7 +151,7 @@
+     <select id="session-choice"><option value="first">Первый диагностический сеанс</option><option value="body">Массаж всего тела · 55 минут</option><option value="extended">Продлённый сеанс · до 2 часов</option><option value="combined">Комбинированный массаж</option><option value="chinese">Китайская техника ЦЗЫ-НЛО</option><option value="feet">Работа со стопами</option><option value="course">Абонемент на массаж</option><option value="qigong">Индивидуальное занятие Цигун</option><option value="training">Обучение техникам ЦЗЫ-НЛО</option></select>
+     <div class="booking-summary" aria-live="polite"><span id="selected-duration">55 минут · диагностический сеанс</span><strong id="selected-price">5 700 ₽</strong></div>
+     <p class="preview-message">Время и детали согласуем лично в Telegram. Переход откроет профиль Натальи — сообщение вы отправите сами.</p>
+-    <a class="button booking-telegram" href="https://t.me/NataUsolar" target="_blank" rel="noopener noreferrer">Написать в Telegram <span aria-hidden="true">↗</span></a>
++    <a class="button booking-telegram" href="https://t.me/NataUsolar" target="_blank" rel="noopener noreferrer">Написать в Telegram <svg class="cta-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+     <a class="booking-phone" href="tel:+79295373338">Или позвонить: +7 929 537-33-38</a>
+     <button class="text-link dialog-done">Вернуться к сайту <span aria-hidden="true">←</span></button>
+   </dialog>
+--- /dev/null
++++ after/dist/assets/hero.css
+@@ -0,0 +1,66 @@
++/* Approved portrait layout and shared booking icons, 16 October 2026. */
++.hero-layout{display:grid;grid-template-columns:minmax(0,1.17fr) minmax(0,1fr);grid-template-areas:'title person' 'description person' 'invitation person';column-gap:80px;row-gap:24px;padding-block:60px 72px;align-items:start}
++.hero-title{grid-area:title;align-self:end}
++.hero-title .eyebrow{max-width:none;color:var(--olive)}
++.hero-title h1{font-size:92px;line-height:1.2;letter-spacing:-.035em;margin-top:24px}
++.hero-title h1>span{display:block}
++.hero-title h1 em{display:block}
++.hero-description{grid-area:description;max-width:425px;font:400 14px/1.8 var(--sans);color:var(--muted);margin:0}
++.hero-person{grid-area:person;margin:0;max-width:480px;width:100%;justify-self:end}
++.hero-photo-frame{padding:6px;border:1px solid #d7dcd0;border-radius:10px;background:#fbf9f4;box-shadow:0 14px 34px rgba(35,55,45,.10)}
++.hero-person img{display:block;width:100%;height:600px;object-fit:cover;object-position:50% 48%;border-radius:4px}
++.hero-person figcaption{display:flex;justify-content:space-between;gap:20px;padding-top:17px;font:400 12px/1.6 var(--sans);color:var(--muted)}
++.hero-person figcaption>span:first-child{color:var(--ink);font-weight:500}
++.hero-invitation{grid-area:invitation;align-self:end;padding-top:7px;max-width:470px}
++.hero-price-label{font:400 12px/1.6 var(--sans);color:var(--muted)}
++.hero-price{display:flex;gap:20px;align-items:baseline;margin-top:4px}
++.hero-price strong{font:400 53px/1.1 var(--serif);letter-spacing:-.02em;white-space:nowrap}
++.hero-price span{font:400 12px/1.6 var(--sans);color:var(--muted)}
++.hero-price s{text-decoration-thickness:1px}
++.hero-invitation .button{margin-top:21px;min-width:270px}
++.cta-icon{display:block;width:16px;height:16px;flex:none}
++.button{gap:16px}
++.header-book{gap:12px}
++.session-select .cta-icon{width:18px;height:18px}
++.hero-location{font:400 12px/1.6 var(--sans);margin-top:17px;color:var(--muted);max-width:360px}
++.hero-location>span{display:block}
++.hero-first{border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:80px;padding-block:40px 55px}
++.hero-first-title{font:400 32px/1.2 var(--serif);letter-spacing:-.02em}
++.hero-first-copy{font:400 14px/1.8 var(--sans);color:var(--muted);max-width:480px}
++.hero-first-copy p+p{margin-top:12px}
++.approach.approach-text{display:block;padding-top:72px}
++.approach-text .approach-copy{max-width:760px;margin-inline:auto}
++.approach-text .approach-copy>p:not(.eyebrow){max-width:65ch}
++@media(max-width:1100px) and (min-width:651px){
++  .hero-layout{column-gap:40px;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);padding-top:45px}
++  .hero-title h1{font-size:76px}
++  .hero-person img{height:550px}
++  .hero-person figcaption{display:block}
++  .hero-person figcaption span{display:block}
++  .hero-person figcaption span+span{margin-top:4px}
++  .hero-first{column-gap:40px}
++}
++@media(max-width:650px){
++  .hero-layout{grid-template-columns:minmax(0,1fr);grid-template-areas:'title' 'invitation' 'person' 'description';row-gap:25px;padding-block:28px 36px}
++  .hero-title h1{font-size:64px;line-height:1.2;margin-top:18px}
++  .hero-title .eyebrow{letter-spacing:.12em;max-width:350px}
++  .hero-invitation{padding-top:0;max-width:none}
++  .hero-price{margin-top:3px;gap:17px}
++  .hero-price strong{font-size:44px}
++  .hero-invitation .button{margin-top:17px;width:100%;min-width:0}
++  .hero-location{margin-top:13px;max-width:none}
++  .hero-person{max-width:none;justify-self:stretch}
++  .hero-person img{height:auto;aspect-ratio:4/5;object-position:50% 48%}
++  .hero-photo-frame{padding:4px;border-radius:8px}
++  .hero-person figcaption{gap:15px;padding-top:12px;flex-wrap:wrap}
++  .hero-description{max-width:none}
++  .hero-first{display:block;padding-block:28px 38px}
++  .hero-first-title{font-size:28px}
++  .hero-first-copy{margin-top:17px}
++  .approach.approach-text{padding-top:48px}
++}
++@media(max-width:370px){
++  .hero-title h1{font-size:56px}
++  .hero-first-title{font-size:24px}
++  .header-book .cta-icon{display:none}
++}

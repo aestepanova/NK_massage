@@ -1,0 +1,15 @@
+{
+  "modified": [
+    "index.html",
+    "assets/sections.css",
+    "assets/video/legs-feet.mp4",
+    "assets/video/hands.mp4",
+    "assets/video/back-shoulders.mp4",
+    "assets/video/session.mp4"
+  ],
+  "added": [
+    "assets/video-player.css",
+    "video-player.js"
+  ],
+  "removed": []
+}

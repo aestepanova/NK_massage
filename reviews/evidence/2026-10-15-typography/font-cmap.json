@@ -1,0 +1,142 @@
+[
+  {
+    "file": "cormorant-italic.ttf",
+    "names": {
+      "1": [
+        "Cormorant Garamond"
+      ],
+      "2": [
+        "Italic"
+      ],
+      "6": [
+        "CormorantGaramond-Italic"
+      ]
+    },
+    "weight": 400,
+    "cmap_formats": [
+      4
+    ],
+    "missing_Russian_letters": "",
+    "missing_sample": "",
+    "symbols": {
+      "₽": true,
+      "–": true,
+      "—": true,
+      "↗": true,
+      "↓": true,
+      "✳": false
+    }
+  },
+  {
+    "file": "cormorant-regular.ttf",
+    "names": {
+      "1": [
+        "Cormorant Garamond"
+      ],
+      "2": [
+        "Regular"
+      ],
+      "6": [
+        "CormorantGaramond-Regular"
+      ]
+    },
+    "weight": 400,
+    "cmap_formats": [
+      4
+    ],
+    "missing_Russian_letters": "",
+    "missing_sample": "",
+    "symbols": {
+      "₽": true,
+      "–": true,
+      "—": true,
+      "↗": true,
+      "↓": true,
+      "✳": false
+    }
+  },
+  {
+    "file": "manrope-medium.ttf",
+    "names": {
+      "1": [
+        "Manrope Medium"
+      ],
+      "2": [
+        "Regular"
+      ],
+      "6": [
+        "Manrope-Medium"
+      ]
+    },
+    "weight": 500,
+    "cmap_formats": [
+      4
+    ],
+    "missing_Russian_letters": "",
+    "missing_sample": "",
+    "symbols": {
+      "₽": true,
+      "–": true,
+      "—": true,
+      "↗": false,
+      "↓": true,
+      "✳": false
+    }
+  },
+  {
+    "file": "manrope-regular.ttf",
+    "names": {
+      "1": [
+        "Manrope"
+      ],
+      "2": [
+        "Regular"
+      ],
+      "6": [
+        "Manrope-Regular"
+      ]
+    },
+    "weight": 400,
+    "cmap_formats": [
+      4
+    ],
+    "missing_Russian_letters": "",
+    "missing_sample": "",
+    "symbols": {
+      "₽": true,
+      "–": true,
+      "—": true,
+      "↗": false,
+      "↓": true,
+      "✳": false
+    }
+  },
+  {
+    "file": "manrope-semibold.ttf",
+    "names": {
+      "1": [
+        "Manrope SemiBold"
+      ],
+      "2": [
+        "Regular"
+      ],
+      "6": [
+        "Manrope-SemiBold"
+      ]
+    },
+    "weight": 600,
+    "cmap_formats": [
+      4
+    ],
+    "missing_Russian_letters": "",
+    "missing_sample": "",
+    "symbols": {
+      "₽": true,
+      "–": true,
+      "—": true,
+      "↗": false,
+      "↓": true,
+      "✳": false
+    }
+  }
+]

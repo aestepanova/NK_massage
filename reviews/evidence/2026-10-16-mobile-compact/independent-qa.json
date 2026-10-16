@@ -1,0 +1,59 @@
+{
+  "scope": "Independent read-only QA: compact mobile changes",
+  "url": "http://127.0.0.1:4188/dist/",
+  "static_checks": [
+    {
+      "command": "python3 scripts/check_site.py",
+      "exit_code": 0,
+      "output": "OK: 1 HTML page(s), local links/CSS URLs and 1 JavaScript file(s) checked"
+    },
+    {
+      "command": "python3 scripts/check_site.py --root sites/natalia-kuznetsova",
+      "exit_code": 0,
+      "output": "OK: 2 HTML page(s), local links/CSS URLs and 1 JavaScript file(s) checked"
+    }
+  ],
+  "sha_diff": {
+    "modified": [
+      "index.html",
+      "assets/sections.css"
+    ],
+    "added": [],
+    "removed": []
+  },
+  "source_checks": {
+    "data_book_multiset_preserved": true,
+    "data_book_count": 12,
+    "nine_options_preserved": true,
+    "prices_dom_preserved": true,
+    "services_dom_preserved": true,
+    "reviews_dom_preserved": true,
+    "faq_dom_preserved": true,
+    "all4video_attributes_sources_preserved": true,
+    "hero_dom_preserved": true,
+    "education_dom_preserved": true,
+    "slogan_once": true,
+    "hero_first_removed": true,
+    "approach_principles_removed": true,
+    "diagnostic_definition_still_in_faq": true,
+    "scrollbar_gutter_stable": true,
+    "mobile_section_padding40": true,
+    "mobile_menu_flex_none": true
+  },
+  "browser": {
+    "own_run": "NOT RUN: IAB unavailable in immediately preceding cycle; root instructed no repeated attempt",
+    "own_screenshots": [],
+    "viewport_changed": false
+  },
+  "executor_screenshot_review": {
+    "path": "sites/natalia-kuznetsova/reviews/evidence/2026-10-16-mobile-compact/after-hero-390.jpg",
+    "observation": "Header menu fits visible content boundary; hero text, price, CTA and portrait have visually balanced outer edges. This is executor evidence, not independent viewport measurement."
+  },
+  "defects": [],
+  "narrow_unverified_risks": [
+    "Runtime scrollbar-gutter/fullPage screenshot geometry including modal opening/body overflow hidden",
+    "Header width and focus outlines at320/371/390",
+    "Spacing and overflow after content deletion at768/1440"
+  ],
+  "verdict": "Source/static PASS; independent UI verification incomplete; root owns current UI regression"
+}

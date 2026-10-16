@@ -1,0 +1,32 @@
+{
+  "menu": {
+    "width": 390,
+    "open": true,
+    "escapeCloses": true,
+    "escapeFocus": "Открыть меню",
+    "link": "Стоимость",
+    "linkHash": "#prices",
+    "linkCloses": true
+  },
+  "booking": [
+    {
+      "active": "session-choice",
+      "dialogOpen": true,
+      "focusOutline": "rgb(49, 93, 80) solid 2px",
+      "selected": "first",
+      "summary": "55 минут · диагностический сеанс5 700 ₽ вместо 7 800 ₽"
+    },
+    {
+      "selected": "body",
+      "summary": "Базовый формат · 55 минут5 700–7 800 ₽"
+    }
+  ],
+  "escape": {
+    "activeClass": "button",
+    "activeText": "Записаться на знакомство ↗",
+    "dialogOpen": false,
+    "focusVisible": true,
+    "outline": "rgb(49, 93, 80) solid 2px",
+    "width": 390
+  }
+}

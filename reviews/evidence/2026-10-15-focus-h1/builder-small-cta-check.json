@@ -1,0 +1,45 @@
+{
+  "viewport": {
+    "clientWidth": 305,
+    "innerHeight": 568,
+    "innerWidth": 320,
+    "scrollWidth": 305
+  },
+  "tabFocus": {
+    "background": "rgb(49, 93, 80)",
+    "className": "button",
+    "color": "rgb(255, 255, 255)",
+    "focusVisible": true,
+    "font": "Manrope, Arial, sans-serif",
+    "id": "",
+    "lineHeight": "18px",
+    "outline": "rgb(49, 93, 80) solid 2px",
+    "outlineColor": "rgb(49, 93, 80)",
+    "outlineOffset": "6px",
+    "outlineWidth": "2px",
+    "overflow": "visible",
+    "rect": {
+      "height": 55,
+      "width": 201,
+      "x": 16,
+      "y": 314.3671875
+    },
+    "size": "12px",
+    "tag": "BUTTON",
+    "tracking": "normal",
+    "weight": "500"
+  },
+  "active": {
+    "className": "button",
+    "tag": "BUTTON"
+  },
+  "dialogOpened": {
+    "activeTag": "SELECT",
+    "open": true,
+    "title": "Время для вас."
+  },
+  "afterEscape": {
+    "className": "button",
+    "tag": "BUTTON"
+  }
+}
