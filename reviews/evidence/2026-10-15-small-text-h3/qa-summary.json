@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-15",
+  "scope": "Independent QA of small text and service/visit H3 typography",
+  "browser": "Codex In-app Browser via mcp__cua_repl on macOS",
+  "url": "http://localhost:4175/",
+  "viewportWidths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "dialogViewport": {
+    "width": 320,
+    "height": 568
+  },
+  "newDefects": [],
+  "verdict": "Затронутый объём проверен; новых дефектов не обнаружено. На сайте сохраняются ранее известные дефекты. Полная проверка не выполнялась: видео и live reduced motion не запускались.",
+  "criteria": [
+    {
+      "criterion": "Static validation",
+      "status": "PASS",
+      "evidence": "qa-static-proof.json: python3 -B scripts/check_site.py exit 0; OK 1 HTML, local links/CSS URLs, 1 JS"
+    },
+    {
+      "criterion": "Assigned computed typography",
+      "status": "PASS",
+      "evidence": "qa-after-metrics.json: 125 non-select nodes x 4 widths = 500 matching family/size/line-height/weight/tracking checks; select exception separately recorded"
+    },
+    {
+      "criterion": "Native select",
+      "status": "PASS",
+      "evidence": "qa-regressions.json + qa-after-dialog-390.jpg: Manrope 12px 400; native computed line-height normal despite author CSS 1.5; nine options readable and functional",
+      "exception": "Platform-native select line-height normal retained; no custom control required"
+    },
+    {
+      "criterion": "H3 breakpoints",
+      "status": "PASS",
+      "evidence": "qa-h3-boundaries.json: all 8 headings at 370/371/650/651 -> 24/28/28/32px, line-height 28.8/33.6/33.6/38.4px"
+    },
+    {
+      "criterion": "Horizontal document overflow",
+      "status": "PASS",
+      "evidence": "qa-after-metrics.json: innerWidth 320/390/768/1440, clientWidth=scrollWidth 305/375/753/1425; intentional gallery/carousel scrolling excluded"
+    },
+    {
+      "criterion": "Visual layout",
+      "status": "PASS",
+      "evidence": "Saved 6 representative screenshots: hero320, services390/1440, firstvisit390, dialog390/320x568; education/prices/reviews/footer390 and firstvisit768 also visually inspected in CUA transcript; no new clipping/overlap found"
+    },
+    {
+      "criterion": "Mobile header CTA",
+      "status": "PASS",
+      "evidence": "390 px screenshot and DOM boxes in transcript: wordmark20-201.73, CTA211.73-327.4, menu337.4-366.4 within clientWidth375. Header CTA hidden320 by pre-existing rule; main CTA visible."
+    },
+    {
+      "criterion": "Menu and Escape",
+      "status": "PASS",
+      "evidence": "qa-regressions.json: menu opens390, nav14px/21px500, Escape closes/returns toggle focus, Practices link closes"
+    },
+    {
+      "criterion": "Nine booking choices and prices",
+      "status": "PASS",
+      "evidence": "qa-regressions.json: all 9 options selected via combobox390, prices/durations correspond to CONTENT-NOTES; no outbound link followed"
+    },
+    {
+      "criterion": "Small dialog keyboard reachability",
+      "status": "PASS",
+      "evidence": "qa-regressions.json + qa-after-dialog-320x568.jpg: dialog536px high, scrollHeight794, Tab reaches Return to site at y484.47-524.06 inside dialog16-552; Escape320/390 returns trigger focus"
+    },
+    {
+      "criterion": "FAQ and reviews",
+      "status": "PASS",
+      "evidence": "qa-regressions.json: duration answer opened390 at14px/25.2px; next button2/4 scroll335, ArrowRight3/4 scroll670 at track335px wide"
+    },
+    {
+      "criterion": "Selection contrast and light focus",
+      "status": "PASS",
+      "evidence": "qa-after-metrics.json and qa-regressions.json: selection rgb32,60,50 on rgb215,221,197; actual selected word техники; visible light focus outline2px"
+    },
+    {
+      "criterion": "Dark contact phone focus",
+      "status": "FAIL",
+      "knownBefore": true,
+      "evidence": "qa-regressions.json: focus-visible phone390 outline rgb49,93,80 on rgb32,71,61; visually weak, previous TODO/review already records defect"
+    },
+    {
+      "criterion": "H1 selection clipping",
+      "status": "FAIL",
+      "knownBefore": true,
+      "evidence": "qa-regressions.json: H1 390 font84px/78.12px line-height; double-click вернуться reproduces lower glyph clipping in CUA screenshot; unchanged H1 CSS/baseline"
+    },
+    {
+      "criterion": "Excluded roles and assets",
+      "status": "PASS",
+      "evidence": "qa-static-proof.json: 27 dist files, only styles.css changed; 98 baseline exception comparisons unchanged; non-typographic CSS equal; fonts.css and five TTF unchanged, 2 families"
+    },
+    {
+      "criterion": "Reduced motion live",
+      "status": "NOT RUN",
+      "evidence": "Browser capability list only visibility/viewport; system preference unchanged; static media rule verified byte-preserved"
+    },
+    {
+      "criterion": "Video playback",
+      "status": "NOT RUN",
+      "evidence": "Explicit task scope excludes re-running videos; HTML/JS/video assets SHA unchanged"
+    },
+    {
+      "criterion": "Real mobile devices / other browsers",
+      "status": "NOT RUN",
+      "evidence": "Desktop IAB viewport testing only"
+    }
+  ],
+  "knownDefects": [
+    {
+      "selector": ".contact-phone:focus-visible",
+      "severity": "P2",
+      "reproducibility": "100% in tested keyboard path390",
+      "expected": "Clearly distinguishable focus on dark background",
+      "actual": "2px outline #315d50 on #20473d is low contrast",
+      "classification": "Existing, already recorded in TODO and prior typography review"
+    },
+    {
+      "selector": "h1#hero-title with selection",
+      "severity": "P3",
+      "reproducibility": "Reproduced390 by double-clicking вернуться",
+      "expected": "Selected glyphs remain fully drawn",
+      "actual": "Lower portions of descenders clip at adjacent selected line background",
+      "classification": "Existing, H1 styles unchanged and open TODO item"
+    }
+  ],
+  "evidenceFiles": [
+    "qa-after-metrics.json",
+    "qa-h3-boundaries.json",
+    "qa-static-proof.json",
+    "qa-regressions.json",
+    "qa-after-hero-320.jpg",
+    "qa-after-services-390.jpg",
+    "qa-after-first-visit-390.jpg",
+    "qa-after-dialog-390.jpg",
+    "qa-after-dialog-320x568.jpg",
+    "qa-after-services-1440.jpg"
+  ],
+  "cleanup": "Viewport override reset and own QA tab closed after evidence saved; shared HTTP server left running"
+}

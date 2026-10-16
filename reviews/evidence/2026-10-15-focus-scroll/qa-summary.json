@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-15",
+  "verdict": "проверено в согласованном узком объёме",
+  "browser": "Codex IAB desktop",
+  "url": "http://localhost:4177/",
+  "beforeUrl": "http://127.0.0.1:4177/",
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 1440,
+      "height": 1000
+    }
+  ],
+  "sourceChange": "Only .contact-phone scroll-margin-block:12px in styles.css",
+  "beforeDefect": {
+    "expected": "Full outline inside viewport after real Tab without manual scroll",
+    "actual": "Phone rect.bottom568.1484375, outline.bottom576.1484375 > innerHeight568",
+    "steps": [
+      "320×568",
+      "End",
+      "scroll up0.4page (H2top254.4921875)",
+      "real drag H2",
+      "Tab contact CTA",
+      "Tab phone",
+      "no wheel/scroll after focus"
+    ],
+    "reproducibility": "independently reproduced",
+    "severity": "S3 minor visual/accessibility acceptance defect",
+    "after": "not reproduced after normal automatic smooth scroll finishes"
+  },
+  "criteria": [
+    {
+      "criterion": "320 original H2→CTA→phone path, no manual scroll after Tab",
+      "status": "PASS",
+      "evidence": [
+        "qa-before-metrics.json",
+        "qa-after-immediate-metrics.json",
+        "qa-after-settled-metrics.json",
+        "qa-before-phone-320.jpg",
+        "qa-after-phone-immediate-320.jpg",
+        "qa-after-phone-settled-320.jpg"
+      ],
+      "result": "Settled outline bottom564.1484375<=568; initial smooth-scroll frame separately retained"
+    },
+    {
+      "criterion": "320 reverse Shift+Tab from footer",
+      "status": "PASS",
+      "evidence": [
+        "qa-metrics.json",
+        "qa-reverse-phone-immediate-320.jpg",
+        "qa-reverse-phone-settled-320.jpg"
+      ],
+      "result": "Active/focusVisible true; outer bottom354.6484375"
+    },
+    {
+      "criterion": "320 sequential Tab from top",
+      "status": "PASS",
+      "evidence": [
+        "qa-sequential-tab-trace-320.json",
+        "qa-sequential-phone-settled-320.jpg",
+        "qa-metrics.json"
+      ],
+      "result": "39Tabs; outer bottom387.1484375; no scroll action after phone focus"
+    },
+    {
+      "criterion": "390/768/1440 full contour and no extra movement if already visible",
+      "status": "PASS",
+      "evidence": [
+        "qa-metrics.json",
+        "qa-phone-390.jpg",
+        "qa-phone-768.jpg",
+        "qa-phone-1440.jpg"
+      ],
+      "result": "Outer bottom701.3203125/802.796875/778.9296875; scrollDelta0 for each"
+    },
+    {
+      "criterion": "No horizontal page overflow",
+      "status": "PASS",
+      "evidence": [
+        "qa-metrics.json"
+      ],
+      "result": "scrollWidth=clientWidth=305/375/753/1425px; scrollX0"
+    },
+    {
+      "criterion": "Contact booking, first service and price, Escape focus return",
+      "status": "PASS",
+      "evidence": [
+        "qa-metrics.json",
+        "qa-booking-320.jpg"
+      ],
+      "result": "All4viewports: selected first,55minutes,5700instead7800; Escape closes and returns focus to contactCTA"
+    },
+    {
+      "criterion": "H1 line-height and selection styles preserved",
+      "status": "PASS",
+      "evidence": [
+        "qa-static-proof.json",
+        "qa-metrics.json"
+      ],
+      "result": "H1 ratio1.2 at all4widths; selection #d7ddc5/#203c32; baseline declarations unchanged. Full mouse-selection matrix not repeated"
+    },
+    {
+      "criterion": "Visible focus light/dark",
+      "status": "PASS",
+      "evidence": [
+        "qa-light-focus-390.jpg",
+        "qa-metrics.json",
+        "qa-phone-390.jpg"
+      ],
+      "result": "Actual :focus-visible true; solid2px offset6px; dark section #f3f2e8, light area #315d50"
+    },
+    {
+      "criterion": "Static check and diff/SHA",
+      "status": "PASS",
+      "evidence": [
+        "qa-static-proof.json"
+      ],
+      "result": "python3 -B scripts/check_site.py exit0;26unchanged files;1CSS declaration added"
+    },
+    {
+      "criterion": "Live reduced-motion emulation",
+      "status": "NOT RUN",
+      "evidence": [
+        "qa-static-proof.json"
+      ],
+      "result": "Current media=false; CUA only exposes visibility and viewport capabilities. Existing reduced-motion CSS block unchanged; no OS preference change"
+    },
+    {
+      "criterion": "Full menu/FAQ/carousel/video and remaining8booking formats",
+      "status": "NOT RUN",
+      "result": "Outside agreed narrow phone-scroll regression; HTML,JS and resources unchanged bySHA"
+    },
+    {
+      "criterion": "Real phone/touch/other browsers",
+      "status": "NOT RUN",
+      "result": "Desktop viewport testing only"
+    }
+  ],
+  "console": {
+    "warnings": [],
+    "errors": []
+  },
+  "cacheNote": "IAB reload on127.0.0.1 retained old stylesheet:computed margin0px; trial-cached artifacts excluded from AFTER. Fresh localhost origin loaded computed12px.",
+  "afterTabActionPolicy": "Only read-only evaluation,AX snapshots and screenshots after Tab until settled; no manual scroll/wheel or focus-changing action.",
+  "cleanup": {
+    "viewport": "reset",
+    "ownTab": "closed",
+    "server": "root server4177 left running; no server stopped; own4181 bind attempt failed before start"
+  },
+  "limitations": "No publishing or permission to publish; no external links activated or messages submitted"
+}

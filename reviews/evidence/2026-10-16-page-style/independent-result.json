@@ -1,0 +1,97 @@
+{
+  "url": "http://127.0.0.1:4188/dist/",
+  "verdict": "проверка неполная: независимый браузерный прогон недоступен",
+  "browser_attempt": {
+    "createBrowserTab": "Browser is not available: iab",
+    "getState": {
+      "apps": [],
+      "browsers": []
+    },
+    "attempts": 1,
+    "own_ui_tests": [],
+    "own_screenshots": [],
+    "viewport_changed": false
+  },
+  "static_checks": [
+    {
+      "command": "python3 scripts/check_site.py",
+      "exit_code": 0,
+      "output": "OK: 1 HTML page(s), local links/CSS URLs and 1 JavaScript file(s) checked"
+    },
+    {
+      "command": "python3 scripts/check_site.py --root sites/natalia-kuznetsova",
+      "exit_code": 0,
+      "output": "OK: 2 HTML page(s), local links/CSS URLs and 1 JavaScript file(s) checked"
+    }
+  ],
+  "source_checks": {
+    "sha_diff": {
+      "modified": [
+        "index.html"
+      ],
+      "added": [
+        "assets/sections.css"
+      ],
+      "removed": []
+    },
+    "book_mapping_counts_preserved": true,
+    "select_options_preserved": true,
+    "select_option_count": 9,
+    "review_quotes_preserved": true,
+    "faq_text_preserved_ignoring_plus": true,
+    "hero_dom_preserved": true,
+    "video_attrs_preserved": true,
+    "video_source_attrs_preserved": true,
+    "all4video_native_controls_noautoplay_preloadnone": true,
+    "document_sources_preserved": true
+  },
+  "saved_executor_screenshots_reviewed": [
+    "after-prices-320.png",
+    "after-services-320.png",
+    "after-contact-320.png",
+    "after-dialog-320.png",
+    "after-work-1440.png",
+    "after-education-1440.png",
+    "after-reviews-1440.png"
+  ],
+  "screenshot_source_directory": "sites/natalia-kuznetsova/reviews/evidence/2026-10-16-page-style/",
+  "expert_screenshot_observations": [
+    "Examined desktop work/document/review and mobile services/contact/dialog framing has no observed clipping of text in shown regions",
+    "Document diploma orientation remains readable",
+    "Native video controls visible in desktop screenshot; playback not independently exercised",
+    "At 320 pricing intro lacks a space between two sentences"
+  ],
+  "confirmed_observations": [
+    {
+      "id": "TEXT-01",
+      "severity": "low",
+      "new_regression": false,
+      "expected": "Базовый сеанс — 55 минут. Длительность подберём под ваш запрос.",
+      "actual": "Базовый сеанс — 55 минут.Длительность подберём под ваш запрос.",
+      "evidence": "after-prices-320.png + HTML минут.<br>Длительность + styles.css mobile display:none for br",
+      "reproducibility": "confirmed in supplied current screenshot/source; own runtime unavailable"
+    }
+  ],
+  "source_risks_for_root_browser_check": [
+    {
+      "id": "SPACE-01",
+      "scope": "320/390 first-visit and FAQ",
+      "reason": "styles.css <=650 sets display:block on .first-visit/.questions-section; sections.css defines gap but no flex/grid override and resets .visit-steps/.questions padding-top to0",
+      "risk": "Missing intended vertical gap between FAQ title and first question or first-visit intro and steps",
+      "status": "UNCONFIRMED; not a FAIL; sent root for visual check"
+    }
+  ],
+  "not_run": [
+    "Own layout/overflow at320/390/768/1440",
+    "Mobile menu",
+    "9 booking selections and prices/Escape/focus",
+    "FAQ interaction",
+    "Carousel buttons/keyboard/end states",
+    "All4 videos playback/pause previous",
+    "Document link navigation",
+    "H1/H2/H3/contact/dialog text selection",
+    "Keyboard focus light/dark and whole phone outline at320x568",
+    "Reduced-motion emulation"
+  ],
+  "reduced_motion_source_note": "styles.css has global transition/animation none!important under prefers-reduced-motion and app.js switches carousel scroll to auto; runtime not tested"
+}

@@ -1,0 +1,13 @@
+{
+  "command": "python3 -B scripts/check_site.py",
+  "output": "OK: 1 HTML page(s), local links/CSS URLs and 1 JavaScript file(s) checked",
+  "exitCode": 0,
+  "baselineCount": 27,
+  "currentCount": 27,
+  "changed": [
+    "sites/natalia-kuznetsova/dist/styles.css"
+  ],
+  "removed": [],
+  "added": [],
+  "exactExpectedReplacement": true
+}

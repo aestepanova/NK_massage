@@ -1,0 +1,108 @@
+{
+  "scope": "Independent read-only QA video/header/10percent",
+  "url": "http://127.0.0.1:4188/dist/",
+  "sha_diff": {
+    "modified": [
+      "index.html",
+      "assets/sections.css",
+      "assets/video/legs-feet.mp4",
+      "assets/video/hands.mp4",
+      "assets/video/back-shoulders.mp4",
+      "assets/video/session.mp4"
+    ],
+    "added": [
+      "assets/video-player.css",
+      "video-player.js"
+    ],
+    "removed": []
+  },
+  "static": [
+    {
+      "command": "python3 scripts/check_site.py",
+      "exit_code": 0,
+      "pages": 1,
+      "javascript_files": 2
+    },
+    {
+      "command": "python3 scripts/check_site.py --root sites/natalia-kuznetsova",
+      "exit_code": 0,
+      "pages": 2,
+      "javascript_files": 2
+    }
+  ],
+  "source_checks": {
+    "four_video_players": true,
+    "four_media_frames": true,
+    "source_order_correct": true,
+    "native_controls_no_autoplay_preload_none": true,
+    "nojs_custom_ui_hidden": true,
+    "startLabel_guard_present": true,
+    "ended_hides_controls": true,
+    "ended_focus_returns": true,
+    "aria_progress_seconds_present": true,
+    "booking_values_preserved": true,
+    "nine_options_preserved": true,
+    "discount10_html": true,
+    "discount10_course": true,
+    "active_15percent_matches": [],
+    "app_js_same_as_baseline": true,
+    "mutual_pause_listener_present": true,
+    "button_start_14px_min48": true
+  },
+  "independent_decode": [
+    {
+      "name": "session",
+      "bytes": 1361203,
+      "hash_matches_candidate_manifest": true,
+      "decode_exit": 0,
+      "decode_output": ""
+    },
+    {
+      "name": "back-shoulders",
+      "bytes": 2633902,
+      "hash_matches_candidate_manifest": true,
+      "decode_exit": 0,
+      "decode_output": ""
+    },
+    {
+      "name": "legs-feet",
+      "bytes": 2109255,
+      "hash_matches_candidate_manifest": true,
+      "decode_exit": 0,
+      "decode_output": ""
+    },
+    {
+      "name": "hands",
+      "bytes": 2041225,
+      "hash_matches_candidate_manifest": true,
+      "decode_exit": 0,
+      "decode_output": ""
+    }
+  ],
+  "active_video_total_bytes": 8145585,
+  "reduction_vs_baseline_percent": 49.44,
+  "frame_review": {
+    "files": [
+      "sites/natalia-kuznetsova/reviews/evidence/2026-10-16-video-player/session-compare-7s.jpg",
+      "sites/natalia-kuznetsova/reviews/evidence/2026-10-16-video-player/back-shoulders-compare-7s.jpg",
+      "sites/natalia-kuznetsova/reviews/evidence/2026-10-16-video-player/legs-feet-compare-7s.jpg",
+      "sites/natalia-kuznetsova/reviews/evidence/2026-10-16-video-player/hands-compare-7s.jpg"
+    ],
+    "result": "No obvious orientation, colour or blocking regression on four supplied comparison frames; slight compression softness is visible at full frame size. Dynamic quality is not established by these frames."
+  },
+  "js_review": {
+    "result": "No confirmed defect found in source review. Custom handlers do not prevent native play/pause events, so existing app mutual pause listener remains applicable. Error/pause attempt counters suppress obsolete rejection handling. Ended hides controls before replay and transfers focused controls to start.",
+    "limits": [
+      "Real browser media event timing, retry and no-JS fallback need root runtime tests",
+      "Keyboard/touch geometry and layout at320/371/390/768/1440 not independently exercised"
+    ]
+  },
+  "own_browser_run": "NOT RUN; unavailable in prior cycles, no retry per task",
+  "viewport_changed": false,
+  "defects": [],
+  "evidence_notes": [
+    "commands.log references ffmpeg-macos-aarch64-v7.1 although task mentions FFmpeg8; describe actual logged encoder or update provenance evidence",
+    "mobile-390-players.jpg reviewed as executor screenshot; image shows desktop multi-column layout, so filename alone is not evidence of390px"
+  ],
+  "verdict": "Source/static/independent MP4 decode checked; independent UI verification incomplete"
+}

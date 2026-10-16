@@ -1,0 +1,22 @@
+--- before.css
+
++++ dist/styles.css
+
+@@ -95,3 +95,3 @@
+
+ .live-dot{width:6px;height:6px;flex:none;border-radius:50%;background:var(--olive)}
+-h1{font-size:clamp(78px,7.7vw,111px);margin-top:27px;line-height:.92;letter-spacing:-.048em}
++h1{font-size:clamp(78px,7.7vw,111px);margin-top:27px;line-height:1.2;letter-spacing:-.048em}
+ .hero-description{color:var(--muted);margin-top:28px}
+@@ -273,3 +273,3 @@
+
+ .hero-copy{padding-top:0}
+-h1{font-size:84px;margin-top:28px;line-height:.93}
++h1{font-size:84px;margin-top:28px;line-height:1.2}
+ .hero-description{margin-top:24px}
+@@ -454,2 +454,4 @@
+
+ 
++.contact-section a:focus-visible,.contact-section button:focus-visible{outline-color:#f3f2e8}
++
+ .contact-location{margin-top:15px}

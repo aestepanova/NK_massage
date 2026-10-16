@@ -1,0 +1,241 @@
+{
+  "menu": {
+    "width": 390,
+    "opened": true,
+    "escapeClosed": true,
+    "escapeFocus": "Открыть меню",
+    "linkClosed": true,
+    "link": "Практики",
+    "navLinks": "Manrope 14px / 21px 500"
+  },
+  "booking": [
+    {
+      "dialogScrollWidth": 350,
+      "dialogWidth": 350,
+      "duration": "55 минут · диагностический сеанс",
+      "price": "5 700 ₽ вместо 7 800 ₽",
+      "selectFamily": "Manrope, Arial, sans-serif",
+      "selectLineHeight": "normal",
+      "selectSize": "12px",
+      "selectWeight": "400",
+      "selected": "Первый диагностический сеанс",
+      "value": "first",
+      "width": 390
+    },
+    {
+      "dialogScrollWidth": 350,
+      "dialogWidth": 350,
+      "duration": "Базовый формат · 55 минут",
+      "price": "5 700–7 800 ₽",
+      "selectFamily": "Manrope, Arial, sans-serif",
+      "selectLineHeight": "normal",
+      "selectSize": "12px",
+      "selectWeight": "400",
+      "selected": "Массаж всего тела · 55 минут",
+      "value": "body",
+      "width": 390
+    },
+    {
+      "dialogScrollWidth": 350,
+      "dialogWidth": 350,
+      "duration": "85 минут и более длительные сеансы · до 2 часов",
+      "price": "Стоимость согласуем при записи",
+      "selectFamily": "Manrope, Arial, sans-serif",
+      "selectLineHeight": "normal",
+      "selectSize": "12px",
+      "selectWeight": "400",
+      "selected": "Продлённый сеанс · до 2 часов",
+      "value": "extended",
+      "width": 390
+    },
+    {
+      "dialogScrollWidth": 350,
+      "dialogWidth": 350,
+      "duration": "Базовый сеанс · 55 минут · индивидуальное сочетание техник",
+      "price": "5 700–7 800 ₽ за базовый сеанс",
+      "selectFamily": "Manrope, Arial, sans-serif",
+      "selectLineHeight": "normal",
+      "selectSize": "12px",
+      "selectWeight": "400",
+      "selected": "Комбинированный массаж",
+      "value": "combined",
+      "width": 390
+    },
+    {
+      "dialogScrollWidth": 350,
+      "dialogWidth": 350,
+      "duration": "В составе индивидуального сеанса · базово 55 минут",
+      "price": "5 700–7 800 ₽ за базовый сеанс",
+      "selectFamily": "Manrope, Arial, sans-serif",
+      "selectLineHeight": "normal",
+      "selectSize": "12px",
+      "selectWeight": "400",
+      "selected": "Китайская техника ЦЗЫ-НЛО",
+      "value": "chinese",
+      "width": 390
+    },
+    {
+      "dialogScrollWidth": 350,
+      "dialogWidth": 350,
+      "duration": "В составе индивидуального сеанса · базово 55 минут",
+      "price": "5 700–7 800 ₽ за базовый сеанс",
+      "selectFamily": "Manrope, Arial, sans-serif",
+      "selectLineHeight": "normal",
+      "selectSize": "12px",
+      "selectWeight": "400",
+      "selected": "Работа со стопами",
+      "value": "feet",
+      "width": 390
+    },
+    {
+      "dialogScrollWidth": 350,
+      "dialogWidth": 350,
+      "duration": "Количество встреч обсудим после первого сеанса",
+      "price": "Скидка 15% на абонемент",
+      "selectFamily": "Manrope, Arial, sans-serif",
+      "selectLineHeight": "normal",
+      "selectSize": "12px",
+      "selectWeight": "400",
+      "selected": "Абонемент на массаж",
+      "value": "course",
+      "width": 390
+    },
+    {
+      "dialogScrollWidth": 350,
+      "dialogWidth": 350,
+      "duration": "Отдельное индивидуальное занятие",
+      "price": "Длительность и стоимость — при записи",
+      "selectFamily": "Manrope, Arial, sans-serif",
+      "selectLineHeight": "normal",
+      "selectSize": "12px",
+      "selectWeight": "400",
+      "selected": "Индивидуальное занятие Цигун",
+      "value": "qigong",
+      "width": 390
+    },
+    {
+      "dialogScrollWidth": 350,
+      "dialogWidth": 350,
+      "duration": "Обучение техникам ЦЗЫ-НЛО · с учётом вашей подготовки",
+      "price": "Программу, длительность и стоимость обсудим лично",
+      "selectFamily": "Manrope, Arial, sans-serif",
+      "selectLineHeight": "normal",
+      "selectSize": "12px",
+      "selectWeight": "400",
+      "selected": "Обучение техникам ЦЗЫ-НЛО",
+      "value": "training",
+      "width": 390
+    }
+  ],
+  "escape390": {
+    "active": "Обсудить комбинированный массаж",
+    "classes": "session-select",
+    "open": false
+  },
+  "dialog320": {
+    "active": "Вернуться к сайту ←",
+    "dialogBox": {
+      "bottom": 552,
+      "height": 536,
+      "left": 20,
+      "right": 300,
+      "top": 16,
+      "width": 280,
+      "x": 20,
+      "y": 16
+    },
+    "dialogClientHeight": 536,
+    "dialogClientWidth": 265,
+    "dialogScrollHeight": 794,
+    "dialogScrollTop": 257.5,
+    "dialogScrollWidth": 265,
+    "doneBox": {
+      "bottom": 524.0625,
+      "height": 39.59375,
+      "left": 82.7890625,
+      "right": 222.203125,
+      "top": 484.46875,
+      "width": 139.4140625,
+      "x": 82.7890625,
+      "y": 484.46875
+    },
+    "focusVisible": true,
+    "height": 568,
+    "width": 320
+  },
+  "escape320": {
+    "active": "Обсудить комбинированный массаж",
+    "open": false
+  },
+  "faq": {
+    "open": [
+      {
+        "answer": "Базовый сеанс длится 55 минут. По запросу можно запланировать 85 минут, полтора или два часа. Длительность и стоимость продлённого сеанса согласуем заранее. Для занятий Цигун и обучения техникам ЦЗЫ-НЛО действуют отдельные условия.",
+        "box": {
+          "bottom": 690.7578125,
+          "height": 227.171875,
+          "left": 20,
+          "right": 355,
+          "top": 463.5859375,
+          "width": 335,
+          "x": 20,
+          "y": 463.5859375
+        },
+        "lineHeight": "25.2px",
+        "question": "Сколько длится сеанс?+",
+        "size": "14px"
+      }
+    ],
+    "width": 390
+  },
+  "reviews": {
+    "afterNext": {
+      "clientWidth": 335,
+      "nextDisabled": false,
+      "position": "2 из 4",
+      "previousDisabled": false,
+      "scroll": 335,
+      "width": 390
+    },
+    "afterKeyboardRight": {
+      "clientWidth": 335,
+      "position": "3 из 4",
+      "scroll": 670
+    }
+  },
+  "darkFocus": {
+    "background": "rgb(32, 71, 61)",
+    "focusVisible": true,
+    "href": "tel:+79295373338",
+    "outline": "rgb(49, 93, 80) solid 2px",
+    "outlineOffset": "6px",
+    "text": "+7 929 537-33-38",
+    "width": 390
+  },
+  "lightFocus": {
+    "background": "rgb(238, 235, 225)",
+    "focusVisible": true,
+    "outline": "rgb(49, 93, 80) solid 2px",
+    "text": "Записаться на первый сеанс ↗",
+    "width": 390
+  },
+  "selection": {
+    "background": "rgb(215, 221, 197)",
+    "color": "rgb(32, 60, 50)",
+    "text": "техники"
+  },
+  "largeHeadingSelection": {
+    "lineHeight": "78.12px",
+    "selected": "вернуться",
+    "selectionBackground": "rgb(215, 221, 197)",
+    "selectionColor": "rgb(32, 60, 50)",
+    "size": "84px",
+    "width": 390
+  },
+  "logs": [],
+  "reducedMotion": {
+    "live": "NOT RUN",
+    "currentMatch": false,
+    "reason": "Browser exposes visibility and viewport capabilities only; system preference unchanged; media rule byte-preserved."
+  }
+}

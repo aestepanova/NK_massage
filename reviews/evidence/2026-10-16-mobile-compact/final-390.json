@@ -1,0 +1,97 @@
+{
+  "card": {
+    "bottom": 2577.125,
+    "height": 1098.03125,
+    "left": 20,
+    "right": 355,
+    "top": 1479.09375,
+    "width": 335,
+    "x": 20,
+    "y": 1479.09375
+  },
+  "client": 375,
+  "header": {
+    "bottom": 86,
+    "height": 86,
+    "left": 20,
+    "right": 355,
+    "top": 0,
+    "width": 335,
+    "x": 20,
+    "y": 0
+  },
+  "height": 9650,
+  "menu": {
+    "bottom": 64.5,
+    "height": 44,
+    "left": 326,
+    "right": 355,
+    "top": 20.5,
+    "width": 29,
+    "x": 326,
+    "y": 20.5
+  },
+  "width": 390,
+  "wraps": [
+    {
+      "class": "site-header wrap",
+      "left": 20,
+      "right": 20
+    },
+    {
+      "class": "hero wrap hero-layout",
+      "left": 20,
+      "right": 20
+    },
+    {
+      "class": "section wrap pricing-section",
+      "left": 20,
+      "right": 20
+    },
+    {
+      "class": "section wrap first-visit",
+      "left": 20,
+      "right": 20
+    },
+    {
+      "class": "section wrap approach approach-text",
+      "left": 20,
+      "right": 20
+    },
+    {
+      "class": "wrap section",
+      "left": 20,
+      "right": 20
+    },
+    {
+      "class": "section wrap work-section",
+      "left": 20,
+      "right": 20
+    },
+    {
+      "class": "section wrap education-section",
+      "left": 20,
+      "right": 20
+    },
+    {
+      "class": "review-section wrap",
+      "left": 20,
+      "right": 20
+    },
+    {
+      "class": "questions-section wrap",
+      "left": 20,
+      "right": 20
+    },
+    {
+      "class": "wrap contact-inner",
+      "left": 20,
+      "right": 20
+    },
+    {
+      "class": "site-footer wrap",
+      "left": 20,
+      "right": 20
+    }
+  ]
+}

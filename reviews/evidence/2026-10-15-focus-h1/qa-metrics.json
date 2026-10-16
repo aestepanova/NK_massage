@@ -1,0 +1,1613 @@
+{
+  "url": "http://localhost:4176/",
+  "browser": "Codex In-app Browser (desktop)",
+  "viewports": [
+    {
+      "h1Rect": {
+        "bottom": 434.5859375,
+        "height": 273.5859375,
+        "left": 16,
+        "right": 289,
+        "top": 161,
+        "width": 273,
+        "x": 16,
+        "y": 161
+      },
+      "heroCTARect": {
+        "bottom": 639.3671875,
+        "height": 55,
+        "left": 16,
+        "right": 217,
+        "top": 584.3671875,
+        "width": 201,
+        "x": 16,
+        "y": 584.3671875
+      },
+      "page": {
+        "bodyScrollWidth": 305,
+        "clientWidth": 305,
+        "scrollWidth": 305,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "selection": {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(32, 60, 50)",
+        "text": "Время\nвернуться\nк себе."
+      },
+      "styles": {
+        ".approach-copy h2": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "43px",
+            "fontWeight": "400",
+            "letterSpacing": "-1.29px",
+            "lineHeight": "46.44px"
+          }
+        ],
+        ".contact-inner h2": [
+          {
+            "color": "rgb(245, 243, 233)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "42px",
+            "fontWeight": "400",
+            "letterSpacing": "-1.47px",
+            "lineHeight": "42.84px"
+          }
+        ],
+        ".eyebrow": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(104, 110, 102)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(201, 208, 187)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          }
+        ],
+        ".hero-actions .button": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "letterSpacing": "normal",
+            "lineHeight": "18px"
+          }
+        ],
+        ".hero-description": [
+          {
+            "color": "rgb(104, 110, 102)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "lineHeight": "25.2px"
+          }
+        ],
+        ".hero-note p": [
+          {
+            "color": "rgb(104, 110, 102)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "lineHeight": "19.2px"
+          }
+        ],
+        ".session-description h3": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.48px",
+            "lineHeight": "28.8px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.48px",
+            "lineHeight": "28.8px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.48px",
+            "lineHeight": "28.8px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.48px",
+            "lineHeight": "28.8px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.48px",
+            "lineHeight": "28.8px"
+          }
+        ],
+        ".visit-steps h3": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.48px",
+            "lineHeight": "28.8px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.48px",
+            "lineHeight": "28.8px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.48px",
+            "lineHeight": "28.8px"
+          }
+        ],
+        "h1": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "76px",
+            "fontWeight": "400",
+            "letterSpacing": "-3.648px",
+            "lineHeight": "91.2px"
+          }
+        ]
+      },
+      "url": "http://localhost:4176/",
+      "videos": [
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        },
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        },
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        },
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 568,
+        "width": 320
+      }
+    },
+    {
+      "h1Rect": {
+        "bottom": 463.390625,
+        "height": 302.390625,
+        "left": 20,
+        "right": 355,
+        "top": 161,
+        "width": 335,
+        "x": 20,
+        "y": 161
+      },
+      "heroCTARect": {
+        "bottom": 642.9765625,
+        "height": 55,
+        "left": 20,
+        "right": 239,
+        "top": 587.9765625,
+        "width": 219,
+        "x": 20,
+        "y": 587.9765625
+      },
+      "page": {
+        "bodyScrollWidth": 375,
+        "clientWidth": 375,
+        "scrollWidth": 375,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "selection": {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(32, 60, 50)",
+        "text": "Время\nвернуться\nк себе."
+      },
+      "styles": {
+        ".approach-copy h2": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "48px",
+            "fontWeight": "400",
+            "letterSpacing": "-1.44px",
+            "lineHeight": "51.84px"
+          }
+        ],
+        ".contact-inner h2": [
+          {
+            "color": "rgb(245, 243, 233)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "48px",
+            "fontWeight": "400",
+            "letterSpacing": "-1.68px",
+            "lineHeight": "48.96px"
+          }
+        ],
+        ".eyebrow": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(104, 110, 102)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(201, 208, 187)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          }
+        ],
+        ".hero-actions .button": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "letterSpacing": "normal",
+            "lineHeight": "18px"
+          }
+        ],
+        ".hero-description": [
+          {
+            "color": "rgb(104, 110, 102)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "lineHeight": "25.2px"
+          }
+        ],
+        ".hero-note p": [
+          {
+            "color": "rgb(104, 110, 102)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "lineHeight": "19.2px"
+          }
+        ],
+        ".session-description h3": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "28px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.56px",
+            "lineHeight": "33.6px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "28px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.56px",
+            "lineHeight": "33.6px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "28px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.56px",
+            "lineHeight": "33.6px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "28px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.56px",
+            "lineHeight": "33.6px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "28px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.56px",
+            "lineHeight": "33.6px"
+          }
+        ],
+        ".visit-steps h3": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "28px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.56px",
+            "lineHeight": "33.6px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "28px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.56px",
+            "lineHeight": "33.6px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "28px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.56px",
+            "lineHeight": "33.6px"
+          }
+        ],
+        "h1": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "84px",
+            "fontWeight": "400",
+            "letterSpacing": "-4.032px",
+            "lineHeight": "100.8px"
+          }
+        ]
+      },
+      "url": "http://localhost:4176/#",
+      "videos": [
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        },
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        },
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        },
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "h1Rect": {
+        "bottom": 491.390625,
+        "height": 284.390625,
+        "left": 24,
+        "right": 366.5,
+        "top": 207,
+        "width": 342.5,
+        "x": 24,
+        "y": 207
+      },
+      "heroCTARect": {
+        "bottom": 664.9765625,
+        "height": 51,
+        "left": 24,
+        "right": 241,
+        "top": 613.9765625,
+        "width": 217,
+        "x": 24,
+        "y": 613.9765625
+      },
+      "page": {
+        "bodyScrollWidth": 753,
+        "clientWidth": 753,
+        "scrollWidth": 753,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "selection": {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(32, 60, 50)",
+        "text": "Время\nвернуться\nк себе."
+      },
+      "styles": {
+        ".approach-copy h2": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "48px",
+            "fontWeight": "400",
+            "letterSpacing": "-1.44px",
+            "lineHeight": "51.84px"
+          }
+        ],
+        ".contact-inner h2": [
+          {
+            "color": "rgb(245, 243, 233)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "55px",
+            "fontWeight": "400",
+            "letterSpacing": "-1.925px",
+            "lineHeight": "56.1px"
+          }
+        ],
+        ".eyebrow": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(104, 110, 102)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(201, 208, 187)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          }
+        ],
+        ".hero-actions .button": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "letterSpacing": "normal",
+            "lineHeight": "18px"
+          }
+        ],
+        ".hero-description": [
+          {
+            "color": "rgb(104, 110, 102)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "lineHeight": "25.2px"
+          }
+        ],
+        ".hero-note p": [
+          {
+            "color": "rgb(104, 110, 102)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "lineHeight": "19.2px"
+          }
+        ],
+        ".session-description h3": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          }
+        ],
+        ".visit-steps h3": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          }
+        ],
+        "h1": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "79px",
+            "fontWeight": "400",
+            "letterSpacing": "-3.792px",
+            "lineHeight": "94.8px"
+          }
+        ]
+      },
+      "url": "http://localhost:4176/#",
+      "videos": [
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        },
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        },
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        },
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 1024,
+        "width": 768
+      }
+    },
+    {
+      "h1Rect": {
+        "bottom": 659.1640625,
+        "height": 399.1640625,
+        "left": 92.5,
+        "right": 692.5,
+        "top": 260,
+        "width": 600,
+        "x": 92.5,
+        "y": 260
+      },
+      "heroCTARect": {
+        "bottom": 823.5546875,
+        "height": 57,
+        "left": 92.5,
+        "right": 333.5,
+        "top": 766.5546875,
+        "width": 241,
+        "x": 92.5,
+        "y": 766.5546875
+      },
+      "page": {
+        "bodyScrollWidth": 1425,
+        "clientWidth": 1425,
+        "scrollWidth": 1425,
+        "scrollX": 0,
+        "scrollY": 0
+      },
+      "selection": {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(32, 60, 50)",
+        "text": "Время\nвернуться\nк себе."
+      },
+      "styles": {
+        ".approach-copy h2": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "58px",
+            "fontWeight": "400",
+            "letterSpacing": "-1.74px",
+            "lineHeight": "62.64px"
+          }
+        ],
+        ".contact-inner h2": [
+          {
+            "color": "rgb(245, 243, 233)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "67px",
+            "fontWeight": "400",
+            "letterSpacing": "-2.345px",
+            "lineHeight": "68.34px"
+          }
+        ],
+        ".eyebrow": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(104, 110, 102)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(201, 208, 187)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "600",
+            "letterSpacing": "1.8px",
+            "lineHeight": "15px"
+          }
+        ],
+        ".hero-actions .button": [
+          {
+            "color": "rgb(255, 255, 255)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "letterSpacing": "normal",
+            "lineHeight": "18px"
+          }
+        ],
+        ".hero-description": [
+          {
+            "color": "rgb(104, 110, 102)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "lineHeight": "25.2px"
+          }
+        ],
+        ".hero-note p": [
+          {
+            "color": "rgb(104, 110, 102)",
+            "fontFamily": "Manrope, Arial, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "letterSpacing": "normal",
+            "lineHeight": "19.2px"
+          }
+        ],
+        ".session-description h3": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          }
+        ],
+        ".visit-steps h3": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          },
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "letterSpacing": "-0.64px",
+            "lineHeight": "38.4px"
+          }
+        ],
+        "h1": [
+          {
+            "color": "rgb(48, 61, 54)",
+            "fontFamily": "\"Cormorant Garamond\", Georgia, serif",
+            "fontSize": "110.88px",
+            "fontWeight": "400",
+            "letterSpacing": "-5.32224px",
+            "lineHeight": "133.056px"
+          }
+        ]
+      },
+      "url": "http://localhost:4176/#",
+      "videos": [
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        },
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        },
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        },
+        {
+          "autoplay": false,
+          "paused": true,
+          "readyState": 0
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 1000,
+        "width": 1440
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id": "hero-cta-tab-320x568",
+      "active": "<button class=\"button\" data-book=\"first\">Начать с первого сеанса <span aria-hidden=\"true\">↗</span></button>",
+      "focusVisible": true,
+      "rect": {
+        "bottom": 344.3671875,
+        "height": 55,
+        "left": 16,
+        "right": 217,
+        "top": 289.3671875,
+        "width": 201,
+        "x": 16,
+        "y": 289.3671875
+      },
+      "scrollY": 295
+    },
+    {
+      "id": "hero-enter-escape-320x568",
+      "dialog": {
+        "active": "<select id=\"session-choice\"><option value=\"first\">Первый диагностический сеанс</option><option value=\"body\">Массаж всего тела · 55 минут</option><option value=\"extended\">Продлённый сеанс · до 2 часов</option><option value=\"combined\">Комбинированный массаж</option><option value=\"chinese\">Китайская техника ЦЗЫ-НЛО</option><option value=\"feet\">Работа со стопами</option><option value=\"course\">Абонемент на массаж</option><option value=\"qigong\">Индивидуальное занятие Цигун</option><option value=\"training\">Обучение техникам ЦЗЫ-НЛО</option></select>",
+        "open": true,
+        "selected": "first",
+        "summary": "55 минут · диагностический сеанс\n5 700 ₽ вместо 7 800 ₽"
+      },
+      "escape": {
+        "active": "<button class=\"button\" data-book=\"first\">Начать с первого сеанса <span aria-hidden=\"true\">↗</span></button>",
+        "focusVisible": true,
+        "open": false
+      }
+    },
+    {
+      "id": "h1-word-390",
+      "selection": "вернуться"
+    },
+    {
+      "id": "h1-word-768",
+      "selection": "вернуться"
+    },
+    {
+      "id": "h1-word-1440",
+      "selection": "вернуться"
+    },
+    {
+      "id": "contact-selection-1440",
+      "rect": {
+        "bottom": 562.640625,
+        "height": 68.3359375,
+        "left": 92.5,
+        "right": 1332.5,
+        "top": 494.3046875,
+        "width": 1240,
+        "x": 92.5,
+        "y": 494.3046875
+      },
+      "selection": "Начнём с одного сеанса?",
+      "style": {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(32, 60, 50)"
+      }
+    },
+    {
+      "id": "contact-button-tab-1440",
+      "adjacentBackground": "rgb(32, 71, 61)",
+      "elementBackground": "rgb(243, 242, 232)",
+      "focusVisible": true,
+      "href": null,
+      "outlineColor": "rgb(243, 242, 232)",
+      "outlineOffset": "6px",
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "rect": {
+        "bottom": 718.03125,
+        "height": 57,
+        "left": 595.7265625,
+        "right": 829.265625,
+        "top": 661.03125,
+        "width": 233.5390625,
+        "x": 595.7265625,
+        "y": 661.03125
+      },
+      "tag": "BUTTON",
+      "text": "Первый сеанс — 5 700 ₽ ↗",
+      "url": "http://localhost:4176/#",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "id": "contact-phone-tab-1440",
+      "adjacentBackground": "rgb(32, 71, 61)",
+      "elementBackground": "rgba(0, 0, 0, 0)",
+      "focusVisible": true,
+      "href": "tel:+79295373338",
+      "outlineColor": "rgb(243, 242, 232)",
+      "outlineOffset": "6px",
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "rect": {
+        "bottom": 770.9296875,
+        "height": 29.8984375,
+        "left": 639.8359375,
+        "right": 785.15625,
+        "top": 741.03125,
+        "width": 145.3203125,
+        "x": 639.8359375,
+        "y": 741.03125
+      },
+      "tag": "A",
+      "text": "+7 929 537-33-38",
+      "url": "http://localhost:4176/#",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "id": "contact-selection-390",
+      "selection": "Начнём с\nодного сеанса?"
+    },
+    {
+      "id": "contact-button-tab-390",
+      "adjacentBackground": "rgb(32, 71, 61)",
+      "elementBackground": "rgb(243, 242, 232)",
+      "focusVisible": true,
+      "href": null,
+      "outlineColor": "rgb(243, 242, 232)",
+      "outlineOffset": "6px",
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "rect": {
+        "bottom": 640.421875,
+        "height": 57,
+        "left": 70.7265625,
+        "right": 304.265625,
+        "top": 583.421875,
+        "width": 233.5390625,
+        "x": 70.7265625,
+        "y": 583.421875
+      },
+      "tag": "BUTTON",
+      "text": "Первый сеанс — 5 700 ₽ ↗",
+      "url": "http://localhost:4176/#",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "id": "contact-phone-tab-390",
+      "adjacentBackground": "rgb(32, 71, 61)",
+      "elementBackground": "rgba(0, 0, 0, 0)",
+      "focusVisible": true,
+      "href": "tel:+79295373338",
+      "outlineColor": "rgb(243, 242, 232)",
+      "outlineOffset": "6px",
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "rect": {
+        "bottom": 693.3203125,
+        "height": 29.8984375,
+        "left": 114.8359375,
+        "right": 260.15625,
+        "top": 663.421875,
+        "width": 145.3203125,
+        "x": 114.8359375,
+        "y": 663.421875
+      },
+      "tag": "A",
+      "text": "+7 929 537-33-38",
+      "url": "http://localhost:4176/#",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "id": "contact-selection-320",
+      "selection": "Начнём с\nодного сеанса?"
+    },
+    {
+      "id": "contact-button-tab-320",
+      "adjacentBackground": "rgb(32, 71, 61)",
+      "elementBackground": "rgb(243, 242, 232)",
+      "focusVisible": true,
+      "href": null,
+      "outlineColor": "rgb(243, 242, 232)",
+      "outlineOffset": "6px",
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "rect": {
+        "bottom": 521.25,
+        "height": 57,
+        "left": 35.7265625,
+        "right": 269.265625,
+        "top": 464.25,
+        "width": 233.5390625,
+        "x": 35.7265625,
+        "y": 464.25
+      },
+      "tag": "BUTTON",
+      "text": "Первый сеанс — 5 700 ₽ ↗",
+      "url": "http://localhost:4176/#",
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "id": "contact-phone-tab-320",
+      "adjacentBackground": "rgb(32, 71, 61)",
+      "elementBackground": "rgba(0, 0, 0, 0)",
+      "focusVisible": true,
+      "href": "tel:+79295373338",
+      "outlineColor": "rgb(243, 242, 232)",
+      "outlineOffset": "6px",
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "rect": {
+        "bottom": 568.1484375,
+        "height": 29.8984375,
+        "left": 79.8359375,
+        "right": 225.15625,
+        "top": 538.25,
+        "width": 145.3203125,
+        "x": 79.8359375,
+        "y": 538.25
+      },
+      "tag": "A",
+      "text": "+7 929 537-33-38",
+      "url": "http://localhost:4176/#",
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "id": "contact-selection-768",
+      "selection": "Начнём с одного сеанса?"
+    },
+    {
+      "id": "contact-button-tab-768",
+      "adjacentBackground": "rgb(32, 71, 61)",
+      "elementBackground": "rgb(243, 242, 232)",
+      "focusVisible": true,
+      "href": null,
+      "outlineColor": "rgb(243, 242, 232)",
+      "outlineOffset": "6px",
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "rect": {
+        "bottom": 741.8984375,
+        "height": 57,
+        "left": 259.7265625,
+        "right": 493.265625,
+        "top": 684.8984375,
+        "width": 233.5390625,
+        "x": 259.7265625,
+        "y": 684.8984375
+      },
+      "tag": "BUTTON",
+      "text": "Первый сеанс — 5 700 ₽ ↗",
+      "url": "http://localhost:4176/#",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "contact-phone-tab-768",
+      "adjacentBackground": "rgb(32, 71, 61)",
+      "elementBackground": "rgba(0, 0, 0, 0)",
+      "focusVisible": true,
+      "href": "tel:+79295373338",
+      "outlineColor": "rgb(243, 242, 232)",
+      "outlineOffset": "6px",
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "rect": {
+        "bottom": 794.796875,
+        "height": 29.8984375,
+        "left": 303.8359375,
+        "right": 449.15625,
+        "top": 764.8984375,
+        "width": 145.3203125,
+        "x": 303.8359375,
+        "y": 764.8984375
+      },
+      "tag": "A",
+      "text": "+7 929 537-33-38",
+      "url": "http://localhost:4176/#",
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "id": "menu-smoke-390",
+      "menuOpen": {
+        "display": "flex",
+        "expanded": "true"
+      },
+      "menuEscape": {
+        "active": "menu-toggle",
+        "expanded": "false",
+        "focusVisible": true
+      },
+      "menuNav": {
+        "expanded": "false",
+        "url": "http://localhost:4176/#approach"
+      }
+    },
+    {
+      "id": "faq-smoke-390",
+      "faq": [
+        {
+          "answer": "Базовый сеанс длится 55 минут. По запросу можно запланировать 85 минут, полтора или два часа. Длительность и стоимость продлённого сеанса согласуем заранее. Для занятий Цигун и обучения техникам ЦЗЫ-НЛО действуют отдельные условия.",
+          "open": true,
+          "question": "Сколько длится сеанс?+"
+        }
+      ]
+    },
+    {
+      "id": "reviews-smoke-390",
+      "buttonNext": {
+        "clientWidth": 335,
+        "counter": "2 из 4",
+        "nextDisabled": false,
+        "previousDisabled": false,
+        "scrollLeft": 327
+      },
+      "arrowRight": {
+        "active": "review-track",
+        "clientWidth": 335,
+        "counter": "2 из 4",
+        "nextDisabled": false,
+        "previousDisabled": false,
+        "scrollLeft": 397
+      },
+      "settled": {
+        "active": "review-track",
+        "clientWidth": 335,
+        "counter": "3 из 4",
+        "nextDisabled": false,
+        "previousDisabled": false,
+        "scrollLeft": 670
+      }
+    },
+    {
+      "id": "h1-word-320",
+      "selection": "вернуться"
+    },
+    {
+      "id": "contact-phone-tab-after-scroll-320",
+      "adjacentBackground": "rgb(32, 71, 61)",
+      "elementBackground": "rgba(0, 0, 0, 0)",
+      "focusVisible": true,
+      "href": "tel:+79295373338",
+      "outlineColor": "rgb(243, 242, 232)",
+      "outlineOffset": "6px",
+      "outlineStyle": "solid",
+      "outlineWidth": "2px",
+      "rect": {
+        "bottom": 346.515625,
+        "height": 29.8984375,
+        "left": 79.8359375,
+        "right": 225.15625,
+        "top": 316.6171875,
+        "width": 145.3203125,
+        "x": 79.8359375,
+        "y": 316.6171875
+      },
+      "tag": "A",
+      "text": "+7 929 537-33-38",
+      "url": "http://localhost:4176/#approach",
+      "viewport": [
+        320,
+        568
+      ]
+    }
+  ],
+  "console": []
+}

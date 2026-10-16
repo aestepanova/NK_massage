@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "font": "400 48px \"Cormorant Garamond\"",
+      "loaded": true
+    },
+    {
+      "font": "italic 400 48px \"Cormorant Garamond\"",
+      "loaded": true
+    },
+    {
+      "font": "400 14px Manrope",
+      "loaded": true
+    },
+    {
+      "font": "500 14px Manrope",
+      "loaded": true
+    },
+    {
+      "font": "600 14px Manrope",
+      "loaded": true
+    }
+  ],
+  "heading": {
+    "bottom": 233.65625,
+    "height": 103.671875,
+    "left": 20,
+    "right": 355,
+    "top": 129.984375,
+    "width": 335,
+    "x": 20,
+    "y": 129.984375
+  },
+  "size": 5,
+  "status": "loaded"
+}

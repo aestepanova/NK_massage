@@ -1,0 +1,505 @@
+{
+  "pageChecks": [
+    {
+      "gap": [
+        "30px",
+        "28px"
+      ],
+      "h2": [
+        {
+          "id": "prices-title",
+          "line": "51.6px",
+          "scroll": 273,
+          "size": "43px",
+          "width": 273
+        },
+        {
+          "id": "visit-title",
+          "line": "51.6px",
+          "scroll": 273,
+          "size": "43px",
+          "width": 273
+        },
+        {
+          "id": "approach-title",
+          "line": "51.6px",
+          "scroll": 273,
+          "size": "43px",
+          "width": 273
+        },
+        {
+          "id": "sessions-title",
+          "line": "51.6px",
+          "scroll": 273,
+          "size": "43px",
+          "width": 273
+        },
+        {
+          "id": "work-title",
+          "line": "51.6px",
+          "scroll": 273,
+          "size": "43px",
+          "width": 273
+        },
+        {
+          "id": "education-title",
+          "line": "51.6px",
+          "scroll": 273,
+          "size": "43px",
+          "width": 273
+        },
+        {
+          "id": "questions-title",
+          "line": "51.6px",
+          "scroll": 273,
+          "size": "43px",
+          "width": 273
+        },
+        {
+          "id": "contact-title",
+          "line": "50.4px",
+          "scroll": 273,
+          "size": "42px",
+          "width": 273
+        }
+      ],
+      "scroll": 305,
+      "videos": [
+        {
+          "autoplay": false,
+          "controls": true,
+          "paused": true
+        },
+        {
+          "autoplay": false,
+          "controls": true,
+          "paused": true
+        },
+        {
+          "autoplay": false,
+          "controls": true,
+          "paused": true
+        },
+        {
+          "autoplay": false,
+          "controls": true,
+          "paused": true
+        }
+      ],
+      "viewport": 568,
+      "width": 320
+    },
+    {
+      "gap": [
+        "30px",
+        "28px"
+      ],
+      "h2": [
+        {
+          "id": "prices-title",
+          "line": "57.6px",
+          "scroll": 335,
+          "size": "48px",
+          "width": 335
+        },
+        {
+          "id": "visit-title",
+          "line": "57.6px",
+          "scroll": 335,
+          "size": "48px",
+          "width": 335
+        },
+        {
+          "id": "approach-title",
+          "line": "57.6px",
+          "scroll": 335,
+          "size": "48px",
+          "width": 335
+        },
+        {
+          "id": "sessions-title",
+          "line": "57.6px",
+          "scroll": 335,
+          "size": "48px",
+          "width": 335
+        },
+        {
+          "id": "work-title",
+          "line": "57.6px",
+          "scroll": 335,
+          "size": "48px",
+          "width": 335
+        },
+        {
+          "id": "education-title",
+          "line": "57.6px",
+          "scroll": 335,
+          "size": "48px",
+          "width": 335
+        },
+        {
+          "id": "questions-title",
+          "line": "51.6px",
+          "scroll": 335,
+          "size": "43px",
+          "width": 335
+        },
+        {
+          "id": "contact-title",
+          "line": "57.6px",
+          "scroll": 335,
+          "size": "48px",
+          "width": 335
+        }
+      ],
+      "scroll": 375,
+      "viewport": 844,
+      "width": 390
+    },
+    {
+      "documents": [
+        {
+          "loaded": true,
+          "transform": "matrix(0, -1, 1, 0, -122.438, -272.078)"
+        },
+        {
+          "loaded": true,
+          "transform": "none"
+        }
+      ],
+      "gap": [
+        "36px",
+        "36px"
+      ],
+      "h2": [
+        {
+          "id": "prices-title",
+          "line": "57.6px",
+          "scroll": 406,
+          "size": "48px",
+          "width": 405.875
+        },
+        {
+          "id": "visit-title",
+          "line": "57.6px",
+          "scroll": 480,
+          "size": "48px",
+          "width": 480
+        },
+        {
+          "id": "approach-title",
+          "line": "57.6px",
+          "scroll": 670,
+          "size": "48px",
+          "width": 670
+        },
+        {
+          "id": "sessions-title",
+          "line": "57.6px",
+          "scroll": 389,
+          "size": "48px",
+          "width": 389
+        },
+        {
+          "id": "work-title",
+          "line": "57.6px",
+          "scroll": 515,
+          "size": "48px",
+          "width": 514.75
+        },
+        {
+          "id": "education-title",
+          "line": "57.6px",
+          "scroll": 490,
+          "size": "48px",
+          "width": 490
+        },
+        {
+          "id": "questions-title",
+          "line": "48px",
+          "scroll": 620,
+          "size": "40px",
+          "width": 620
+        },
+        {
+          "id": "contact-title",
+          "line": "69.6px",
+          "scroll": 650,
+          "size": "58px",
+          "width": 650
+        }
+      ],
+      "scroll": 753,
+      "viewport": 1024,
+      "width": 768,
+      "workColumns": "340.5px 340.5px"
+    },
+    {
+      "h2": [
+        {
+          "id": "prices-title",
+          "line": "69.6px",
+          "scroll": 512,
+          "size": "58px",
+          "width": 512.03125
+        },
+        {
+          "id": "visit-title",
+          "line": "69.6px",
+          "scroll": 480,
+          "size": "58px",
+          "width": 480
+        },
+        {
+          "id": "approach-title",
+          "line": "69.6px",
+          "scroll": 670,
+          "size": "58px",
+          "width": 670
+        },
+        {
+          "id": "sessions-title",
+          "line": "69.6px",
+          "scroll": 680,
+          "size": "58px",
+          "width": 680
+        },
+        {
+          "id": "work-title",
+          "line": "69.6px",
+          "scroll": 680,
+          "size": "58px",
+          "width": 680
+        },
+        {
+          "id": "education-title",
+          "line": "69.6px",
+          "scroll": 490,
+          "size": "58px",
+          "width": 490
+        },
+        {
+          "id": "questions-title",
+          "line": "52.8px",
+          "scroll": 440,
+          "size": "44px",
+          "width": 440
+        },
+        {
+          "id": "contact-title",
+          "line": "80.4px",
+          "scroll": 620,
+          "size": "67px",
+          "width": 620
+        }
+      ],
+      "scroll": 1425,
+      "viewport": 1000,
+      "width": 1440,
+      "workColumns": "371.625px 265.453px 265.453px 265.453px"
+    }
+  ],
+  "bookingChecks": [
+    {
+      "duration": "55 минут · диагностический сеанс",
+      "open": true,
+      "price": "5 700 ₽ вместо 7 800 ₽",
+      "scroll": 348,
+      "value": "first",
+      "width": 348
+    },
+    {
+      "duration": "Базовый формат · 55 минут",
+      "open": true,
+      "price": "5 700–7 800 ₽",
+      "scroll": 348,
+      "value": "body",
+      "width": 348
+    },
+    {
+      "duration": "85 минут и более длительные сеансы · до 2 часов",
+      "open": true,
+      "price": "Стоимость согласуем при записи",
+      "scroll": 348,
+      "value": "extended",
+      "width": 348
+    },
+    {
+      "duration": "Базовый сеанс · 55 минут · индивидуальное сочетание техник",
+      "open": true,
+      "price": "5 700–7 800 ₽ за базовый сеанс",
+      "scroll": 348,
+      "value": "combined",
+      "width": 348
+    },
+    {
+      "duration": "В составе индивидуального сеанса · базово 55 минут",
+      "open": true,
+      "price": "5 700–7 800 ₽ за базовый сеанс",
+      "scroll": 348,
+      "value": "chinese",
+      "width": 348
+    },
+    {
+      "duration": "В составе индивидуального сеанса · базово 55 минут",
+      "open": true,
+      "price": "5 700–7 800 ₽ за базовый сеанс",
+      "scroll": 348,
+      "value": "feet",
+      "width": 348
+    },
+    {
+      "duration": "Количество встреч обсудим после первого сеанса",
+      "open": true,
+      "price": "Скидка 15% на абонемент",
+      "scroll": 348,
+      "value": "course",
+      "width": 348
+    },
+    {
+      "duration": "Отдельное индивидуальное занятие",
+      "open": true,
+      "price": "Длительность и стоимость — при записи",
+      "scroll": 348,
+      "value": "qigong",
+      "width": 348
+    },
+    {
+      "duration": "Обучение техникам ЦЗЫ-НЛО · с учётом вашей подготовки",
+      "open": true,
+      "price": "Программу, длительность и стоимость обсудим лично",
+      "scroll": 348,
+      "value": "training",
+      "width": 348
+    }
+  ],
+  "triggerChecks": [
+    {
+      "open": true,
+      "value": "combined"
+    },
+    {
+      "open": true,
+      "value": "chinese"
+    },
+    {
+      "open": true,
+      "value": "feet"
+    },
+    {
+      "open": true,
+      "value": "qigong"
+    },
+    {
+      "open": true,
+      "value": "training"
+    }
+  ],
+  "reviewChecks": [
+    {
+      "next": false,
+      "position": "2 из 4",
+      "prev": false
+    },
+    {
+      "next": false,
+      "position": "3 из 4",
+      "prev": false
+    },
+    {
+      "next": true,
+      "position": "4 из 4",
+      "prev": false
+    }
+  ],
+  "videoChecks": [
+    [
+      {
+        "paused": true,
+        "ready": 4,
+        "time": 0
+      },
+      {
+        "paused": false,
+        "ready": 4,
+        "time": 0
+      },
+      {
+        "paused": true,
+        "ready": 0,
+        "time": 0
+      },
+      {
+        "paused": true,
+        "ready": 0,
+        "time": 0
+      }
+    ],
+    [
+      {
+        "paused": true,
+        "ready": 4,
+        "time": 0
+      },
+      {
+        "paused": true,
+        "ready": 4,
+        "time": 0
+      },
+      {
+        "paused": false,
+        "ready": 4,
+        "time": 0
+      },
+      {
+        "paused": true,
+        "ready": 0,
+        "time": 0
+      }
+    ],
+    [
+      {
+        "paused": true,
+        "ready": 4,
+        "time": 0
+      },
+      {
+        "paused": true,
+        "ready": 4,
+        "time": 0
+      },
+      {
+        "paused": true,
+        "ready": 4,
+        "time": 0
+      },
+      {
+        "paused": false,
+        "ready": 4,
+        "time": 0
+      }
+    ]
+  ],
+  "focusChecks": [
+    {
+      "offset": "6px",
+      "outline": "rgb(243, 242, 232) solid 2px",
+      "rect": {
+        "bottom": 320.875,
+        "left": 16,
+        "right": 161.328125,
+        "top": 290.984375
+      },
+      "text": "+7 929 537-33-38",
+      "viewport": {
+        "height": 568,
+        "width": 320
+      }
+    }
+  ],
+  "notes": [
+    "Browser UI performed by primary agent in desktop IAB, not real phones.",
+    "Reduced motion emulation unavailable; CSS and JS reviewed statically.",
+    "FAQ duration disclosure toggled open/closed; mobile menu clicked Cost and closed."
+  ]
+}

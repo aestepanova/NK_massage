@@ -1,0 +1,758 @@
+{
+  "before": {
+    "active": true,
+    "bounds": {
+      "bottom": 576.1484375,
+      "left": 71.8359375,
+      "right": 233.15625,
+      "top": 530.25
+    },
+    "focusVisible": true,
+    "outline": {
+      "color": "rgb(243, 242, 232)",
+      "offset": "6px",
+      "width": "2px"
+    },
+    "rect": {
+      "bottom": 568.1484375,
+      "height": 29.8984375,
+      "left": 79.8359375,
+      "right": 225.15625,
+      "top": 538.25,
+      "width": 145.3203125,
+      "x": 79.8359375,
+      "y": 538.25
+    },
+    "scrollY": 9849.5,
+    "selection": "Начнём с\nодного сеанса",
+    "url": "http://127.0.0.1:4177/",
+    "viewport": {
+      "dpr": 1,
+      "height": 568,
+      "width": 320
+    },
+    "wholeOutline": false
+  },
+  "results": [
+    {
+      "active": true,
+      "bounds": {
+        "bottom": 581.1484375,
+        "left": 71.8359375,
+        "right": 233.15625,
+        "top": 535.25
+      },
+      "focusVisible": true,
+      "id": "phone-from-selected-heading-immediate-320",
+      "outline": {
+        "color": "rgb(243, 242, 232)",
+        "offset": "6px",
+        "width": "2px"
+      },
+      "rect": {
+        "bottom": 573.1484375,
+        "height": 29.8984375,
+        "left": 79.8359375,
+        "right": 225.15625,
+        "top": 543.25,
+        "width": 145.3203125,
+        "x": 79.8359375,
+        "y": 543.25
+      },
+      "scrollMarginBlock": "12px",
+      "scrollY": 9844.5,
+      "selection": "Начнём с\nодного сеанса",
+      "url": "http://localhost:4177/",
+      "viewport": {
+        "dpr": 1,
+        "height": 568,
+        "width": 320
+      },
+      "wholeOutline": false
+    },
+    {
+      "active": true,
+      "bounds": {
+        "bottom": 564.1484375,
+        "left": 71.8359375,
+        "right": 233.15625,
+        "top": 518.25
+      },
+      "focusVisible": true,
+      "id": "phone-from-selected-heading-settled-320",
+      "outline": {
+        "color": "rgb(243, 242, 232)",
+        "offset": "6px",
+        "width": "2px"
+      },
+      "rect": {
+        "bottom": 556.1484375,
+        "height": 29.8984375,
+        "left": 79.8359375,
+        "right": 225.15625,
+        "top": 526.25,
+        "width": 145.3203125,
+        "x": 79.8359375,
+        "y": 526.25
+      },
+      "scrollMarginBlock": "12px",
+      "scrollY": 9861.5,
+      "url": "http://localhost:4177/",
+      "viewport": {
+        "dpr": 1,
+        "height": 568,
+        "width": 320
+      },
+      "wholeOutline": true
+    },
+    {
+      "active": true,
+      "activeElement": "<a class=\"contact-phone\" href=\"tel:+79295373338\">+7 929 537-33-38</a>",
+      "bounds": {
+        "bottom": 354.6484375,
+        "left": 71.8359375,
+        "right": 233.15625,
+        "top": 308.75
+      },
+      "focusVisible": true,
+      "h1": {
+        "fontSize": "76px",
+        "lineHeight": "91.2px",
+        "ratio": 1.2
+      },
+      "id": "reverse-from-footer-immediate-320",
+      "outline": {
+        "color": "rgb(243, 242, 232)",
+        "offset": "6px",
+        "style": "solid",
+        "width": "2px"
+      },
+      "page": {
+        "bodyScrollWidth": 305,
+        "clientWidth": 305,
+        "scrollWidth": 305,
+        "scrollX": 0
+      },
+      "rect": {
+        "bottom": 346.6484375,
+        "height": 29.8984375,
+        "left": 79.8359375,
+        "right": 225.15625,
+        "top": 316.75,
+        "width": 145.3203125,
+        "x": 79.8359375,
+        "y": 316.75
+      },
+      "scrollMarginBlock": "12px",
+      "scrollY": 10071,
+      "selection": {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(32, 60, 50)"
+      },
+      "url": "http://localhost:4177/",
+      "viewport": {
+        "dpr": 1,
+        "height": 568,
+        "width": 320
+      },
+      "wholeOutline": true
+    },
+    {
+      "active": true,
+      "activeElement": "<a class=\"contact-phone\" href=\"tel:+79295373338\">+7 929 537-33-38</a>",
+      "bounds": {
+        "bottom": 354.6484375,
+        "left": 71.8359375,
+        "right": 233.15625,
+        "top": 308.75
+      },
+      "focusVisible": true,
+      "h1": {
+        "fontSize": "76px",
+        "lineHeight": "91.2px",
+        "ratio": 1.2
+      },
+      "id": "reverse-from-footer-settled-320",
+      "outline": {
+        "color": "rgb(243, 242, 232)",
+        "offset": "6px",
+        "style": "solid",
+        "width": "2px"
+      },
+      "page": {
+        "bodyScrollWidth": 305,
+        "clientWidth": 305,
+        "scrollWidth": 305,
+        "scrollX": 0
+      },
+      "rect": {
+        "bottom": 346.6484375,
+        "height": 29.8984375,
+        "left": 79.8359375,
+        "right": 225.15625,
+        "top": 316.75,
+        "width": 145.3203125,
+        "x": 79.8359375,
+        "y": 316.75
+      },
+      "scrollMarginBlock": "12px",
+      "scrollY": 10071,
+      "selection": {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(32, 60, 50)"
+      },
+      "url": "http://localhost:4177/",
+      "viewport": {
+        "dpr": 1,
+        "height": 568,
+        "width": 320
+      },
+      "wholeOutline": true
+    },
+    {
+      "active": true,
+      "activeElement": "<a class=\"contact-phone\" href=\"tel:+79295373338\">+7 929 537-33-38</a>",
+      "bounds": {
+        "bottom": 391.6484375,
+        "left": 71.8359375,
+        "right": 233.15625,
+        "top": 345.75
+      },
+      "focusVisible": true,
+      "h1": {
+        "fontSize": "76px",
+        "lineHeight": "91.2px",
+        "ratio": 1.2
+      },
+      "id": "sequential-from-top-immediate-320",
+      "outline": {
+        "color": "rgb(243, 242, 232)",
+        "offset": "6px",
+        "style": "solid",
+        "width": "2px"
+      },
+      "page": {
+        "bodyScrollWidth": 305,
+        "clientWidth": 305,
+        "scrollWidth": 305,
+        "scrollX": 0
+      },
+      "rect": {
+        "bottom": 383.6484375,
+        "height": 29.8984375,
+        "left": 79.8359375,
+        "right": 225.15625,
+        "top": 353.75,
+        "width": 145.3203125,
+        "x": 79.8359375,
+        "y": 353.75
+      },
+      "scrollMarginBlock": "12px",
+      "scrollY": 10034,
+      "selection": {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(32, 60, 50)"
+      },
+      "url": "http://localhost:4177/",
+      "viewport": {
+        "dpr": 1,
+        "height": 568,
+        "width": 320
+      },
+      "wholeOutline": true
+    },
+    {
+      "active": true,
+      "activeElement": "<a class=\"contact-phone\" href=\"tel:+79295373338\">+7 929 537-33-38</a>",
+      "bounds": {
+        "bottom": 387.1484375,
+        "left": 71.8359375,
+        "right": 233.15625,
+        "top": 341.25
+      },
+      "focusVisible": true,
+      "h1": {
+        "fontSize": "76px",
+        "lineHeight": "91.2px",
+        "ratio": 1.2
+      },
+      "id": "sequential-from-top-settled-320",
+      "outline": {
+        "color": "rgb(243, 242, 232)",
+        "offset": "6px",
+        "style": "solid",
+        "width": "2px"
+      },
+      "page": {
+        "bodyScrollWidth": 305,
+        "clientWidth": 305,
+        "scrollWidth": 305,
+        "scrollX": 0
+      },
+      "rect": {
+        "bottom": 379.1484375,
+        "height": 29.8984375,
+        "left": 79.8359375,
+        "right": 225.15625,
+        "top": 349.25,
+        "width": 145.3203125,
+        "x": 79.8359375,
+        "y": 349.25
+      },
+      "scrollMarginBlock": "12px",
+      "scrollY": 10038.5,
+      "selection": {
+        "background": "rgb(215, 221, 197)",
+        "color": "rgb(32, 60, 50)"
+      },
+      "url": "http://localhost:4177/",
+      "viewport": {
+        "dpr": 1,
+        "height": 568,
+        "width": 320
+      },
+      "wholeOutline": true
+    },
+    {
+      "id": "booking-escape-320",
+      "dialog": {
+        "active": "<select id=\"session-choice\"><option value=\"first\">Первый диагностический сеанс</option><option value=\"body\">Массаж всего тела · 55 минут</option><option value=\"extended\">Продлённый сеанс · до 2 часов</option><option value=\"combined\">Комбинированный массаж</option><option value=\"chinese\">Китайская техника ЦЗЫ-НЛО</option><option value=\"feet\">Работа со стопами</option><option value=\"course\">Абонемент на массаж</option><option value=\"qigong\">Индивидуальное занятие Цигун</option><option value=\"training\">Обучение техникам ЦЗЫ-НЛО</option></select>",
+        "open": true,
+        "selected": "first",
+        "summary": "55 минут · диагностический сеанс\n5 700 ₽ вместо 7 800 ₽"
+      },
+      "escape": {
+        "active": "<button class=\"button button-light\" data-book=\"first\">Первый сеанс — 5 700 ₽ <span aria-hidden=\"true\">↗</span></button>",
+        "focusVisible": true,
+        "open": false
+      }
+    },
+    {
+      "id": "mini-regression-390",
+      "beforePhoneTab": {
+        "active": "<button class=\"button button-light\" data-book=\"first\">Первый сеанс — 5 700 ₽ <span aria-hidden=\"true\">↗</span></button>",
+        "phone": {
+          "bottom": 693.3203125,
+          "height": 29.8984375,
+          "left": 114.8359375,
+          "right": 260.15625,
+          "top": 663.421875,
+          "width": 145.3203125,
+          "x": 114.8359375,
+          "y": 663.421875
+        },
+        "scrollY": 9579
+      },
+      "immediate": {
+        "active": true,
+        "activeElement": "<a class=\"contact-phone\" href=\"tel:+79295373338\">+7 929 537-33-38</a>",
+        "bounds": {
+          "bottom": 701.3203125,
+          "left": 106.8359375,
+          "right": 268.15625,
+          "top": 655.421875
+        },
+        "focusVisible": true,
+        "h1": {
+          "fontSize": "84px",
+          "lineHeight": "100.8px",
+          "ratio": 1.2
+        },
+        "id": "already-visible-immediate-390",
+        "outline": {
+          "color": "rgb(243, 242, 232)",
+          "offset": "6px",
+          "style": "solid",
+          "width": "2px"
+        },
+        "page": {
+          "bodyScrollWidth": 375,
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "scrollX": 0
+        },
+        "rect": {
+          "bottom": 693.3203125,
+          "height": 29.8984375,
+          "left": 114.8359375,
+          "right": 260.15625,
+          "top": 663.421875,
+          "width": 145.3203125,
+          "x": 114.8359375,
+          "y": 663.421875
+        },
+        "scrollMarginBlock": "12px",
+        "scrollY": 9579,
+        "selection": {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)"
+        },
+        "url": "http://localhost:4177/",
+        "viewport": {
+          "dpr": 1,
+          "height": 844,
+          "width": 390
+        },
+        "wholeOutline": true
+      },
+      "settled": {
+        "active": true,
+        "activeElement": "<a class=\"contact-phone\" href=\"tel:+79295373338\">+7 929 537-33-38</a>",
+        "bounds": {
+          "bottom": 701.3203125,
+          "left": 106.8359375,
+          "right": 268.15625,
+          "top": 655.421875
+        },
+        "focusVisible": true,
+        "h1": {
+          "fontSize": "84px",
+          "lineHeight": "100.8px",
+          "ratio": 1.2
+        },
+        "id": "already-visible-settled-390",
+        "outline": {
+          "color": "rgb(243, 242, 232)",
+          "offset": "6px",
+          "style": "solid",
+          "width": "2px"
+        },
+        "page": {
+          "bodyScrollWidth": 375,
+          "clientWidth": 375,
+          "scrollWidth": 375,
+          "scrollX": 0
+        },
+        "rect": {
+          "bottom": 693.3203125,
+          "height": 29.8984375,
+          "left": 114.8359375,
+          "right": 260.15625,
+          "top": 663.421875,
+          "width": 145.3203125,
+          "x": 114.8359375,
+          "y": 663.421875
+        },
+        "scrollMarginBlock": "12px",
+        "scrollY": 9579,
+        "selection": {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)"
+        },
+        "url": "http://localhost:4177/",
+        "viewport": {
+          "dpr": 1,
+          "height": 844,
+          "width": 390
+        },
+        "wholeOutline": true
+      },
+      "scrollDelta": 0
+    },
+    {
+      "id": "booking-escape-390",
+      "dialog": {
+        "open": true,
+        "selected": "first",
+        "summary": "55 минут · диагностический сеанс\n5 700 ₽ вместо 7 800 ₽"
+      },
+      "escape": {
+        "active": "<button class=\"button button-light\" data-book=\"first\">Первый сеанс — 5 700 ₽ <span aria-hidden=\"true\">↗</span></button>",
+        "focusVisible": true,
+        "open": false
+      }
+    },
+    {
+      "id": "mini-regression-768",
+      "beforePhoneTab": {
+        "active": "<button class=\"button button-light\" data-book=\"first\">Первый сеанс — 5 700 ₽ <span aria-hidden=\"true\">↗</span></button>",
+        "phone": {
+          "bottom": 794.796875,
+          "height": 29.8984375,
+          "left": 303.8359375,
+          "right": 449.15625,
+          "top": 764.8984375,
+          "width": 145.3203125,
+          "x": 303.8359375,
+          "y": 764.8984375
+        },
+        "scrollY": 7299.5
+      },
+      "immediate": {
+        "active": true,
+        "activeElement": "<a class=\"contact-phone\" href=\"tel:+79295373338\">+7 929 537-33-38</a>",
+        "bounds": {
+          "bottom": 802.796875,
+          "left": 295.8359375,
+          "right": 457.15625,
+          "top": 756.8984375
+        },
+        "focusVisible": true,
+        "h1": {
+          "fontSize": "79px",
+          "lineHeight": "94.8px",
+          "ratio": 1.2
+        },
+        "id": "already-visible-immediate-768",
+        "outline": {
+          "color": "rgb(243, 242, 232)",
+          "offset": "6px",
+          "style": "solid",
+          "width": "2px"
+        },
+        "page": {
+          "bodyScrollWidth": 753,
+          "clientWidth": 753,
+          "scrollWidth": 753,
+          "scrollX": 0
+        },
+        "rect": {
+          "bottom": 794.796875,
+          "height": 29.8984375,
+          "left": 303.8359375,
+          "right": 449.15625,
+          "top": 764.8984375,
+          "width": 145.3203125,
+          "x": 303.8359375,
+          "y": 764.8984375
+        },
+        "scrollMarginBlock": "12px",
+        "scrollY": 7299.5,
+        "selection": {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)"
+        },
+        "url": "http://localhost:4177/",
+        "viewport": {
+          "dpr": 1,
+          "height": 1024,
+          "width": 768
+        },
+        "wholeOutline": true
+      },
+      "settled": {
+        "active": true,
+        "activeElement": "<a class=\"contact-phone\" href=\"tel:+79295373338\">+7 929 537-33-38</a>",
+        "bounds": {
+          "bottom": 802.796875,
+          "left": 295.8359375,
+          "right": 457.15625,
+          "top": 756.8984375
+        },
+        "focusVisible": true,
+        "h1": {
+          "fontSize": "79px",
+          "lineHeight": "94.8px",
+          "ratio": 1.2
+        },
+        "id": "already-visible-settled-768",
+        "outline": {
+          "color": "rgb(243, 242, 232)",
+          "offset": "6px",
+          "style": "solid",
+          "width": "2px"
+        },
+        "page": {
+          "bodyScrollWidth": 753,
+          "clientWidth": 753,
+          "scrollWidth": 753,
+          "scrollX": 0
+        },
+        "rect": {
+          "bottom": 794.796875,
+          "height": 29.8984375,
+          "left": 303.8359375,
+          "right": 449.15625,
+          "top": 764.8984375,
+          "width": 145.3203125,
+          "x": 303.8359375,
+          "y": 764.8984375
+        },
+        "scrollMarginBlock": "12px",
+        "scrollY": 7299.5,
+        "selection": {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)"
+        },
+        "url": "http://localhost:4177/",
+        "viewport": {
+          "dpr": 1,
+          "height": 1024,
+          "width": 768
+        },
+        "wholeOutline": true
+      },
+      "scrollDelta": 0
+    },
+    {
+      "id": "booking-escape-768",
+      "dialog": {
+        "open": true,
+        "selected": "first",
+        "summary": "55 минут · диагностический сеанс\n5 700 ₽ вместо 7 800 ₽"
+      },
+      "escape": {
+        "active": "<button class=\"button button-light\" data-book=\"first\">Первый сеанс — 5 700 ₽ <span aria-hidden=\"true\">↗</span></button>",
+        "focusVisible": true,
+        "open": false
+      }
+    },
+    {
+      "id": "mini-regression-1440",
+      "beforePhoneTab": {
+        "active": "<button class=\"button button-light\" data-book=\"first\">Первый сеанс — 5 700 ₽ <span aria-hidden=\"true\">↗</span></button>",
+        "phone": {
+          "bottom": 770.9296875,
+          "height": 29.8984375,
+          "left": 639.8359375,
+          "right": 785.15625,
+          "top": 741.03125,
+          "width": 145.3203125,
+          "x": 639.8359375,
+          "y": 741.03125
+        },
+        "scrollY": 7118
+      },
+      "immediate": {
+        "active": true,
+        "activeElement": "<a class=\"contact-phone\" href=\"tel:+79295373338\">+7 929 537-33-38</a>",
+        "bounds": {
+          "bottom": 778.9296875,
+          "left": 631.8359375,
+          "right": 793.15625,
+          "top": 733.03125
+        },
+        "focusVisible": true,
+        "h1": {
+          "fontSize": "110.88px",
+          "lineHeight": "133.056px",
+          "ratio": 1.2000000000000002
+        },
+        "id": "already-visible-immediate-1440",
+        "outline": {
+          "color": "rgb(243, 242, 232)",
+          "offset": "6px",
+          "style": "solid",
+          "width": "2px"
+        },
+        "page": {
+          "bodyScrollWidth": 1425,
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "scrollX": 0
+        },
+        "rect": {
+          "bottom": 770.9296875,
+          "height": 29.8984375,
+          "left": 639.8359375,
+          "right": 785.15625,
+          "top": 741.03125,
+          "width": 145.3203125,
+          "x": 639.8359375,
+          "y": 741.03125
+        },
+        "scrollMarginBlock": "12px",
+        "scrollY": 7118,
+        "selection": {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)"
+        },
+        "url": "http://localhost:4177/",
+        "viewport": {
+          "dpr": 1,
+          "height": 1000,
+          "width": 1440
+        },
+        "wholeOutline": true
+      },
+      "settled": {
+        "active": true,
+        "activeElement": "<a class=\"contact-phone\" href=\"tel:+79295373338\">+7 929 537-33-38</a>",
+        "bounds": {
+          "bottom": 778.9296875,
+          "left": 631.8359375,
+          "right": 793.15625,
+          "top": 733.03125
+        },
+        "focusVisible": true,
+        "h1": {
+          "fontSize": "110.88px",
+          "lineHeight": "133.056px",
+          "ratio": 1.2000000000000002
+        },
+        "id": "already-visible-settled-1440",
+        "outline": {
+          "color": "rgb(243, 242, 232)",
+          "offset": "6px",
+          "style": "solid",
+          "width": "2px"
+        },
+        "page": {
+          "bodyScrollWidth": 1425,
+          "clientWidth": 1425,
+          "scrollWidth": 1425,
+          "scrollX": 0
+        },
+        "rect": {
+          "bottom": 770.9296875,
+          "height": 29.8984375,
+          "left": 639.8359375,
+          "right": 785.15625,
+          "top": 741.03125,
+          "width": 145.3203125,
+          "x": 639.8359375,
+          "y": 741.03125
+        },
+        "scrollMarginBlock": "12px",
+        "scrollY": 7118,
+        "selection": {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)"
+        },
+        "url": "http://localhost:4177/",
+        "viewport": {
+          "dpr": 1,
+          "height": 1000,
+          "width": 1440
+        },
+        "wholeOutline": true
+      },
+      "scrollDelta": 0
+    },
+    {
+      "id": "booking-escape-1440",
+      "dialog": {
+        "open": true,
+        "selected": "first",
+        "summary": "55 минут · диагностический сеанс\n5 700 ₽ вместо 7 800 ₽"
+      },
+      "escape": {
+        "active": "<button class=\"button button-light\" data-book=\"first\">Первый сеанс — 5 700 ₽ <span aria-hidden=\"true\">↗</span></button>",
+        "focusVisible": true,
+        "open": false
+      }
+    },
+    {
+      "active": "<button class=\"menu-toggle\" aria-label=\"Открыть меню\" aria-expanded=\"false\" aria-controls=\"navigation\"><span></span><span></span></button>",
+      "focusVisible": true,
+      "htmlScrollBehavior": "smooth",
+      "id": "light-background-focus-390",
+      "outline": {
+        "color": "rgb(49, 93, 80)",
+        "offset": "6px",
+        "width": "2px"
+      },
+      "rect": {
+        "bottom": 64.5,
+        "height": 44,
+        "left": 337.3984375,
+        "right": 366.3984375,
+        "top": 20.5,
+        "width": 29,
+        "x": 337.3984375,
+        "y": 20.5
+      },
+      "reducedMotion": false
+    }
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "date": "2026-10-15",
+  "role": "Native independent QA developer instructions received; site_qa.toml read",
+  "browser": "Codex In-app Browser, CUA only",
+  "url": "http://localhost:4173/",
+  "measurements": [
+    {
+      "clientWidth": 305,
+      "height": 960,
+      "layout": [
+        {
+          "fontSize": "76px",
+          "height": 212.0390625,
+          "lineHeight": "70.68px",
+          "selector": "h1",
+          "width": 273
+        },
+        {
+          "fontSize": "42px",
+          "height": 85.671875,
+          "lineHeight": "42.84px",
+          "selector": "#contact-title",
+          "width": 273
+        }
+      ],
+      "scrollWidth": 305,
+      "selection": [
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "h1"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".hero-description"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "h1 em"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "#contact-title"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "#contact-title em"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".contact-inner>p:not(.eyebrow)"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "a[href^=\"tel:\"]"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".hero-actions .text-link"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".contact-inner .button"
+        }
+      ],
+      "url": "http://localhost:4173/#approach",
+      "width": 320
+    },
+    {
+      "clientWidth": 375,
+      "height": 960,
+      "layout": [
+        {
+          "fontSize": "84px",
+          "height": 234.3515625,
+          "lineHeight": "78.12px",
+          "selector": "h1",
+          "width": 335
+        },
+        {
+          "fontSize": "48px",
+          "height": 97.90625,
+          "lineHeight": "48.96px",
+          "selector": "#contact-title",
+          "width": 335
+        }
+      ],
+      "scrollWidth": 375,
+      "selection": [
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "h1"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".hero-description"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "h1 em"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "#contact-title"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "#contact-title em"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".contact-inner>p:not(.eyebrow)"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "a[href^=\"tel:\"]"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".hero-actions .text-link"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".contact-inner .button"
+        }
+      ],
+      "url": "http://localhost:4173/",
+      "width": 390
+    },
+    {
+      "clientWidth": 753,
+      "height": 960,
+      "layout": [
+        {
+          "fontSize": "79px",
+          "height": 218.0390625,
+          "lineHeight": "72.68px",
+          "selector": "h1",
+          "width": 342.5
+        },
+        {
+          "fontSize": "55px",
+          "height": 56.09375,
+          "lineHeight": "56.1px",
+          "selector": "#contact-title",
+          "width": 705
+        }
+      ],
+      "scrollWidth": 753,
+      "selection": [
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "h1"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".hero-description"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "h1 em"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "#contact-title"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "#contact-title em"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".contact-inner>p:not(.eyebrow)"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "a[href^=\"tel:\"]"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".hero-actions .text-link"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".contact-inner .button"
+        }
+      ],
+      "url": "http://localhost:4173/#approach",
+      "width": 768
+    },
+    {
+      "clientWidth": 1425,
+      "height": 960,
+      "layout": [
+        {
+          "fontSize": "110.88px",
+          "height": 306.0234375,
+          "lineHeight": "102.01px",
+          "selector": "h1",
+          "width": 600
+        },
+        {
+          "fontSize": "67px",
+          "height": 68.3359375,
+          "lineHeight": "68.34px",
+          "selector": "#contact-title",
+          "width": 1240
+        }
+      ],
+      "scrollWidth": 1425,
+      "selection": [
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "h1"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".hero-description"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "h1 em"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "#contact-title"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "#contact-title em"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".contact-inner>p:not(.eyebrow)"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": "a[href^=\"tel:\"]"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".hero-actions .text-link"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "color": "rgb(32, 60, 50)",
+          "selector": ".contact-inner .button"
+        }
+      ],
+      "url": "http://localhost:4173/",
+      "width": 1440
+    }
+  ],
+  "baselineComparison": [
+    {
+      "width": 1440,
+      "beforeClientWidth": 1426,
+      "afterClientWidth": 1425,
+      "layout": [
+        {
+          "selector": "h1",
+          "before": {
+            "width": 600,
+            "height": 306.0298156738281
+          },
+          "after": {
+            "width": 600,
+            "height": 306.0234375
+          },
+          "delta": {
+            "width": 0,
+            "height": -0.006378173828125
+          }
+        },
+        {
+          "selector": "#contact-title",
+          "before": {
+            "width": 1240,
+            "height": 68.33806610107422
+          },
+          "after": {
+            "width": 1240,
+            "height": 68.3359375
+          },
+          "delta": {
+            "width": 0,
+            "height": -0.00212860107421875
+          }
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "beforeClientWidth": 376,
+      "afterClientWidth": 375,
+      "layout": [
+        {
+          "selector": "h1",
+          "before": {
+            "width": 336.3636169433594,
+            "height": 234.3536834716797
+          },
+          "after": {
+            "width": 335,
+            "height": 234.3515625
+          },
+          "delta": {
+            "width": -1.363616943359375,
+            "height": -0.0021209716796875
+          }
+        },
+        {
+          "selector": "#contact-title",
+          "before": {
+            "width": 336.3636169433594,
+            "height": 97.91192626953124
+          },
+          "after": {
+            "width": 335,
+            "height": 97.90625
+          },
+          "delta": {
+            "width": -1.363616943359375,
+            "height": -0.005676269531235789
+          }
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "beforeClientWidth": 306,
+      "afterClientWidth": 305,
+      "layout": [
+        {
+          "selector": "h1",
+          "before": {
+            "width": 274.36077880859375,
+            "height": 212.02413940429688
+          },
+          "after": {
+            "width": 273,
+            "height": 212.0390625
+          },
+          "delta": {
+            "width": -1.36077880859375,
+            "height": 0.014923095703125
+          }
+        },
+        {
+          "selector": "#contact-title",
+          "before": {
+            "width": 274.36077880859375,
+            "height": 85.68181610107422
+          },
+          "after": {
+            "width": 273,
+            "height": 85.671875
+          },
+          "delta": {
+            "width": -1.36077880859375,
+            "height": -0.00994110107421875
+          }
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "beforeClientWidth": 754,
+      "afterClientWidth": 753,
+      "layout": [
+        {
+          "selector": "h1",
+          "before": {
+            "width": 343.26702880859375,
+            "height": 218.0326690673828
+          },
+          "after": {
+            "width": 342.5,
+            "height": 218.0390625
+          },
+          "delta": {
+            "width": -0.76702880859375,
+            "height": 0.0063934326171875
+          }
+        },
+        {
+          "selector": "#contact-title",
+          "before": {
+            "width": 706.5411376953125,
+            "height": 56.093746185302734
+          },
+          "after": {
+            "width": 705,
+            "height": 56.09375
+          },
+          "delta": {
+            "width": -1.5411376953125,
+            "height": 0.000003814697265625
+          }
+        }
+      ]
+    }
+  ],
+  "geometryCaveat": "before.json recorded by parent at browser zoom 110%; this tab uses 100%, observed scrollbar client width differs 1 px. CSS diff adds selection color only; exact pixel geometry equality is not asserted.",
+  "regressions": [
+    {
+      "width": 1440,
+      "booking": {
+        "duration": "55 минут · диагностический сеанс",
+        "open": true,
+        "price": "5 700 ₽ вместо 7 800 ₽",
+        "service": "first"
+      }
+    },
+    {
+      "width": 1440,
+      "escape": {
+        "focus": "<button class=\"button button-light\" data-book=\"first\">Первый сеанс — 5 700 ₽ <span aria-hidden=\"true\">↗</span></button>",
+        "focusVisible": true,
+        "open": false,
+        "outline": "rgb(49, 93, 80) solid 2px"
+      }
+    },
+    {
+      "width": 390,
+      "menu": {
+        "open": true,
+        "toggleClose": {
+          "expanded": "false",
+          "menuClass": "navigation"
+        },
+        "linkClose": {
+          "expanded": "false",
+          "hash": "#approach"
+        }
+      }
+    },
+    {
+      "width": 390,
+      "booking": {
+        "duration": "55 минут · диагностический сеанс",
+        "open": true,
+        "price": "5 700 ₽ вместо 7 800 ₽",
+        "service": "first"
+      }
+    },
+    {
+      "width": 390,
+      "escape": {
+        "focus": "<button class=\"button button-light\" data-book=\"first\">Первый сеанс — 5 700 ₽ <span aria-hidden=\"true\">↗</span></button>",
+        "open": false
+      }
+    },
+    {
+      "width": 320,
+      "menu": {
+        "open": {
+          "clientWidth": 305,
+          "display": "flex",
+          "expanded": "true",
+          "scrollWidth": 305
+        },
+        "close": {
+          "display": "none",
+          "expanded": "false"
+        }
+      }
+    },
+    {
+      "lightFocus": {
+        "background": "rgb(247, 243, 236)",
+        "focus": "<a class=\"text-link\" href=\"#approach\">Познакомиться <span aria-hidden=\"true\">↓</span></a>",
+        "focusVisible": true,
+        "outline": "rgb(49, 93, 80) solid 2px",
+        "width": 1440
+      }
+    }
+  ],
+  "logs": [],
+  "limitations": [
+    "Desktop browser viewport widths; no real phone tested",
+    "FAQ, carousel and video playback not rerun for this single-rule color change; HTML/JS hashes unchanged",
+    "Reduced motion runtime emulation NOT RUN; existing reduced-motion CSS unchanged",
+    "Known H1 selection descender clipping remains separate TODO and is outside this color fix",
+    "127.0.0.1 origin retained cached old CSS after normal reload; fresh localhost origin loaded expected CSS rule"
+  ],
+  "screenshots": [
+    "after-1440.jpg",
+    "after-390.jpg",
+    "after-320.jpg",
+    "after-768.jpg",
+    "after-ordinary-1440.jpg",
+    "after-ordinary-390.jpg",
+    "after-booking-1440.jpg",
+    "after-booking-390.jpg",
+    "after-menu-390.jpg",
+    "after-menu-320.jpg",
+    "after-focus-dark-1440.jpg",
+    "after-focus-light-1440.jpg"
+  ]
+}

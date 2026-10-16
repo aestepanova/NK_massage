@@ -1,0 +1,172 @@
+/* Interior chapters extend the approved portrait treatment. */
+:root{--surface:#fbf9f4;--frame:#d7dcd0;--media-shadow:0 10px 28px rgba(35,55,45,.07)}
+.section{padding-block:96px}
+main>section:not(.hero):not(.hero-first) h2,.booking-dialog h2{line-height:1.2}
+.section-heading{align-items:flex-start;gap:64px;margin-bottom:42px}
+.section-heading h2{margin-top:18px;max-width:680px}
+.section-heading>p{max-width:330px;padding-top:36px}
+.approach.approach-text{padding-block:72px 96px}
+.approach-copy h2{max-width:670px}
+.approach-principles{gap:24px;padding-top:26px;margin-top:32px}
+.approach-principles>div{flex:1}
+.pricing-section{padding-top:44px}
+.pricing-layout{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:40px;padding:40px;border:1px solid var(--frame);border-radius:10px;background:var(--surface);box-shadow:var(--media-shadow)}
+.first-price{border:0;border-right:1px solid var(--line);padding:0 40px 0 0;background:transparent;min-width:0}
+.first-price h3{font-size:52px;line-height:1.2;max-width:480px}
+.discount-label{padding:0;border:0;color:var(--muted)}
+.first-price>p{margin-top:20px}
+.price-amount{margin-block:26px}
+.price-amount strong{font-size:53px}
+.regular-prices{padding-top:0;min-width:0}
+.regular-prices h3{line-height:1.2}
+.regular-prices article+article{margin-top:32px;padding-top:32px}
+.price-promotions{margin-top:28px;padding-top:24px}
+.first-visit-section{background:transparent}
+.first-visit{border-top:1px solid var(--line);padding-top:56px;gap:80px}
+.visit-intro h2{max-width:480px}
+.visit-steps{padding-top:0}
+.visit-steps>article{gap:24px;padding-block:24px}
+.visit-steps p{max-width:400px}
+.sessions-section{background:var(--surface);border-block:1px solid var(--line)}
+.session-row{grid-template-columns:36px minmax(0,1fr) 136px 44px;gap:24px;padding-block:28px;border-color:var(--line)}
+.session-row:last-child{border-color:var(--line)}
+.session-description p{max-width:590px}
+.session-select{width:44px;height:44px;border-radius:6px;border-color:var(--frame)}
+.session-footnote{margin-top:28px}
+.work-section{border-bottom:1px solid var(--line)}
+.work-gallery{grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:24px;align-items:start}
+.media-frame{padding:6px;background:var(--surface);border:1px solid var(--frame);border-radius:10px;box-shadow:var(--media-shadow)}
+.media-frame video{border-radius:4px;object-fit:contain}
+.work-gallery figcaption{display:block;margin-top:16px}
+.work-gallery figcaption>span{display:block;margin-top:6px}
+.education-section{gap:80px;align-items:start}
+.education-copy h2{max-width:490px}
+.education-copy>.body-copy{max-width:450px}
+.education-documents{gap:24px}
+.document-link{min-width:0}
+.document-link:nth-child(2){margin-top:0}
+.document-mat{display:flex;align-items:center;justify-content:center;height:330px;padding:6px;background:var(--surface);border:1px solid var(--frame);border-radius:10px;box-shadow:var(--media-shadow)}
+.document-preview{flex:none;box-shadow:none;border-radius:3px}
+.document-preview.document-rotated{width:100%;height:auto;aspect-ratio:4/3}
+.document-preview:not(.document-rotated){height:100%;width:auto;max-width:100%;aspect-ratio:3/4}
+.document-link>span:last-child{align-items:flex-start;gap:12px;line-height:1.6}
+.document-link .cta-icon{margin-top:2px}
+.review-section{display:grid;grid-template-columns:minmax(0,.4fr) minmax(0,1fr);gap:18px 80px;text-align:left;padding:80px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.review-section>.eyebrow{grid-column:1;align-self:start}
+.review-origin{grid-column:1;grid-row:2;margin:0;max-width:250px}
+.review-carousel{grid-column:2;grid-row:1 / span 2;min-width:0}
+.review-slide{align-items:flex-start;padding:0 8px 8px}
+.review-section blockquote{line-height:1.3;margin:0;max-width:none}
+.review-slide .review-author{padding-top:26px}
+.review-controls{justify-content:flex-start;margin-top:28px}
+.review-arrow{border-radius:6px;border-color:var(--frame)}
+.review-arrow svg{width:18px;height:18px;flex:none}
+.questions-section{gap:80px;padding-block:80px 96px;border-top:0}
+.questions-section h2{max-width:440px}
+.questions{padding-top:0}
+.questions details{padding-block:22px}
+.questions summary{gap:24px;min-height:24px}
+.question-symbol{width:20px;height:20px;flex:none;color:var(--olive);transition:transform .2s}
+.questions details[open] .question-symbol{transform:rotate(45deg)}
+.questions details p{max-width:430px}
+.contact-inner{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:80px;align-items:center;text-align:left;padding-block:80px}
+.contact-copy h2{max-width:620px;font-size:67px;letter-spacing:-.035em}
+.contact-copy>.eyebrow{color:#c9d0bb}
+.contact-copy>p:not(.eyebrow){font:400 14px/1.8 var(--sans);color:#c9d0bb;margin-top:22px;max-width:440px}
+.contact-actions{display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+.contact-actions .button-light{margin-top:0}
+.contact-links{display:flex;flex-direction:column;align-items:flex-start;gap:18px;margin-top:28px}
+.contact-telegram{display:inline-flex;align-items:center;gap:12px;font:500 12px/1.5 var(--sans);border-bottom:1px solid #9eb1a4;padding-bottom:5px}
+.contact-phone{display:inline-flex;margin:0;scroll-margin-block:12px}
+.contact-location{margin-top:24px;line-height:1.6}
+.contact-inner a:focus-visible,.contact-inner button:focus-visible{outline-color:#f3f2e8}
+.site-footer{padding-block:30px;gap:24px}
+.site-footer>p{margin-left:0}
+.booking-dialog{border:1px solid var(--frame);border-radius:10px;box-shadow:0 25px 90px rgba(30,41,23,.20)}
+.booking-dialog h2{max-width:100%;letter-spacing:-.03em}
+.booking-dialog select{border-color:var(--frame);border-radius:6px}
+.booking-summary{border-bottom:1px solid var(--line);margin-bottom:20px}
+.preview-message{border-top:0;padding-top:0}
+@media(max-width:1150px){
+  .pricing-layout{gap:28px;padding:32px}
+  .first-price{padding-right:28px}
+  .education-section{gap:48px}
+  .education-documents{gap:18px}
+  .document-mat{height:290px}
+  .review-section{column-gap:48px}
+}
+@media(max-width:950px){
+  .section{padding-block:80px}
+  .section-heading{gap:36px}
+  .section-heading>p{max-width:280px;padding-top:28px}
+  .pricing-section{padding-top:36px}
+  .pricing-layout{grid-template-columns:minmax(0,1fr)}
+  .first-price{border-right:0;border-bottom:1px solid var(--line);padding:0 0 32px}
+  .first-price h3{font-size:45px}
+  .first-price>p{max-width:520px}
+  .first-price .button{width:auto}
+  .regular-prices article>p:not(.eyebrow){max-width:580px}
+  .first-visit{display:grid;grid-template-columns:minmax(0,1fr);gap:36px;padding-top:44px}
+  .visit-intro>.body-copy{max-width:560px}
+  .visit-steps p{max-width:560px}
+  .session-row{grid-template-columns:28px minmax(0,1fr) 44px;gap:18px}
+  .session-meta{grid-column:2;grid-row:auto;flex-direction:row;flex-wrap:wrap;gap:12px}
+  .session-select{grid-column:3;grid-row:1 / span 2}
+  .work-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 24px}
+  .education-section{display:block}
+  .education-documents{margin-top:36px;gap:24px}
+  .document-mat{height:330px}
+  .review-section{grid-template-columns:minmax(0,1fr);gap:18px;padding-block:64px}
+  .review-origin{grid-column:1;grid-row:auto;max-width:540px}
+  .review-carousel{grid-column:1;grid-row:auto;margin-top:16px}
+  .questions-section{display:grid;grid-template-columns:minmax(0,1fr);gap:36px;padding-block:64px 80px}
+  .questions-section h2{max-width:620px}
+  .contact-inner{grid-template-columns:minmax(0,1fr);gap:36px;padding-block:64px}
+  .contact-copy h2{font-size:58px;max-width:650px}
+}
+@media(max-width:650px){
+  .section{padding-block:56px}
+  .section-heading{display:block;margin-bottom:33px}
+  .section-heading>p{padding-top:0;max-width:440px;margin-top:18px}
+  .approach.approach-text{padding-block:56px}
+  .approach-principles{flex-direction:column;gap:18px;margin-top:26px;padding-top:22px}
+  .approach-principles p br{display:none}
+  .pricing-section{padding-top:28px}
+  .pricing-layout{padding:24px;gap:28px}
+  .first-price h3{font-size:clamp(33px,9vw,48px);margin-top:22px}
+  .first-price{padding-bottom:28px}
+  .first-price .button{width:100%;padding-inline:12px;gap:10px}
+  .price-amount strong{font-size:44px}
+  .price-amount{gap:16px;margin-block:24px}
+  .regular-prices h3{font-size:33px}
+  .price-promotions{margin-top:24px}
+  .first-visit{gap:30px;padding-top:36px}
+  .visit-steps>article{gap:18px;padding-block:22px}
+  .session-row{grid-template-columns:22px minmax(0,1fr) 40px;gap:12px;padding-block:24px}
+  .session-select{width:40px;height:40px}
+  .session-description p{max-width:none}
+  .session-meta strong{white-space:normal}
+  .session-footnote{display:block}
+  .work-gallery{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(84%,300px);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:3px 3px 18px}
+  .work-gallery figure{scroll-snap-align:start}
+  .media-frame{padding:4px;border-radius:8px;box-shadow:0 4px 12px rgba(35,55,45,.06)}
+  .education-documents{grid-template-columns:minmax(0,1fr);gap:28px}
+  .document-mat{height:330px;padding:4px;border-radius:8px}
+  .education-facts{gap:32px}
+  .review-section{padding-block:48px}
+  .review-slide{padding:0 4px 8px}
+  .review-controls{gap:22px}
+  .questions-section{padding-block:48px 56px;gap:28px}
+  .questions summary{gap:16px}
+  .contact-inner{padding-block:56px;gap:30px}
+  .contact-copy h2{font-size:48px;max-width:440px}
+  .contact-actions .button-light{max-width:100%}
+  .contact-location{max-width:100%}
+  .site-footer{gap:10px 20px}
+  .booking-dialog{padding:38px 24px 26px}
+}
+@media(max-width:370px){
+  .pricing-layout{padding:20px}
+  .regular-prices h3{font-size:31px}
+  .contact-copy h2{font-size:42px}
+}

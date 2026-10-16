@@ -1,0 +1,9 @@
+{
+  "baseline_total_bytes": 16109386,
+  "candidate_total_bytes": 8145585,
+  "reduction_percent": 49.44,
+  "all_above_25_percent": true,
+  "full_decode_pass": true,
+  "visual_check": "8 static comparison frames inspected: no obvious orientation, colour, detail or blocking defect. Dynamic playback and real device check not performed.",
+  "ssim_limitation": "Compared with existing 720p baseline, not original MOV; structural similarity is not perceptual equivalence."
+}

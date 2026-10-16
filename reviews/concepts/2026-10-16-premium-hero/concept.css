@@ -1,0 +1,69 @@
+/* Review prototype only. The active dist styles and booking behaviour are unchanged. */
+.concept-bar{background:#eeebe1;border-bottom:1px solid #deded2;color:#303d36;font:400 12px/1.6 'Manrope',Arial,sans-serif}
+.concept-bar-inner{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:9px}
+.concept-bar a{text-decoration:underline;text-underline-offset:4px;white-space:nowrap}
+.concept-hero{display:grid;grid-template-columns:minmax(0,1.17fr) minmax(0,1fr);grid-template-areas:'title person' 'description person' 'invitation person';column-gap:80px;row-gap:24px;padding-block:60px 72px;align-items:start}
+.concept-title{grid-area:title;align-self:end}
+.concept-title .eyebrow{max-width:none;color:var(--olive)}
+.concept-title h1{font-size:92px;line-height:1.2;letter-spacing:-.035em;margin-top:24px}
+.concept-title h1>span{display:block}
+.concept-title h1 em{display:block}
+.concept-description{grid-area:description;max-width:425px;font:400 14px/1.8 var(--sans);color:var(--muted);margin:0}
+.concept-person{grid-area:person;margin:0;max-width:480px;width:100%;justify-self:end}
+.concept-photo-frame{padding:6px;border:1px solid #d7dcd0;border-radius:10px;background:#fbf9f4;box-shadow:0 14px 34px rgba(35,55,45,.10)}
+.concept-person img{display:block;width:100%;height:600px;object-fit:cover;object-position:50% 48%;border-radius:4px}
+.concept-person figcaption{display:flex;justify-content:space-between;gap:20px;padding-top:17px;font:400 12px/1.6 var(--sans);color:var(--muted)}
+.concept-person figcaption>span:first-child{color:var(--ink);font-weight:500}
+.concept-invitation{grid-area:invitation;align-self:end;padding-top:7px;max-width:470px}
+.concept-price-label{font:400 12px/1.6 var(--sans);color:var(--muted)}
+.concept-price{display:flex;gap:20px;align-items:baseline;margin-top:4px}
+.concept-price strong{font:400 53px/1.1 var(--serif);letter-spacing:-.02em;white-space:nowrap}
+.concept-price span{font:400 12px/1.6 var(--sans);color:var(--muted)}
+.concept-price s{text-decoration-thickness:1px}
+.concept-invitation .button{margin-top:21px;min-width:270px}
+.cta-icon{display:block;width:16px;height:16px;flex:none}
+.button{gap:16px}
+.header-book{gap:12px}
+.session-select .cta-icon{width:18px;height:18px}
+.concept-location{font:400 12px/1.6 var(--sans);margin-top:17px;color:var(--muted);max-width:360px}
+.concept-location>span{display:block}
+.concept-first{border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:80px;padding-block:40px 55px}
+.concept-first-title{font:400 32px/1.2 var(--serif);letter-spacing:-.02em}
+.concept-first-copy{font:400 14px/1.8 var(--sans);color:var(--muted);max-width:480px}
+.concept-first-copy p+p{margin-top:12px}
+.concept-continuation{background:var(--sand);border-block:1px solid var(--line);padding:13px 0;color:var(--muted);font:400 12px/1.6 var(--sans)}
+@media(max-width:1100px) and (min-width:651px){
+  .concept-hero{column-gap:40px;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);padding-top:45px}
+  .concept-title h1{font-size:76px}
+  .concept-person img{height:550px}
+  .concept-person figcaption{display:block}
+  .concept-person figcaption span{display:block}
+  .concept-person figcaption span+span{margin-top:4px}
+  .concept-first{column-gap:40px}
+}
+@media(max-width:650px){
+  .concept-bar-inner{align-items:flex-start;gap:14px;padding-block:8px}
+  .concept-bar-inner>span{max-width:180px}
+  .concept-hero{grid-template-columns:minmax(0,1fr);grid-template-areas:'title' 'invitation' 'person' 'description';row-gap:25px;padding-block:28px 36px}
+  .concept-title h1{font-size:64px;line-height:1.2;margin-top:18px}
+  .concept-title .eyebrow{letter-spacing:.12em;max-width:350px}
+  .concept-invitation{padding-top:0;max-width:none}
+  .concept-price{margin-top:3px;gap:17px}
+  .concept-price strong{font-size:44px}
+  .concept-invitation .button{margin-top:17px;width:100%;min-width:0}
+  .concept-location{margin-top:13px;max-width:none}
+  .concept-person{max-width:none;justify-self:stretch}
+  .concept-person img{height:auto;aspect-ratio:4/5;object-position:50% 48%}
+  .concept-photo-frame{padding:4px;border-radius:8px}
+  .concept-person figcaption{gap:15px;padding-top:12px;flex-wrap:wrap}
+  .concept-description{max-width:none}
+  .concept-first{display:block;padding-block:28px 38px}
+  .concept-first-title{font-size:28px}
+  .concept-first-copy{margin-top:17px}
+}
+@media(max-width:370px){
+  .concept-title h1{font-size:56px}
+  .concept-bar-inner>span{max-width:150px}
+  .concept-first-title{font-size:24px}
+  .header-book .cta-icon{display:none}
+}

@@ -1,0 +1,36 @@
+{
+  "scope": "Independent read-only source verification of spacing corrections",
+  "checks": {
+    "first_visit_grid_max950": true,
+    "questions_grid_max950": true,
+    "first_visit_tablet_gap36": true,
+    "questions_tablet_gap36": true,
+    "first_visit_mobile_gap30": true,
+    "questions_mobile_gap28": true,
+    "pricing_intro_space_after_br": true,
+    "approach_principles_no_glued_br": true
+  },
+  "all_pass": true,
+  "css_rules": {
+    "first_visit_max950": "display:grid;grid-template-columns:minmax(0,1fr);gap:36px;padding-top:44px",
+    "questions_max950": "display:grid;grid-template-columns:minmax(0,1fr);gap:36px;padding-block:64px 80px"
+  },
+  "pricing_intro_separator": "<br> ",
+  "static_checks": [
+    {
+      "command": "python3 scripts/check_site.py",
+      "exit_code": 0,
+      "html_pages": 1
+    },
+    {
+      "command": "python3 scripts/check_site.py --root sites/natalia-kuznetsova",
+      "exit_code": 0,
+      "html_pages": 2
+    }
+  ],
+  "browser_note": "No independent browser retry. Root browser evidence is separate: reviews/evidence/2026-10-16-page-style/browser-checks.json",
+  "previous_issues_source_status": {
+    "TEXT-01": "corrected in source",
+    "SPACE-01": "corrected in source; runtime validation performed by root"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-15",
+  "url": "http://localhost:4173/",
+  "browser": "Codex In-app Browser via CUA",
+  "scope": "Read-only typography inspection. No site code or content changed.",
+  "fontStacks": ["Cormorant Garamond, Georgia, serif", "Manrope, Arial, sans-serif"],
+  "textStyles": [
+    {"family": "Cormorant Garamond", "weight": 400, "style": "normal"},
+    {"family": "Cormorant Garamond", "weight": 400, "style": "italic"},
+    {"family": "Manrope", "weight": 400, "style": "normal"},
+    {"family": "Manrope", "weight": 500, "style": "normal"},
+    {"family": "Manrope", "weight": 600, "style": "normal"}
+  ],
+  "fontCheck": "document.fonts.check returned true for all five declared styles using the Cyrillic / digits / ruble sample; this does not expose the actual font used for each glyph.",
+  "wide": {
+    "innerWidth": 1440, "innerHeight": 960, "devicePixelRatio": 1,
+    "visuallyInspected": ["hero", "prices", "education lower part", "first review"],
+    "h1": {"size": 110.88, "lineHeight": 102.01, "letterSpacing": -5.32224},
+    "h2Sizes": {"approach-title": 57, "sessions-title": 58, "work-title": 58, "prices-title": 58, "visit-title": 60, "education-title": 56, "questions-title": 44, "contact-title": 67, "booking-title": 62},
+    "bodyCopy": {"size": 13, "lineHeight": 24.7},
+    "serviceDescription": {"size": 12, "lineHeight": 20.4},
+    "h3": {"service": 33, "video": 25, "visitStep": 29, "firstVisitPriceTitle": 52, "regularPriceTitle": 35},
+    "review": {"size": 36, "lineHeight": 45},
+    "mainPrice": {"family": "Cormorant Garamond", "weight": 400, "size": 53},
+    "regularPrice": {"family": "Manrope", "weight": 400, "size": 22}
+  },
+  "narrow": {
+    "innerWidth": 390, "innerHeight": 960, "devicePixelRatio": 1,
+    "clientWidth": 375, "scrollWidth": 375,
+    "visuallyInspected": ["hero", "video gallery first card", "prices", "education lower part", "first review", "booking dialog"],
+    "h1": {"size": 84, "lineHeight": 78.12, "letterSpacing": -4.032},
+    "h2Sizes": {"approach-title": 46, "sessions-title": 46, "visit-title": 50, "education-title": 49, "questions-title": 43, "contact-title": 48},
+    "h3": {"service": 27, "video": 25, "visitStep": 27, "firstVisitPriceTitle": 35.1},
+    "review": {"size": 29, "lineHeight": 36.25},
+    "mainPrice": {"size": 49, "lineHeight": 53.9},
+    "smallTextSizes": {"wordmarkTagline": 5.7, "heroEyebrow": 7.5, "heroNote": 10, "photoCaption": 7, "heroButton": 11, "serviceDescription": 12, "bodyCopy": 13, "FAQsummary": 12}
+  },
+  "smallest": {
+    "innerWidth": 320, "innerHeight": 960, "devicePixelRatio": 1,
+    "clientWidth": 305, "scrollWidth": 305,
+    "visuallyInspected": ["hero and beginning of photograph"],
+    "h1": {"size": 76, "lineHeight": 70.68},
+    "smallTextSizes": {"wordmarkTagline": 5, "heroEyebrow": 6.5, "heroNote": 9, "photoCaption": 7, "serviceMeta": 10}
+  },
+  "limits": [
+    "No real phone, alternative browser, 200% zoom, or completed changed-style rendering was tested.",
+    "No renderer-level per-glyph font identification was available. CSS font-family alone is not proof of per-glyph rendering.",
+    "Cmap results are recorded separately in font-cmap.json. System fallback is needed for the decorative star and Manrope up-right arrows.",
+    "Known H1 selection clipping was not reproduced or fixed in this typography audit.",
+    "Screenshots were inspected inline through CUA and were not saved as files."
+  ]
+}

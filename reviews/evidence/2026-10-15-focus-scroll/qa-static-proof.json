@@ -1,0 +1,17 @@
+{
+  "baselineFiles": 27,
+  "changedFiles": [
+    "sites/natalia-kuznetsova/dist/styles.css"
+  ],
+  "before": {
+    "sites/natalia-kuznetsova/dist/styles.css": "e14bca47de164886b968dba056ac2a1701368eab4b58a3e7a42326e9bcce3499"
+  },
+  "after": {
+    "sites/natalia-kuznetsova/dist/styles.css": "afbe54f8250e54096aabd9a9c060a83f217276fdd25ace7fddf11ed301c16cf4"
+  },
+  "onlyExpectedDeclaration": true,
+  "diff": "--- before.css\n+++ dist/styles.css\n@@ -85,7 +85,7 @@\n .review-author span{color:var(--muted)}\n .questions-section{border-top:0;padding-top:80px}\n \n-.contact-phone{display:table;margin:23px auto 0;font-size:17px;letter-spacing:.04em;border-bottom:1px solid #9eb1a4}\n+.contact-phone{display:table;margin:23px auto 0;font-size:17px;letter-spacing:.04em;border-bottom:1px solid #9eb1a4;scroll-margin-block:12px}\n .contact-section a:focus-visible,.contact-section button:focus-visible{outline-color:#f3f2e8}\n .contact-location{margin-top:15px}\n .booking-summary strong{font-size:18px;line-height:1.5}\n",
+  "staticCommand": "python3 -B scripts/check_site.py",
+  "staticExitCode": 0,
+  "staticOutput": "OK: 1 HTML page(s), local links/CSS URLs and 1 JavaScript file(s) checked"
+}

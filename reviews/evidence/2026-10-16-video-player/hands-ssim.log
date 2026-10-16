@@ -1,0 +1,48 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/user/Developer/portfolio-nk/sites/natalia-kuznetsova/dist/assets/video/hands.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:00:17.85, start: 0.000000, bitrate: 1800 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 1696 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 95 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/private/tmp/nk-video-encode-20261016/hands.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:00:17.85, start: 0.000000, bitrate: 914 kb/s
+  Stream #1:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 810 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 libx264
+  Stream #1:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 95 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 (h264) -> setpts:default
+  Stream #1:0 (h264) -> setpts:default
+  ssim:default -> Stream #0:0 (wrapped_avframe)
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: wrapped_avframe, yuv420p(tv, bt709, progressive), 720x1280, q=2-31, 200 kb/s, 15360 tbn
+      Metadata:
+        encoder         : Lavc61.19.100 wrapped_avframe
+[Parsed_ssim_2 @ 0x147807f20] SSIM Y:0.985518 (18.391739) U:0.991250 (20.580054) V:0.989804 (19.915833) All:0.987188 (18.923769)
+[out#0/null @ 0x13660f2e0] video:230KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=  535 fps=0.0 q=-0.0 Lsize=N/A time=00:00:17.80 bitrate=N/A speed=83.7x    

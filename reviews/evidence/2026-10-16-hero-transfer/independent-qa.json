@@ -1,0 +1,66 @@
+{
+  "url": "http://127.0.0.1:4188/dist/",
+  "browser_attempt": {
+    "status": "NOT RUN",
+    "reason": "createBrowserTab: Browser is not available: iab; cua.getState(): apps=[], browsers=[]",
+    "viewport_changed": false,
+    "own_screenshots": []
+  },
+  "sha_diff": {
+    "modified": [
+      "index.html"
+    ],
+    "added": [
+      "assets/hero.css"
+    ],
+    "removed": [],
+    "baseline_count": 27,
+    "actual_count": 28
+  },
+  "static_checks": [
+    {
+      "command": "python3 scripts/check_site.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "output": "OK: 1 HTML page(s), local links/CSS URLs and 1 JavaScript file(s) checked"
+    },
+    {
+      "command": "python3 scripts/check_site.py --root sites/natalia-kuznetsova",
+      "status": "PASS",
+      "exit_code": 0,
+      "output": "OK: 2 HTML page(s), local links/CSS URLs and 1 JavaScript file(s) checked"
+    }
+  ],
+  "source_checks": {
+    "data_book_sequence_preserved": true,
+    "data_book_count": 12,
+    "approach_copy_html_preserved": true,
+    "portrait_occurrences": 1,
+    "cta_icon_count": 13,
+    "all_svg_aria_hidden": true,
+    "all_svg_viewbox_24": true,
+    "all_svg_path_identical": true,
+    "css_icon_sizes": "16x16; session-select 18x18; header hidden at max-width370",
+    "h1_line_height_css": "1.2",
+    "css_static_geometry_only": true
+  },
+  "executor_evidence_expert_review": {
+    "status": "PASS for examined screenshots only; not own browser test",
+    "paths": [
+      "sites/natalia-kuznetsova/reviews/evidence/2026-10-16-hero-transfer/desktop-1440.png",
+      "sites/natalia-kuznetsova/reviews/evidence/2026-10-16-hero-transfer/mobile-390.png",
+      "sites/natalia-kuznetsova/reviews/evidence/2026-10-16-hero-transfer/mobile-320.png"
+    ],
+    "observations": [
+      "Desktop face visible in frame; frame and soft shadow fit composition; small CTA arrow visible",
+      "390px hero price/duration/location and CTA readable; upper portrait visible in viewport; frame follows image edge",
+      "320px hero heading, price, CTA and location readable; header CTA absent as baseline breakpoint; no observed screenshot edge cutoff"
+    ],
+    "limitations": [
+      "No 768 screenshot independently inspected",
+      "Screenshots do not verify keyboard, selection rendering, dialogs, menu or runtime SVG geometry"
+    ]
+  },
+  "defects": [],
+  "verdict": "проверка неполная: static/source and saved screenshot expert review performed, independent current UI run unavailable"
+}

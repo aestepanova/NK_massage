@@ -1,0 +1,25 @@
+{
+  "source": "Root handoff message reporting independent phone_scroll_qa first after result; builder CUA session had no browser surface. Raw browser evidence remains owned by QA.",
+  "viewport": [
+    320,
+    568
+  ],
+  "computedScrollMarginBlock": "12px",
+  "before": {
+    "phoneBottom": 568.1484375,
+    "outlineOuterBottom": 576.1484375,
+    "focusVisible": true,
+    "wholeOutline": false
+  },
+  "firstAfter": {
+    "phoneBottom": 556.1484,
+    "outlineOuterBottom": 564.1484,
+    "wholeOutline": true,
+    "afterNativeSmoothAutoscroll": true,
+    "manualWheelOrScrollAfterTab": false
+  },
+  "cause": "Native keyboard focus scroll exposed the phone border box at the viewport edge without reserving the 8px external outline area. Local scroll-margin-block supplies native scrolling space without changing layout.",
+  "remainingQA": "All three keyboard entry paths and light 390/768/1440 regressions still under independent verification at builder handoff. Animation initial phase is recorded separately by QA.",
+  "unchanged": "H1 line-height1.2, typography, phone geometry and outline width2px/offset6px; app.js unchanged.",
+  "cleanup": "Builder could not open/attach a tab in its unavailable CUA browser surface, therefore has no live tab/viewport to clean up. Working browser passed by root to independent QA."
+}

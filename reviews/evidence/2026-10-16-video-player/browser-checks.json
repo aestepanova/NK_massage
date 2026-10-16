@@ -1,0 +1,437 @@
+{
+  "playerChecks": [
+    {
+      "focus": "Приостановить: Сеанс массажа",
+      "players": [
+        {
+          "buttons": false,
+          "controls": false,
+          "id": "video-session",
+          "paused": false,
+          "ready": 4,
+          "start": true,
+          "time": 9.623673,
+          "ui": false
+        },
+        {
+          "buttons": true,
+          "controls": false,
+          "id": "video-back",
+          "paused": true,
+          "ready": 0,
+          "start": false,
+          "time": 0,
+          "ui": false
+        },
+        {
+          "buttons": true,
+          "controls": false,
+          "id": "video-feet",
+          "paused": true,
+          "ready": 0,
+          "start": false,
+          "time": 0,
+          "ui": false
+        },
+        {
+          "buttons": true,
+          "controls": false,
+          "id": "video-hands",
+          "paused": true,
+          "ready": 0,
+          "start": false,
+          "time": 0,
+          "ui": false
+        }
+      ],
+      "width": 1440
+    },
+    {
+      "focus": "Приостановить: Спина и плечи",
+      "players": [
+        {
+          "id": "video-session",
+          "paused": true,
+          "ready": 4,
+          "time": 11.512815
+        },
+        {
+          "id": "video-back",
+          "paused": false,
+          "ready": 4,
+          "time": 0.247274
+        },
+        {
+          "id": "video-feet",
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        },
+        {
+          "id": "video-hands",
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      ],
+      "width": 1440
+    },
+    {
+      "focus": "Приостановить: Ноги и стопы",
+      "players": [
+        {
+          "id": "video-session",
+          "paused": true,
+          "ready": 4,
+          "time": 11.512815
+        },
+        {
+          "id": "video-back",
+          "paused": true,
+          "ready": 4,
+          "time": 0.271349
+        },
+        {
+          "id": "video-feet",
+          "paused": false,
+          "ready": 4,
+          "time": 0.391191
+        },
+        {
+          "id": "video-hands",
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      ],
+      "width": 1440
+    },
+    {
+      "focus": "Приостановить: Работа руками",
+      "players": [
+        {
+          "id": "video-session",
+          "paused": true,
+          "ready": 4,
+          "time": 11.512815
+        },
+        {
+          "id": "video-back",
+          "paused": true,
+          "ready": 4,
+          "time": 0.271349
+        },
+        {
+          "id": "video-feet",
+          "paused": true,
+          "ready": 4,
+          "time": 0.417707
+        },
+        {
+          "id": "video-hands",
+          "paused": false,
+          "ready": 4,
+          "time": 0.308531
+        }
+      ],
+      "width": 1440
+    }
+  ],
+  "playerLayout": [
+    {
+      "caption": "Запустить видео\nСеанс массажа\nЗапустить видео\nСпина и плечи\nЗапустить видео\nНоги и стопы\nЗапустить видео\nРабота руками",
+      "client": 341,
+      "scroll": 341,
+      "starts": [
+        {
+          "button": 177.3863525390625,
+          "height": 47.99715805053711,
+          "ready": 0,
+          "width": 245
+        },
+        {
+          "button": 177.3863525390625,
+          "height": 47.99715805053711,
+          "ready": 0,
+          "width": 245
+        },
+        {
+          "button": 177.3863525390625,
+          "height": 47.99715805053711,
+          "ready": 0,
+          "width": 245
+        },
+        {
+          "button": 177.3863525390625,
+          "height": 47.99715805053711,
+          "ready": 0,
+          "width": 245
+        }
+      ],
+      "width": 355
+    },
+    {
+      "client": 305,
+      "scroll": 305,
+      "starts": [
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 214
+        },
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 214
+        },
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 214
+        },
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 214
+        }
+      ],
+      "width": 320
+    },
+    {
+      "client": 753,
+      "scroll": 753,
+      "starts": [
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 327
+        },
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 327
+        },
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 327
+        },
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 327
+        }
+      ],
+      "width": 768
+    },
+    {
+      "client": 1425,
+      "scroll": 1425,
+      "starts": [
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 358
+        },
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 251
+        },
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 251
+        },
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 251
+        }
+      ],
+      "width": 1440
+    },
+    {
+      "client": 375,
+      "scroll": 375,
+      "starts": [
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 266
+        },
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 266
+        },
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 266
+        },
+        {
+          "button": 177.578125,
+          "height": 48,
+          "width": 266
+        }
+      ],
+      "width": 390
+    }
+  ],
+  "headerChecks": [
+    {
+      "client": 375,
+      "cta": {
+        "bottom": 64.5,
+        "height": 44,
+        "left": 221.328125,
+        "right": 303,
+        "top": 20.5,
+        "width": 81.671875,
+        "x": 221.328125,
+        "y": 20.5
+      },
+      "ctaSize": "12px",
+      "header": {
+        "bottom": 86,
+        "height": 86,
+        "left": 20,
+        "right": 355,
+        "top": 0,
+        "width": 335,
+        "x": 20,
+        "y": 0
+      },
+      "menu": {
+        "bottom": 64.5,
+        "height": 44,
+        "left": 311,
+        "right": 355,
+        "top": 20.5,
+        "width": 44,
+        "x": 311,
+        "y": 20.5
+      },
+      "nameSize": "18px",
+      "scroll": 375,
+      "subtitle": "none",
+      "width": 390
+    },
+    {
+      "client": 356,
+      "cta": {
+        "bottom": 64.5,
+        "height": 44,
+        "left": 202.328125,
+        "right": 284,
+        "top": 20.5,
+        "width": 81.671875,
+        "x": 202.328125,
+        "y": 20.5
+      },
+      "ctaSize": "12px",
+      "header": {
+        "bottom": 86,
+        "height": 86,
+        "left": 20,
+        "right": 336,
+        "top": 0,
+        "width": 316,
+        "x": 20,
+        "y": 0
+      },
+      "menu": {
+        "bottom": 64.5,
+        "height": 44,
+        "left": 292,
+        "right": 336,
+        "top": 20.5,
+        "width": 44,
+        "x": 292,
+        "y": 20.5
+      },
+      "nameSize": "18px",
+      "scroll": 356,
+      "subtitle": "none",
+      "width": 371
+    },
+    {
+      "client": 305,
+      "cta": {
+        "bottom": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "width": 0,
+        "x": 0,
+        "y": 0
+      },
+      "ctaSize": "12px",
+      "header": {
+        "bottom": 86,
+        "height": 86,
+        "left": 16,
+        "right": 289,
+        "top": 0,
+        "width": 273,
+        "x": 16,
+        "y": 0
+      },
+      "menu": {
+        "bottom": 64.5,
+        "height": 44,
+        "left": 245,
+        "right": 289,
+        "top": 20.5,
+        "width": 44,
+        "x": 245,
+        "y": 20.5
+      },
+      "nameSize": "18px",
+      "scroll": 305,
+      "subtitle": "none",
+      "width": 320
+    }
+  ],
+  "videoErrorCheck": {
+    "controlsHidden": true,
+    "focus": "Повторить загрузку: Сеанс массажа",
+    "label": "Повторить загрузку: Сеанс массажа",
+    "message": "Видео не загрузилось. Попробуйте ещё раз.",
+    "visible": true
+  },
+  "videoRetryCheck": {
+    "focus": "Приостановить: Сеанс массажа",
+    "paused": false,
+    "ready": 4,
+    "statusHidden": true,
+    "time": 7.750971
+  },
+  "videoFallbackCheck": {
+    "players": [
+      {
+        "controls": true,
+        "ready": 0,
+        "uiHidden": true
+      },
+      {
+        "controls": true,
+        "ready": 0,
+        "uiHidden": true
+      },
+      {
+        "controls": true,
+        "ready": 0,
+        "uiHidden": true
+      },
+      {
+        "controls": true,
+        "ready": 0,
+        "uiHidden": true
+      }
+    ],
+    "scripts": 0
+  }
+}

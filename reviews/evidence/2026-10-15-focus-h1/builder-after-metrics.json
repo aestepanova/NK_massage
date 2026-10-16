@@ -1,0 +1,1628 @@
+[
+  {
+    "width": 320,
+    "hero": {
+      "active": {
+        "className": "",
+        "tag": "BODY"
+      },
+      "ancestors": [
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "H1"
+        },
+        {
+          "className": "hero-copy",
+          "overflow": "visible",
+          "tag": "DIV"
+        },
+        {
+          "className": "hero wrap",
+          "overflow": "visible",
+          "tag": "SECTION"
+        },
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "MAIN"
+        },
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "BODY"
+        },
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "HTML"
+        }
+      ],
+      "contact": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "",
+        "color": "rgb(245, 243, 233)",
+        "focusVisible": false,
+        "font": "\"Cormorant Garamond\", Georgia, serif",
+        "id": "contact-title",
+        "lineHeight": "42.84px",
+        "outline": "rgb(245, 243, 233) none 3px",
+        "outlineColor": "rgb(245, 243, 233)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 85.671875,
+          "width": 273,
+          "x": 16,
+          "y": 10098.4921875
+        },
+        "size": "42px",
+        "tag": "H2",
+        "tracking": "-1.47px",
+        "weight": "400"
+      },
+      "contactBackground": "rgb(32, 71, 61)",
+      "contactCTA": {
+        "background": "rgb(243, 242, 232)",
+        "className": "button button-light",
+        "color": "rgb(32, 71, 61)",
+        "focusVisible": false,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "18px",
+        "outline": "rgb(32, 71, 61) none 3px",
+        "outlineColor": "rgb(32, 71, 61)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 57,
+          "width": 233.5390625,
+          "x": 35.7265625,
+          "y": 10307.75
+        },
+        "size": "12px",
+        "tag": "BUTTON",
+        "tracking": "normal",
+        "weight": "500"
+      },
+      "contactRanges": [
+        {
+          "rects": [
+            {
+              "height": 51,
+              "width": 145.1171875,
+              "x": 79.9375,
+              "y": 10093.9921875
+            }
+          ],
+          "text": "Начнём с "
+        },
+        {
+          "rects": [
+            {
+              "height": 51,
+              "width": 201.5625,
+              "x": 51.71875,
+              "y": 10136.828125
+            }
+          ],
+          "text": "одного сеанса?"
+        }
+      ],
+      "h1": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "",
+        "color": "rgb(48, 61, 54)",
+        "focusVisible": false,
+        "font": "\"Cormorant Garamond\", Georgia, serif",
+        "id": "hero-title",
+        "lineHeight": "91.2px",
+        "outline": "rgb(48, 61, 54) none 3px",
+        "outlineColor": "rgb(48, 61, 54)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 273.5859375,
+          "width": 273,
+          "x": 16,
+          "y": 161
+        },
+        "size": "76px",
+        "tag": "H1",
+        "tracking": "-3.648px",
+        "weight": "400"
+      },
+      "h1Ranges": [
+        {
+          "rects": [
+            {
+              "height": 92,
+              "width": 168.265625,
+              "x": 16,
+              "y": 160.5
+            }
+          ],
+          "text": "Время"
+        },
+        {
+          "rects": [
+            {
+              "height": 92,
+              "width": 268.5859375,
+              "x": 16,
+              "y": 251.6953125
+            }
+          ],
+          "text": "вернуться"
+        },
+        {
+          "rects": [
+            {
+              "height": 92,
+              "width": 151.1640625,
+              "x": 16,
+              "y": 342.890625
+            }
+          ],
+          "text": "к себе."
+        }
+      ],
+      "heroCTA": {
+        "background": "rgb(49, 93, 80)",
+        "className": "button",
+        "color": "rgb(255, 255, 255)",
+        "focusVisible": false,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "18px",
+        "outline": "rgb(255, 255, 255) none 3px",
+        "outlineColor": "rgb(255, 255, 255)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 55,
+          "width": 201,
+          "x": 16,
+          "y": 584.3671875
+        },
+        "size": "12px",
+        "tag": "BUTTON",
+        "tracking": "normal",
+        "weight": "500"
+      },
+      "phone": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "contact-phone",
+        "color": "rgb(245, 243, 233)",
+        "focusVisible": false,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "28.9px",
+        "outline": "rgb(245, 243, 233) none 3px",
+        "outlineColor": "rgb(245, 243, 233)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 29.8984375,
+          "width": 145.3203125,
+          "x": 79.8359375,
+          "y": 10387.75
+        },
+        "size": "17px",
+        "tag": "A",
+        "tracking": "0.68px",
+        "weight": "400"
+      },
+      "selection": {
+        "rects": [
+          {
+            "height": 13.5,
+            "width": 0,
+            "x": 279.7578125,
+            "y": 118.5
+          }
+        ],
+        "text": ""
+      },
+      "viewport": {
+        "clientWidth": 305,
+        "innerHeight": 844,
+        "innerWidth": 320,
+        "scrollWidth": 305
+      }
+    },
+    "wordSelection": {
+      "rects": [
+        {
+          "height": 92,
+          "width": 268.5859375,
+          "x": 16,
+          "y": 251.6953125
+        }
+      ],
+      "text": "вернуться"
+    },
+    "h1Selection": {
+      "rects": [
+        {
+          "height": 92,
+          "width": 168.265625,
+          "x": 16,
+          "y": 160.5
+        },
+        {
+          "height": 92,
+          "width": 0,
+          "x": 184.265625,
+          "y": 160.5
+        },
+        {
+          "height": 92,
+          "width": 268.5859375,
+          "x": 16,
+          "y": 251.6953125
+        },
+        {
+          "height": 92,
+          "width": 0,
+          "x": 284.5859375,
+          "y": 251.6953125
+        },
+        {
+          "height": 92,
+          "width": 151.1640625,
+          "x": 16,
+          "y": 342.890625
+        }
+      ],
+      "text": "Время\nвернуться\nк себе."
+    },
+    "contactSelection": {
+      "rects": [
+        {
+          "height": 51,
+          "width": 145.1171875,
+          "x": 79.9375,
+          "y": 298.9921875
+        },
+        {
+          "height": 51,
+          "width": 201.5625,
+          "x": 51.71875,
+          "y": 341.828125
+        }
+      ],
+      "text": "Начнём с\nодного сеанса?"
+    },
+    "contact": {
+      "background": "rgba(0, 0, 0, 0)",
+      "className": "",
+      "color": "rgb(245, 243, 233)",
+      "focusVisible": false,
+      "font": "\"Cormorant Garamond\", Georgia, serif",
+      "id": "contact-title",
+      "lineHeight": "42.84px",
+      "outline": "rgb(245, 243, 233) none 3px",
+      "outlineColor": "rgb(245, 243, 233)",
+      "outlineOffset": "0px",
+      "outlineWidth": "3px",
+      "overflow": "visible",
+      "rect": {
+        "height": 85.671875,
+        "width": 273,
+        "x": 16,
+        "y": 303.4921875
+      },
+      "size": "42px",
+      "tag": "H2",
+      "tracking": "-1.47px",
+      "weight": "400"
+    },
+    "contactRanges": [
+      {
+        "rects": [
+          {
+            "height": 51,
+            "width": 145.1171875,
+            "x": 79.9375,
+            "y": 298.9921875
+          }
+        ],
+        "text": "Начнём с "
+      },
+      {
+        "rects": [
+          {
+            "height": 51,
+            "width": 201.5625,
+            "x": 51.71875,
+            "y": 341.828125
+          }
+        ],
+        "text": "одного сеанса?"
+      }
+    ],
+    "focusCTA": {
+      "active": {
+        "className": "button button-light",
+        "tag": "BUTTON"
+      },
+      "style": {
+        "background": "rgb(220, 226, 206)",
+        "className": "button button-light",
+        "color": "rgb(32, 71, 61)",
+        "focusVisible": true,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "18px",
+        "outline": "rgb(243, 242, 232) solid 2px",
+        "outlineColor": "rgb(243, 242, 232)",
+        "outlineOffset": "6px",
+        "outlineWidth": "2px",
+        "overflow": "visible",
+        "rect": {
+          "height": 57,
+          "width": 233.5390625,
+          "x": 35.7265625,
+          "y": 523.75
+        },
+        "size": "12px",
+        "tag": "BUTTON",
+        "tracking": "normal",
+        "weight": "500"
+      }
+    },
+    "focusPhone": {
+      "active": {
+        "className": "contact-phone",
+        "tag": "A"
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "contact-phone",
+        "color": "rgb(245, 243, 233)",
+        "focusVisible": true,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "28.9px",
+        "outline": "rgb(243, 242, 232) solid 2px",
+        "outlineColor": "rgb(243, 242, 232)",
+        "outlineOffset": "6px",
+        "outlineWidth": "2px",
+        "overflow": "visible",
+        "rect": {
+          "height": 29.8984375,
+          "width": 145.3203125,
+          "x": 79.8359375,
+          "y": 605.75
+        },
+        "size": "17px",
+        "tag": "A",
+        "tracking": "0.68px",
+        "weight": "400"
+      },
+      "background": "rgb(32, 71, 61)"
+    }
+  },
+  {
+    "width": 390,
+    "hero": {
+      "active": {
+        "className": "",
+        "tag": "BODY"
+      },
+      "ancestors": [
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "H1"
+        },
+        {
+          "className": "hero-copy",
+          "overflow": "visible",
+          "tag": "DIV"
+        },
+        {
+          "className": "hero wrap",
+          "overflow": "visible",
+          "tag": "SECTION"
+        },
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "MAIN"
+        },
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "BODY"
+        },
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "HTML"
+        }
+      ],
+      "contact": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "",
+        "color": "rgb(245, 243, 233)",
+        "focusVisible": false,
+        "font": "\"Cormorant Garamond\", Georgia, serif",
+        "id": "contact-title",
+        "lineHeight": "48.96px",
+        "outline": "rgb(245, 243, 233) none 3px",
+        "outlineColor": "rgb(245, 243, 233)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 97.90625,
+          "width": 335,
+          "x": 20,
+          "y": 9966.125
+        },
+        "size": "48px",
+        "tag": "H2",
+        "tracking": "-1.68px",
+        "weight": "400"
+      },
+      "contactBackground": "rgb(32, 71, 61)",
+      "contactCTA": {
+        "background": "rgb(243, 242, 232)",
+        "className": "button button-light",
+        "color": "rgb(32, 71, 61)",
+        "focusVisible": false,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "18px",
+        "outline": "rgb(32, 71, 61) none 3px",
+        "outlineColor": "rgb(32, 71, 61)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 57,
+          "width": 233.5390625,
+          "x": 70.7265625,
+          "y": 10162.421875
+        },
+        "size": "12px",
+        "tag": "BUTTON",
+        "tracking": "normal",
+        "weight": "500"
+      },
+      "contactRanges": [
+        {
+          "rects": [
+            {
+              "height": 58.5,
+              "width": 165.84375,
+              "x": 104.578125,
+              "y": 9961.125
+            }
+          ],
+          "text": "Начнём с "
+        },
+        {
+          "rects": [
+            {
+              "height": 58.5,
+              "width": 230.359375,
+              "x": 72.3203125,
+              "y": 10010.078125
+            }
+          ],
+          "text": "одного сеанса?"
+        }
+      ],
+      "h1": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "",
+        "color": "rgb(48, 61, 54)",
+        "focusVisible": false,
+        "font": "\"Cormorant Garamond\", Georgia, serif",
+        "id": "hero-title",
+        "lineHeight": "100.8px",
+        "outline": "rgb(48, 61, 54) none 3px",
+        "outlineColor": "rgb(48, 61, 54)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 302.390625,
+          "width": 335,
+          "x": 20,
+          "y": 161
+        },
+        "size": "84px",
+        "tag": "H1",
+        "tracking": "-4.032px",
+        "weight": "400"
+      },
+      "h1Ranges": [
+        {
+          "rects": [
+            {
+              "height": 101.5,
+              "width": 185.9765625,
+              "x": 20,
+              "y": 160.5
+            }
+          ],
+          "text": "Время"
+        },
+        {
+          "rects": [
+            {
+              "height": 101.5,
+              "width": 296.859375,
+              "x": 20,
+              "y": 261.296875
+            }
+          ],
+          "text": "вернуться"
+        },
+        {
+          "rects": [
+            {
+              "height": 101.5,
+              "width": 167.078125,
+              "x": 20,
+              "y": 362.09375
+            }
+          ],
+          "text": "к себе."
+        }
+      ],
+      "heroCTA": {
+        "background": "rgb(49, 93, 80)",
+        "className": "button",
+        "color": "rgb(255, 255, 255)",
+        "focusVisible": false,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "18px",
+        "outline": "rgb(255, 255, 255) none 3px",
+        "outlineColor": "rgb(255, 255, 255)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 55,
+          "width": 219,
+          "x": 20,
+          "y": 587.9765625
+        },
+        "size": "12px",
+        "tag": "BUTTON",
+        "tracking": "normal",
+        "weight": "500"
+      },
+      "phone": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "contact-phone",
+        "color": "rgb(245, 243, 233)",
+        "focusVisible": false,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "28.9px",
+        "outline": "rgb(245, 243, 233) none 3px",
+        "outlineColor": "rgb(245, 243, 233)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 29.8984375,
+          "width": 145.3203125,
+          "x": 114.8359375,
+          "y": 10242.421875
+        },
+        "size": "17px",
+        "tag": "A",
+        "tracking": "0.68px",
+        "weight": "400"
+      },
+      "selection": {
+        "rects": [
+          {
+            "height": 13.5,
+            "width": 0,
+            "x": 283.7578125,
+            "y": 118.5
+          }
+        ],
+        "text": ""
+      },
+      "viewport": {
+        "clientWidth": 375,
+        "innerHeight": 844,
+        "innerWidth": 390,
+        "scrollWidth": 375
+      }
+    },
+    "wordSelection": {
+      "rects": [
+        {
+          "height": 101.5,
+          "width": 296.859375,
+          "x": 20,
+          "y": 261.296875
+        }
+      ],
+      "text": "вернуться"
+    },
+    "h1Selection": {
+      "rects": [
+        {
+          "height": 101.5,
+          "width": 185.9765625,
+          "x": 20,
+          "y": 160.5
+        },
+        {
+          "height": 101.5,
+          "width": 0,
+          "x": 205.9765625,
+          "y": 160.5
+        },
+        {
+          "height": 101.5,
+          "width": 296.859375,
+          "x": 20,
+          "y": 261.296875
+        },
+        {
+          "height": 101.5,
+          "width": 0,
+          "x": 316.859375,
+          "y": 261.296875
+        },
+        {
+          "height": 101.5,
+          "width": 167.078125,
+          "x": 20,
+          "y": 362.09375
+        }
+      ],
+      "text": "Время\nвернуться\nк себе."
+    },
+    "contactSelection": {
+      "rects": [
+        {
+          "height": 58.5,
+          "width": 165.84375,
+          "x": 104.578125,
+          "y": 311.125
+        },
+        {
+          "height": 58.5,
+          "width": 230.359375,
+          "x": 72.3203125,
+          "y": 360.078125
+        }
+      ],
+      "text": "Начнём с\nодного сеанса?"
+    },
+    "contact": {
+      "background": "rgba(0, 0, 0, 0)",
+      "className": "",
+      "color": "rgb(245, 243, 233)",
+      "focusVisible": false,
+      "font": "\"Cormorant Garamond\", Georgia, serif",
+      "id": "contact-title",
+      "lineHeight": "48.96px",
+      "outline": "rgb(245, 243, 233) none 3px",
+      "outlineColor": "rgb(245, 243, 233)",
+      "outlineOffset": "0px",
+      "outlineWidth": "3px",
+      "overflow": "visible",
+      "rect": {
+        "height": 97.90625,
+        "width": 335,
+        "x": 20,
+        "y": 316.125
+      },
+      "size": "48px",
+      "tag": "H2",
+      "tracking": "-1.68px",
+      "weight": "400"
+    },
+    "contactRanges": [
+      {
+        "rects": [
+          {
+            "height": 58.5,
+            "width": 165.84375,
+            "x": 104.578125,
+            "y": 311.125
+          }
+        ],
+        "text": "Начнём с "
+      },
+      {
+        "rects": [
+          {
+            "height": 58.5,
+            "width": 230.359375,
+            "x": 72.3203125,
+            "y": 360.078125
+          }
+        ],
+        "text": "одного сеанса?"
+      }
+    ],
+    "focusCTA": {
+      "active": {
+        "className": "button button-light",
+        "tag": "BUTTON"
+      },
+      "style": {
+        "background": "rgb(220, 226, 206)",
+        "className": "button button-light",
+        "color": "rgb(32, 71, 61)",
+        "focusVisible": true,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "18px",
+        "outline": "rgb(243, 242, 232) solid 2px",
+        "outlineColor": "rgb(243, 242, 232)",
+        "outlineOffset": "6px",
+        "outlineWidth": "2px",
+        "overflow": "visible",
+        "rect": {
+          "height": 57,
+          "width": 233.5390625,
+          "x": 70.7265625,
+          "y": 510.421875
+        },
+        "size": "12px",
+        "tag": "BUTTON",
+        "tracking": "normal",
+        "weight": "500"
+      }
+    },
+    "focusPhone": {
+      "active": {
+        "className": "contact-phone",
+        "tag": "A"
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "contact-phone",
+        "color": "rgb(245, 243, 233)",
+        "focusVisible": true,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "28.9px",
+        "outline": "rgb(243, 242, 232) solid 2px",
+        "outlineColor": "rgb(243, 242, 232)",
+        "outlineOffset": "6px",
+        "outlineWidth": "2px",
+        "overflow": "visible",
+        "rect": {
+          "height": 29.8984375,
+          "width": 145.3203125,
+          "x": 114.8359375,
+          "y": 592.421875
+        },
+        "size": "17px",
+        "tag": "A",
+        "tracking": "0.68px",
+        "weight": "400"
+      },
+      "background": "rgb(32, 71, 61)"
+    }
+  },
+  {
+    "width": 768,
+    "hero": {
+      "active": {
+        "className": "",
+        "tag": "BODY"
+      },
+      "ancestors": [
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "H1"
+        },
+        {
+          "className": "hero-copy",
+          "overflow": "visible",
+          "tag": "DIV"
+        },
+        {
+          "className": "hero wrap",
+          "overflow": "visible",
+          "tag": "SECTION"
+        },
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "MAIN"
+        },
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "BODY"
+        },
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "HTML"
+        }
+      ],
+      "contact": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "",
+        "color": "rgb(245, 243, 233)",
+        "focusVisible": false,
+        "font": "\"Cormorant Garamond\", Georgia, serif",
+        "id": "contact-title",
+        "lineHeight": "56.1px",
+        "outline": "rgb(245, 243, 233) none 3px",
+        "outlineColor": "rgb(245, 243, 233)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 56.09375,
+          "width": 705,
+          "x": 24,
+          "y": 7829.9140625
+        },
+        "size": "55px",
+        "tag": "H2",
+        "tracking": "-1.925px",
+        "weight": "400"
+      },
+      "contactBackground": "rgb(32, 71, 61)",
+      "contactCTA": {
+        "background": "rgb(243, 242, 232)",
+        "className": "button button-light",
+        "color": "rgb(32, 71, 61)",
+        "focusVisible": false,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "18px",
+        "outline": "rgb(32, 71, 61) none 3px",
+        "outlineColor": "rgb(32, 71, 61)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 57,
+          "width": 233.5390625,
+          "x": 259.7265625,
+          "y": 7984.3984375
+        },
+        "size": "12px",
+        "tag": "BUTTON",
+        "tracking": "normal",
+        "weight": "500"
+      },
+      "contactRanges": [
+        {
+          "rects": [
+            {
+              "height": 67,
+              "width": 200.9765625,
+              "x": 144.0390625,
+              "y": 7824.4140625
+            }
+          ],
+          "text": "Начнём с "
+        },
+        {
+          "rects": [
+            {
+              "height": 67,
+              "width": 263.9453125,
+              "x": 345.015625,
+              "y": 7824.4140625
+            }
+          ],
+          "text": "одного сеанса?"
+        }
+      ],
+      "h1": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "",
+        "color": "rgb(48, 61, 54)",
+        "focusVisible": false,
+        "font": "\"Cormorant Garamond\", Georgia, serif",
+        "id": "hero-title",
+        "lineHeight": "94.8px",
+        "outline": "rgb(48, 61, 54) none 3px",
+        "outlineColor": "rgb(48, 61, 54)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 284.390625,
+          "width": 342.5,
+          "x": 24,
+          "y": 207
+        },
+        "size": "79px",
+        "tag": "H1",
+        "tracking": "-3.792px",
+        "weight": "400"
+      },
+      "h1Ranges": [
+        {
+          "rects": [
+            {
+              "height": 95.5,
+              "width": 174.90625,
+              "x": 24,
+              "y": 206.5
+            }
+          ],
+          "text": "Время"
+        },
+        {
+          "rects": [
+            {
+              "height": 95.5,
+              "width": 279.1875,
+              "x": 24,
+              "y": 301.296875
+            }
+          ],
+          "text": "вернуться"
+        },
+        {
+          "rects": [
+            {
+              "height": 95.5,
+              "width": 157.1328125,
+              "x": 24,
+              "y": 396.09375
+            }
+          ],
+          "text": "к себе."
+        }
+      ],
+      "heroCTA": {
+        "background": "rgb(49, 93, 80)",
+        "className": "button",
+        "color": "rgb(255, 255, 255)",
+        "focusVisible": false,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "18px",
+        "outline": "rgb(255, 255, 255) none 3px",
+        "outlineColor": "rgb(255, 255, 255)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 51,
+          "width": 217,
+          "x": 24,
+          "y": 613.9765625
+        },
+        "size": "12px",
+        "tag": "BUTTON",
+        "tracking": "normal",
+        "weight": "500"
+      },
+      "phone": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "contact-phone",
+        "color": "rgb(245, 243, 233)",
+        "focusVisible": false,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "28.9px",
+        "outline": "rgb(245, 243, 233) none 3px",
+        "outlineColor": "rgb(245, 243, 233)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 29.8984375,
+          "width": 145.3203125,
+          "x": 303.8359375,
+          "y": 8064.3984375
+        },
+        "size": "17px",
+        "tag": "A",
+        "tracking": "0.68px",
+        "weight": "400"
+      },
+      "selection": {
+        "rects": [],
+        "text": ""
+      },
+      "viewport": {
+        "clientWidth": 753,
+        "innerHeight": 844,
+        "innerWidth": 768,
+        "scrollWidth": 753
+      }
+    },
+    "wordSelection": {
+      "rects": [
+        {
+          "height": 95.5,
+          "width": 279.1875,
+          "x": 24,
+          "y": 301.296875
+        }
+      ],
+      "text": "вернуться"
+    },
+    "h1Selection": {
+      "rects": [
+        {
+          "height": 95.5,
+          "width": 174.90625,
+          "x": 24,
+          "y": 206.5
+        },
+        {
+          "height": 95.5,
+          "width": 0,
+          "x": 198.90625,
+          "y": 206.5
+        },
+        {
+          "height": 95.5,
+          "width": 279.1875,
+          "x": 24,
+          "y": 301.296875
+        },
+        {
+          "height": 95.5,
+          "width": 0,
+          "x": 303.1875,
+          "y": 301.296875
+        },
+        {
+          "height": 95.5,
+          "width": 157.1328125,
+          "x": 24,
+          "y": 396.09375
+        }
+      ],
+      "text": "Время\nвернуться\nк себе."
+    },
+    "contactSelection": {
+      "rects": [
+        {
+          "height": 67,
+          "width": 200.9765625,
+          "x": 144.0390625,
+          "y": 344.9140625
+        },
+        {
+          "height": 67,
+          "width": 263.9453125,
+          "x": 345.015625,
+          "y": 344.9140625
+        }
+      ],
+      "text": "Начнём с одного сеанса?"
+    },
+    "contact": {
+      "background": "rgba(0, 0, 0, 0)",
+      "className": "",
+      "color": "rgb(245, 243, 233)",
+      "focusVisible": false,
+      "font": "\"Cormorant Garamond\", Georgia, serif",
+      "id": "contact-title",
+      "lineHeight": "56.1px",
+      "outline": "rgb(245, 243, 233) none 3px",
+      "outlineColor": "rgb(245, 243, 233)",
+      "outlineOffset": "0px",
+      "outlineWidth": "3px",
+      "overflow": "visible",
+      "rect": {
+        "height": 56.09375,
+        "width": 705,
+        "x": 24,
+        "y": 350.4140625
+      },
+      "size": "55px",
+      "tag": "H2",
+      "tracking": "-1.925px",
+      "weight": "400"
+    },
+    "contactRanges": [
+      {
+        "rects": [
+          {
+            "height": 67,
+            "width": 200.9765625,
+            "x": 144.0390625,
+            "y": 344.9140625
+          }
+        ],
+        "text": "Начнём с "
+      },
+      {
+        "rects": [
+          {
+            "height": 67,
+            "width": 263.9453125,
+            "x": 345.015625,
+            "y": 344.9140625
+          }
+        ],
+        "text": "одного сеанса?"
+      }
+    ],
+    "focusCTA": {
+      "active": {
+        "className": "button button-light",
+        "tag": "BUTTON"
+      },
+      "style": {
+        "background": "rgb(220, 226, 206)",
+        "className": "button button-light",
+        "color": "rgb(32, 71, 61)",
+        "focusVisible": true,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "18px",
+        "outline": "rgb(243, 242, 232) solid 2px",
+        "outlineColor": "rgb(243, 242, 232)",
+        "outlineOffset": "6px",
+        "outlineWidth": "2px",
+        "overflow": "visible",
+        "rect": {
+          "height": 57,
+          "width": 233.5390625,
+          "x": 259.7265625,
+          "y": 502.8984375
+        },
+        "size": "12px",
+        "tag": "BUTTON",
+        "tracking": "normal",
+        "weight": "500"
+      }
+    },
+    "focusPhone": {
+      "active": {
+        "className": "contact-phone",
+        "tag": "A"
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "contact-phone",
+        "color": "rgb(245, 243, 233)",
+        "focusVisible": true,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "28.9px",
+        "outline": "rgb(243, 242, 232) solid 2px",
+        "outlineColor": "rgb(243, 242, 232)",
+        "outlineOffset": "6px",
+        "outlineWidth": "2px",
+        "overflow": "visible",
+        "rect": {
+          "height": 29.8984375,
+          "width": 145.3203125,
+          "x": 303.8359375,
+          "y": 584.8984375
+        },
+        "size": "17px",
+        "tag": "A",
+        "tracking": "0.68px",
+        "weight": "400"
+      },
+      "background": "rgb(32, 71, 61)"
+    }
+  },
+  {
+    "width": 1440,
+    "hero": {
+      "active": {
+        "className": "",
+        "tag": "BODY"
+      },
+      "ancestors": [
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "H1"
+        },
+        {
+          "className": "hero-copy",
+          "overflow": "visible",
+          "tag": "DIV"
+        },
+        {
+          "className": "hero wrap",
+          "overflow": "visible",
+          "tag": "SECTION"
+        },
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "MAIN"
+        },
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "BODY"
+        },
+        {
+          "className": "",
+          "overflow": "visible",
+          "tag": "HTML"
+        }
+      ],
+      "contact": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "",
+        "color": "rgb(245, 243, 233)",
+        "focusVisible": false,
+        "font": "\"Cormorant Garamond\", Georgia, serif",
+        "id": "contact-title",
+        "lineHeight": "68.34px",
+        "outline": "rgb(245, 243, 233) none 3px",
+        "outlineColor": "rgb(245, 243, 233)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 68.3359375,
+          "width": 1240,
+          "x": 92.5,
+          "y": 7612.3046875
+        },
+        "size": "67px",
+        "tag": "H2",
+        "tracking": "-2.345px",
+        "weight": "400"
+      },
+      "contactBackground": "rgb(32, 71, 61)",
+      "contactCTA": {
+        "background": "rgb(243, 242, 232)",
+        "className": "button button-light",
+        "color": "rgb(32, 71, 61)",
+        "focusVisible": false,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "18px",
+        "outline": "rgb(32, 71, 61) none 3px",
+        "outlineColor": "rgb(32, 71, 61)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 57,
+          "width": 233.5390625,
+          "x": 595.7265625,
+          "y": 7779.03125
+        },
+        "size": "12px",
+        "tag": "BUTTON",
+        "tracking": "normal",
+        "weight": "500"
+      },
+      "contactRanges": [
+        {
+          "rects": [
+            {
+              "height": 81,
+              "width": 244.8203125,
+              "x": 429.3203125,
+              "y": 7605.8046875
+            }
+          ],
+          "text": "Начнём с "
+        },
+        {
+          "rects": [
+            {
+              "height": 81,
+              "width": 321.5390625,
+              "x": 674.140625,
+              "y": 7605.8046875
+            }
+          ],
+          "text": "одного сеанса?"
+        }
+      ],
+      "h1": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "",
+        "color": "rgb(48, 61, 54)",
+        "focusVisible": false,
+        "font": "\"Cormorant Garamond\", Georgia, serif",
+        "id": "hero-title",
+        "lineHeight": "133.056px",
+        "outline": "rgb(48, 61, 54) none 3px",
+        "outlineColor": "rgb(48, 61, 54)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 399.1640625,
+          "width": 600,
+          "x": 92.5,
+          "y": 260
+        },
+        "size": "110.88px",
+        "tag": "H1",
+        "tracking": "-5.32224px",
+        "weight": "400"
+      },
+      "h1Ranges": [
+        {
+          "rects": [
+            {
+              "height": 134.5,
+              "width": 245.4921875,
+              "x": 92.5,
+              "y": 259
+            }
+          ],
+          "text": "Время"
+        },
+        {
+          "rects": [
+            {
+              "height": 134.5,
+              "width": 391.8515625,
+              "x": 92.5,
+              "y": 392.0546875
+            }
+          ],
+          "text": "вернуться"
+        },
+        {
+          "rects": [
+            {
+              "height": 134.5,
+              "width": 220.546875,
+              "x": 92.5,
+              "y": 525.109375
+            }
+          ],
+          "text": "к себе."
+        }
+      ],
+      "heroCTA": {
+        "background": "rgb(49, 93, 80)",
+        "className": "button",
+        "color": "rgb(255, 255, 255)",
+        "focusVisible": false,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "18px",
+        "outline": "rgb(255, 255, 255) none 3px",
+        "outlineColor": "rgb(255, 255, 255)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 57,
+          "width": 241,
+          "x": 92.5,
+          "y": 766.5546875
+        },
+        "size": "12px",
+        "tag": "BUTTON",
+        "tracking": "normal",
+        "weight": "500"
+      },
+      "phone": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "contact-phone",
+        "color": "rgb(245, 243, 233)",
+        "focusVisible": false,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "28.9px",
+        "outline": "rgb(245, 243, 233) none 3px",
+        "outlineColor": "rgb(245, 243, 233)",
+        "outlineOffset": "0px",
+        "outlineWidth": "3px",
+        "overflow": "visible",
+        "rect": {
+          "height": 29.8984375,
+          "width": 145.3203125,
+          "x": 639.8359375,
+          "y": 7859.03125
+        },
+        "size": "17px",
+        "tag": "A",
+        "tracking": "0.68px",
+        "weight": "400"
+      },
+      "selection": {
+        "rects": [],
+        "text": ""
+      },
+      "viewport": {
+        "clientWidth": 1425,
+        "innerHeight": 844,
+        "innerWidth": 1440,
+        "scrollWidth": 1425
+      }
+    },
+    "wordSelection": {
+      "rects": [
+        {
+          "height": 134.5,
+          "width": 391.8515625,
+          "x": 92.5,
+          "y": 392.0546875
+        }
+      ],
+      "text": "вернуться"
+    },
+    "h1Selection": {
+      "rects": [
+        {
+          "height": 134.5,
+          "width": 245.4921875,
+          "x": 92.5,
+          "y": 259
+        },
+        {
+          "height": 134.5,
+          "width": 0,
+          "x": 337.9921875,
+          "y": 259
+        },
+        {
+          "height": 134.5,
+          "width": 391.8515625,
+          "x": 92.5,
+          "y": 392.0546875
+        },
+        {
+          "height": 134.5,
+          "width": 0,
+          "x": 484.3515625,
+          "y": 392.0546875
+        },
+        {
+          "height": 134.5,
+          "width": 220.546875,
+          "x": 92.5,
+          "y": 525.109375
+        }
+      ],
+      "text": "Время\nвернуться\nк себе."
+    },
+    "contactSelection": {
+      "rects": [
+        {
+          "height": 81,
+          "width": 244.8203125,
+          "x": 429.3203125,
+          "y": 331.8046875
+        },
+        {
+          "height": 81,
+          "width": 321.5390625,
+          "x": 674.140625,
+          "y": 331.8046875
+        }
+      ],
+      "text": "Начнём с одного сеанса?"
+    },
+    "contact": {
+      "background": "rgba(0, 0, 0, 0)",
+      "className": "",
+      "color": "rgb(245, 243, 233)",
+      "focusVisible": false,
+      "font": "\"Cormorant Garamond\", Georgia, serif",
+      "id": "contact-title",
+      "lineHeight": "68.34px",
+      "outline": "rgb(245, 243, 233) none 3px",
+      "outlineColor": "rgb(245, 243, 233)",
+      "outlineOffset": "0px",
+      "outlineWidth": "3px",
+      "overflow": "visible",
+      "rect": {
+        "height": 68.3359375,
+        "width": 1240,
+        "x": 92.5,
+        "y": 338.3046875
+      },
+      "size": "67px",
+      "tag": "H2",
+      "tracking": "-2.345px",
+      "weight": "400"
+    },
+    "contactRanges": [
+      {
+        "rects": [
+          {
+            "height": 81,
+            "width": 244.8203125,
+            "x": 429.3203125,
+            "y": 331.8046875
+          }
+        ],
+        "text": "Начнём с "
+      },
+      {
+        "rects": [
+          {
+            "height": 81,
+            "width": 321.5390625,
+            "x": 674.140625,
+            "y": 331.8046875
+          }
+        ],
+        "text": "одного сеанса?"
+      }
+    ],
+    "focusCTA": {
+      "active": {
+        "className": "button button-light",
+        "tag": "BUTTON"
+      },
+      "style": {
+        "background": "rgb(220, 226, 206)",
+        "className": "button button-light",
+        "color": "rgb(32, 71, 61)",
+        "focusVisible": true,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "18px",
+        "outline": "rgb(243, 242, 232) solid 2px",
+        "outlineColor": "rgb(243, 242, 232)",
+        "outlineOffset": "6px",
+        "outlineWidth": "2px",
+        "overflow": "visible",
+        "rect": {
+          "height": 57,
+          "width": 233.5390625,
+          "x": 595.7265625,
+          "y": 503.03125
+        },
+        "size": "12px",
+        "tag": "BUTTON",
+        "tracking": "normal",
+        "weight": "500"
+      }
+    },
+    "focusPhone": {
+      "active": {
+        "className": "contact-phone",
+        "tag": "A"
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)",
+        "className": "contact-phone",
+        "color": "rgb(245, 243, 233)",
+        "focusVisible": true,
+        "font": "Manrope, Arial, sans-serif",
+        "id": "",
+        "lineHeight": "28.9px",
+        "outline": "rgb(243, 242, 232) solid 2px",
+        "outlineColor": "rgb(243, 242, 232)",
+        "outlineOffset": "6px",
+        "outlineWidth": "2px",
+        "overflow": "visible",
+        "rect": {
+          "height": 29.8984375,
+          "width": 145.3203125,
+          "x": 639.8359375,
+          "y": 585.03125
+        },
+        "size": "17px",
+        "tag": "A",
+        "tracking": "0.68px",
+        "weight": "400"
+      },
+      "background": "rgb(32, 71, 61)"
+    }
+  }
+]

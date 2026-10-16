@@ -1,0 +1,191 @@
+{
+  "command": "python3 -B scripts/check_site.py",
+  "exit_code": 0,
+  "stdout": "OK: 1 HTML page(s), local links/CSS URLs and 1 JavaScript file(s) checked\n",
+  "stderr": "",
+  "sha256": [
+    {
+      "path": "sites/natalia-kuznetsova/dist/index.html",
+      "before": "6848bbd1cb59996961ee6a28fc5dc579159ab575cd1651e0b08f6abfddc9e486",
+      "after": "6848bbd1cb59996961ee6a28fc5dc579159ab575cd1651e0b08f6abfddc9e486",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/styles.css",
+      "before": "730e30c3061470c64229c17d1af9266221f959f3750d3ab018d9f8059a480256",
+      "after": "e14bca47de164886b968dba056ac2a1701368eab4b58a3e7a42326e9bcce3499",
+      "changed": true
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/app.js",
+      "before": "8776e966d5dc051cbe128c6a20af3b818a6f5c70a42d71cfd04d606ede20bf1a",
+      "after": "8776e966d5dc051cbe128c6a20af3b818a6f5c70a42d71cfd04d606ede20bf1a",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/OFL-Manrope.txt",
+      "before": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "after": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/OFL-Cormorant.txt",
+      "before": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "after": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/cormorant-regular.ttf",
+      "before": "6d37a86241a25d63f8fe6018b4c083449886b7165c1acb15edd0f574f690ecf7",
+      "after": "6d37a86241a25d63f8fe6018b4c083449886b7165c1acb15edd0f574f690ecf7",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/hero.png",
+      "before": "385bd92c08fe2fee59acaa65386961e25368e65d4c48c38a81aa726e6eb14e31",
+      "after": "385bd92c08fe2fee59acaa65386961e25368e65d4c48c38a81aa726e6eb14e31",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/manrope-medium.ttf",
+      "before": "f433e5d333be1128d8ec8a28b8aadd0314d10e14e4105406076666bc830fc15d",
+      "after": "f433e5d333be1128d8ec8a28b8aadd0314d10e14e4105406076666bc830fc15d",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/manrope-semibold.ttf",
+      "before": "6bad1a774228464cc88b8b0271555b266f7a3c64a7bedf15e165fdab4f6ac0ce",
+      "after": "6bad1a774228464cc88b8b0271555b266f7a3c64a7bedf15e165fdab4f6ac0ce",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/manrope-regular.ttf",
+      "before": "a13d9b41b0a471ce58f0e46d377fa3cc76615e4632c3b15eb397caadf7a13f0a",
+      "after": "a13d9b41b0a471ce58f0e46d377fa3cc76615e4632c3b15eb397caadf7a13f0a",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/cormorant-italic.ttf",
+      "before": "0b9a8a33cfaa624d30f70f9b6686da769b319b8c37a55af16e29fef690108bbf",
+      "after": "0b9a8a33cfaa624d30f70f9b6686da769b319b8c37a55af16e29fef690108bbf",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/fonts.css",
+      "before": "4321755b9d15b77cc702ac8720060eebb37343f32673a8a14056fa8e4aaa1984",
+      "after": "4321755b9d15b77cc702ac8720060eebb37343f32673a8a14056fa8e4aaa1984",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/video/legs-feet.mp4",
+      "before": "33fee0f947f94f55e936af1737eab2e9f148cde9cc4f21308672805a8259ba9c",
+      "after": "33fee0f947f94f55e936af1737eab2e9f148cde9cc4f21308672805a8259ba9c",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/video/session.jpg",
+      "before": "63642d0f6b361a1fe079476cadf7deb7a31bad8dbf35b34af45395221d55f959",
+      "after": "63642d0f6b361a1fe079476cadf7deb7a31bad8dbf35b34af45395221d55f959",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/video/back-shoulders.jpg",
+      "before": "acf6eb282ab25924995232ca2f890f3be19199fdd81b2aca5282ee4ec72d14e8",
+      "after": "acf6eb282ab25924995232ca2f890f3be19199fdd81b2aca5282ee4ec72d14e8",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/video/hands.mp4",
+      "before": "8c357cc3685845ce9eb3fb2e7164a91830fe094a5a5d8622f88b58c030d6b716",
+      "after": "8c357cc3685845ce9eb3fb2e7164a91830fe094a5a5d8622f88b58c030d6b716",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/video/hands.jpg",
+      "before": "b2ef969470034129278c4a3b487cc9841061ae3170d1ee7cd865d2f7564b6f7c",
+      "after": "b2ef969470034129278c4a3b487cc9841061ae3170d1ee7cd865d2f7564b6f7c",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/video/back-shoulders.mp4",
+      "before": "f5fe7e9818c01de80244709dbc9ca5e34d56ed68e49bfb702071bdb12759ccfe",
+      "after": "f5fe7e9818c01de80244709dbc9ca5e34d56ed68e49bfb702071bdb12759ccfe",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/video/session.mp4",
+      "before": "8c079bbf1d4eac19a8a92f43e6a54dee95ca8ac1759edf291e7e14a66b10a3c4",
+      "after": "8c079bbf1d4eac19a8a92f43e6a54dee95ca8ac1759edf291e7e14a66b10a3c4",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/video/legs-feet.jpg",
+      "before": "5025800f1bb22d7a366b997f58cca879286c665009396cf1d19f014a08776687",
+      "after": "5025800f1bb22d7a366b997f58cca879286c665009396cf1d19f014a08776687",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/real/program-2022.jpg",
+      "before": "b9daf9f9f32588f3f394b830fdc7cba57037bd9b3728709cd5c475daa52d4650",
+      "after": "b9daf9f9f32588f3f394b830fdc7cba57037bd9b3728709cd5c475daa52d4650",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/real/natalia-portrait.jpg",
+      "before": "9762a8aaf55da1632841f897282560d2ba2273fffb7735c2ad301c5a834db36d",
+      "after": "9762a8aaf55da1632841f897282560d2ba2273fffb7735c2ad301c5a834db36d",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/real/cabinet.jpg",
+      "before": "dd1e053cb09e5bfb537807c36bf8c6c7e1f76692b100aa96e9d4be6a2c99ec2d",
+      "after": "dd1e053cb09e5bfb537807c36bf8c6c7e1f76692b100aa96e9d4be6a2c99ec2d",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/real/natalia.jpg",
+      "before": "647423ea50a2ba5588d1df9633c9a8275023b2c5f09a522bdecc6b78b86b7219",
+      "after": "647423ea50a2ba5588d1df9633c9a8275023b2c5f09a522bdecc6b78b86b7219",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/real/diploma-2022.jpg",
+      "before": "49eb1d321f4b3fd045ca6d50967a82af14273ac747a8fc93e69e4d5ae24979c9",
+      "after": "49eb1d321f4b3fd045ca6d50967a82af14273ac747a8fc93e69e4d5ae24979c9",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/real/cabinet-front.jpg",
+      "before": "2d797d77477fedf849717f12c043c68fdf8be1abf53de4ccf3414414a44b48ea",
+      "after": "2d797d77477fedf849717f12c043c68fdf8be1abf53de4ccf3414414a44b48ea",
+      "changed": false
+    },
+    {
+      "path": "sites/natalia-kuznetsova/dist/assets/real/study-hours-2022.jpg",
+      "before": "534d333aeb03a502ec3290866d52083ce6c6c8aa6500ce0237771eb9f462161c",
+      "after": "534d333aeb03a502ec3290866d52083ce6c6c8aa6500ce0237771eb9f462161c",
+      "changed": false
+    }
+  ],
+  "changed_paths": [
+    "sites/natalia-kuznetsova/dist/styles.css"
+  ],
+  "unchanged_files": 26,
+  "exact_css_expected_changes_only": true,
+  "replacement_match_counts": [
+    1,
+    1,
+    1
+  ],
+  "preserved_reduced_motion_css": true,
+  "preserved_selection_rule": true,
+  "contrast_srgb": {
+    "outline": "#f3f2e8",
+    "actual_contact_background": "#20473d",
+    "ratio": 9.200076620756727,
+    "selection_foreground": "#203c32",
+    "selection_background": "#d7ddc5",
+    "selection_ratio": 8.57457900170982,
+    "method": "sRGB relative luminance per channel; pairwise color ratio, not full WCAG audit"
+  }
+}

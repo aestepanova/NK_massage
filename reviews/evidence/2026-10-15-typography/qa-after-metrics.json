@@ -1,0 +1,2231 @@
+{
+  "date": "2026-10-15",
+  "url": "http://127.0.0.1:4174/",
+  "browser": "Codex In-app Browser via CUA",
+  "viewports": [
+    {
+      "clientWidth": 1425,
+      "dpr": 1,
+      "headings": [
+        {
+          "box": {
+            "bottom": 564.5234375,
+            "height": 306.0234375,
+            "right": 692.5,
+            "width": 600,
+            "x": 92.5,
+            "y": 258.5
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "hero-title",
+          "letterSpacing": "-5.32224px",
+          "lineHeight": "102.01px",
+          "size": "110.88px",
+          "text": "Времявернутьсяк себе.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 1245.7734375,
+            "height": 125.265625,
+            "right": 1332.5,
+            "width": 617.1015625,
+            "x": 715.3984375,
+            "y": 1120.5078125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "approach-title",
+          "letterSpacing": "-1.74px",
+          "lineHeight": "62.64px",
+          "size": "58px",
+          "text": "Забота о теле —как образ жизни.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 1976.46875,
+            "height": 125.265625,
+            "right": 446.828125,
+            "width": 354.328125,
+            "x": 92.5,
+            "y": 1851.203125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "sessions-title",
+          "letterSpacing": "-1.74px",
+          "lineHeight": "62.64px",
+          "size": "58px",
+          "text": "Разные техники.Ваше сочетание.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 2088.0625,
+            "height": 39.59375,
+            "right": 1099.5,
+            "width": 922,
+            "x": 177.5,
+            "y": 2048.46875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.66px",
+          "lineHeight": "39.6px",
+          "size": "33px",
+          "text": "Комбинированный массаж",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 2210.0546875,
+            "height": 39.59375,
+            "right": 1099.5,
+            "width": 922,
+            "x": 177.5,
+            "y": 2170.4609375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.66px",
+          "lineHeight": "39.6px",
+          "size": "33px",
+          "text": "Китайская техника ЦЗЫ-НЛО",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 2332.046875,
+            "height": 39.59375,
+            "right": 1099.5,
+            "width": 922,
+            "x": 177.5,
+            "y": 2292.453125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.66px",
+          "lineHeight": "39.6px",
+          "size": "33px",
+          "text": "Работа со стопами",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 2454.0390625,
+            "height": 39.59375,
+            "right": 1099.5,
+            "width": 922,
+            "x": 177.5,
+            "y": 2414.4453125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.66px",
+          "lineHeight": "39.6px",
+          "size": "33px",
+          "text": "Гимнастика Цигун",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 2576.03125,
+            "height": 39.59375,
+            "right": 1099.5,
+            "width": 922,
+            "x": 177.5,
+            "y": 2536.4375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.66px",
+          "lineHeight": "39.6px",
+          "size": "33px",
+          "text": "Обучение ЦЗЫ-НЛО",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3079.2890625,
+            "height": 125.265625,
+            "right": 505.984375,
+            "width": 413.484375,
+            "x": 92.5,
+            "y": 2954.0234375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "work-title",
+          "letterSpacing": "-1.74px",
+          "lineHeight": "62.64px",
+          "size": "58px",
+          "text": "Внимание —в каждом движении.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3693.4765625,
+            "height": 28.75,
+            "right": 236.15625,
+            "width": 143.65625,
+            "x": 92.5,
+            "y": 3664.7265625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-session-title",
+          "letterSpacing": "-0.375px",
+          "lineHeight": "28.75px",
+          "size": "25px",
+          "text": "Сеанс массажа",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3693.4765625,
+            "height": 28.75,
+            "right": 550.2265625,
+            "width": 142.7265625,
+            "x": 407.5,
+            "y": 3664.7265625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-back-title",
+          "letterSpacing": "-0.375px",
+          "lineHeight": "28.75px",
+          "size": "25px",
+          "text": "Спина и плечи",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3693.4765625,
+            "height": 28.75,
+            "right": 857.078125,
+            "width": 134.578125,
+            "x": 722.5,
+            "y": 3664.7265625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-feet-title",
+          "letterSpacing": "-0.375px",
+          "lineHeight": "28.75px",
+          "size": "25px",
+          "text": "Ноги и стопы",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3693.4765625,
+            "height": 28.75,
+            "right": 1178.9765625,
+            "width": 141.4765625,
+            "x": 1037.5,
+            "y": 3664.7265625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-hands-title",
+          "letterSpacing": "-0.375px",
+          "lineHeight": "28.75px",
+          "size": "25px",
+          "text": "Работа руками",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4010.109375,
+            "height": 62.6328125,
+            "right": 597.5703125,
+            "width": 505.0703125,
+            "x": 92.5,
+            "y": 3947.4765625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "prices-title",
+          "letterSpacing": "-1.74px",
+          "lineHeight": "62.64px",
+          "size": "58px",
+          "text": "Начните со знакомства.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4245.4140625,
+            "height": 101.90625,
+            "right": 633.5,
+            "width": 498,
+            "x": 135.5,
+            "y": 4143.5078125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-1.56px",
+          "lineHeight": "50.96px",
+          "size": "52px",
+          "text": "Диагностическийсеанс",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4121.609375,
+            "height": 38.5,
+            "right": 1332.5,
+            "width": 584,
+            "x": 748.5,
+            "y": 4083.109375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.875px",
+          "lineHeight": "38.5px",
+          "size": "35px",
+          "text": "Массаж всего тела",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4523.3828125,
+            "height": 82,
+            "right": 1332.5,
+            "width": 584,
+            "x": 748.5,
+            "y": 4441.3828125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.875px",
+          "lineHeight": "38.5px",
+          "size": "35px",
+          "text": "Абонемент со скидкой 15%",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5113.4296875,
+            "height": 125.265625,
+            "right": 653.5,
+            "width": 561,
+            "x": 92.5,
+            "y": 4988.1640625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "visit-title",
+          "letterSpacing": "-1.74px",
+          "lineHeight": "62.64px",
+          "size": "58px",
+          "text": "Сначала —ваша история.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5015.4609375,
+            "height": 49.296875,
+            "right": 1135.5,
+            "width": 330,
+            "x": 805.5,
+            "y": 4966.1640625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.725px",
+          "lineHeight": "49.3px",
+          "size": "29px",
+          "text": "Поговорим о вас",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5169.1484375,
+            "height": 49.296875,
+            "right": 1137.125,
+            "width": 330,
+            "x": 807.125,
+            "y": 5119.8515625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.725px",
+          "lineHeight": "49.3px",
+          "size": "29px",
+          "text": "Подберём техники",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5322.8359375,
+            "height": 49.296875,
+            "right": 1136.96875,
+            "width": 330,
+            "x": 806.96875,
+            "y": 5273.5390625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.725px",
+          "lineHeight": "49.3px",
+          "size": "29px",
+          "text": "Наметим продолжение",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5908.3125,
+            "height": 187.8984375,
+            "right": 611.796875,
+            "width": 519.296875,
+            "x": 92.5,
+            "y": 5720.4140625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "education-title",
+          "letterSpacing": "-1.74px",
+          "lineHeight": "62.64px",
+          "size": "58px",
+          "text": "Практика,за которой —обучение.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 7013.53125,
+            "height": 89.75,
+            "right": 653.5,
+            "width": 561,
+            "x": 92.5,
+            "y": 6923.78125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "questions-title",
+          "letterSpacing": "-1.54px",
+          "lineHeight": "44.88px",
+          "size": "44px",
+          "text": "Возможно, выхотели спросить.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 7489.1171875,
+            "height": 68.3359375,
+            "right": 1332.5,
+            "width": 1240,
+            "x": 92.5,
+            "y": 7420.78125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "contact-title",
+          "letterSpacing": "-2.345px",
+          "lineHeight": "68.34px",
+          "size": "67px",
+          "text": "Начнём с одного сеанса?",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 0,
+            "height": 0,
+            "right": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "booking-title",
+          "letterSpacing": "-2.17px",
+          "lineHeight": "63.24px",
+          "size": "62px",
+          "text": "Время для вас.",
+          "weight": "400"
+        }
+      ],
+      "innerHeight": 960,
+      "innerWidth": 1440,
+      "scrollWidth": 1425,
+      "sections": [
+        {
+          "box": {
+            "bottom": 1708.203125,
+            "height": 740.6953125,
+            "right": 1332.5,
+            "width": 1240,
+            "x": 92.5,
+            "y": 967.5078125
+          },
+          "clientWidth": 1240,
+          "id": "approach",
+          "scrollWidth": 1240
+        },
+        {
+          "box": {
+            "bottom": 2811.0234375,
+            "height": 1102.8203125,
+            "right": 1425,
+            "width": 1425,
+            "x": 0,
+            "y": 1708.203125
+          },
+          "clientWidth": 1425,
+          "id": "sessions",
+          "scrollWidth": 1425
+        },
+        {
+          "box": {
+            "bottom": 3804.4765625,
+            "height": 993.453125,
+            "right": 1332.5,
+            "width": 1240,
+            "x": 92.5,
+            "y": 2811.0234375
+          },
+          "clientWidth": 1240,
+          "id": "work",
+          "scrollWidth": 1240
+        },
+        {
+          "box": {
+            "bottom": 4838.1640625,
+            "height": 1033.6875,
+            "right": 1332.5,
+            "width": 1240,
+            "x": 92.5,
+            "y": 3804.4765625
+          },
+          "clientWidth": 1240,
+          "id": "prices",
+          "scrollWidth": 1240
+        },
+        {
+          "box": {
+            "bottom": 5537.921875,
+            "height": 699.7578125,
+            "right": 1332.5,
+            "width": 1240,
+            "x": 92.5,
+            "y": 4838.1640625
+          },
+          "clientWidth": 1240,
+          "id": "first-visit",
+          "scrollWidth": 1240
+        },
+        {
+          "box": {
+            "bottom": 6265.1875,
+            "height": 727.265625,
+            "right": 1332.5,
+            "width": 1240,
+            "x": 92.5,
+            "y": 5537.921875
+          },
+          "clientWidth": 1240,
+          "id": "education",
+          "scrollWidth": 1240
+        }
+      ],
+      "selection": [
+        {
+          "background": "rgb(215, 221, 197)",
+          "foreground": "rgb(32, 60, 50)",
+          "id": ""
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "foreground": "rgb(32, 60, 50)",
+          "id": "approach-title"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "foreground": "rgb(32, 60, 50)",
+          "id": "contact-title"
+        }
+      ]
+    },
+    {
+      "clientWidth": 753,
+      "dpr": 1,
+      "headings": [
+        {
+          "box": {
+            "bottom": 420.5390625,
+            "height": 218.0390625,
+            "right": 366.5,
+            "width": 342.5,
+            "x": 24,
+            "y": 202.5
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "hero-title",
+          "letterSpacing": "-3.792px",
+          "lineHeight": "72.68px",
+          "size": "79px",
+          "text": "Времявернутьсяк себе.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 1024.3671875,
+            "height": 103.671875,
+            "right": 729,
+            "width": 368.5,
+            "x": 360.5,
+            "y": 920.6953125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "approach-title",
+          "letterSpacing": "-1.44px",
+          "lineHeight": "51.84px",
+          "size": "48px",
+          "text": "Забота о теле —как образ жизни.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 1752.1015625,
+            "height": 103.671875,
+            "right": 317.234375,
+            "width": 293.234375,
+            "x": 24,
+            "y": 1648.4296875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "sessions-title",
+          "letterSpacing": "-1.44px",
+          "lineHeight": "51.84px",
+          "size": "48px",
+          "text": "Разные техники.Ваше сочетание.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 1858.8984375,
+            "height": 34.796875,
+            "right": 543,
+            "width": 466,
+            "x": 77,
+            "y": 1824.1015625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.58px",
+          "lineHeight": "34.8px",
+          "size": "29px",
+          "text": "Комбинированный массаж",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 1996.4921875,
+            "height": 34.796875,
+            "right": 543,
+            "width": 466,
+            "x": 77,
+            "y": 1961.6953125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.58px",
+          "lineHeight": "34.8px",
+          "size": "29px",
+          "text": "Китайская техника ЦЗЫ-НЛО",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 2113.6875,
+            "height": 34.796875,
+            "right": 543,
+            "width": 466,
+            "x": 77,
+            "y": 2078.890625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.58px",
+          "lineHeight": "34.8px",
+          "size": "29px",
+          "text": "Работа со стопами",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 2230.8828125,
+            "height": 34.796875,
+            "right": 543,
+            "width": 466,
+            "x": 77,
+            "y": 2196.0859375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.58px",
+          "lineHeight": "34.8px",
+          "size": "29px",
+          "text": "Гимнастика Цигун",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 2348.078125,
+            "height": 34.796875,
+            "right": 543,
+            "width": 466,
+            "x": 77,
+            "y": 2313.28125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.58px",
+          "lineHeight": "34.8px",
+          "size": "29px",
+          "text": "Обучение ЦЗЫ-НЛО",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 2773.7421875,
+            "height": 103.671875,
+            "right": 366.1953125,
+            "width": 342.1953125,
+            "x": 24,
+            "y": 2670.0703125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "work-title",
+          "letterSpacing": "-1.44px",
+          "lineHeight": "51.84px",
+          "size": "48px",
+          "text": "Внимание —в каждом движении.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3471.21875,
+            "height": 27.59375,
+            "right": 161.90625,
+            "width": 137.90625,
+            "x": 24,
+            "y": 3443.625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-session-title",
+          "letterSpacing": "-0.36px",
+          "lineHeight": "27.6px",
+          "size": "24px",
+          "text": "Сеанс массажа",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3471.21875,
+            "height": 27.59375,
+            "right": 523.5234375,
+            "width": 137.0234375,
+            "x": 386.5,
+            "y": 3443.625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-back-title",
+          "letterSpacing": "-0.36px",
+          "lineHeight": "27.6px",
+          "size": "24px",
+          "text": "Спина и плечи",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4151.6953125,
+            "height": 27.59375,
+            "right": 153.1953125,
+            "width": 129.1953125,
+            "x": 24,
+            "y": 4124.1015625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-feet-title",
+          "letterSpacing": "-0.36px",
+          "lineHeight": "27.6px",
+          "size": "24px",
+          "text": "Ноги и стопы",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4151.6953125,
+            "height": 27.59375,
+            "right": 522.3203125,
+            "width": 135.8203125,
+            "x": 386.5,
+            "y": 4124.1015625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-hands-title",
+          "letterSpacing": "-0.36px",
+          "lineHeight": "27.6px",
+          "size": "24px",
+          "text": "Работа руками",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4401.53125,
+            "height": 51.8359375,
+            "right": 441.9921875,
+            "width": 417.9921875,
+            "x": 24,
+            "y": 4349.6953125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "prices-title",
+          "letterSpacing": "-1.44px",
+          "lineHeight": "51.84px",
+          "size": "48px",
+          "text": "Начните со знакомства.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4595.4765625,
+            "height": 70.546875,
+            "right": 332.5,
+            "width": 279.5,
+            "x": 53,
+            "y": 4524.9296875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-1.08px",
+          "lineHeight": "35.28px",
+          "size": "36px",
+          "text": "Диагностическийсеанс",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4508.625,
+            "height": 34.09375,
+            "right": 729,
+            "width": 337.5,
+            "x": 391.5,
+            "y": 4474.53125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.775px",
+          "lineHeight": "34.1px",
+          "size": "31px",
+          "text": "Массаж всего тела",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4901.5859375,
+            "height": 73.1875,
+            "right": 729,
+            "width": 337.5,
+            "x": 391.5,
+            "y": 4828.3984375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.775px",
+          "lineHeight": "34.1px",
+          "size": "31px",
+          "text": "Абонемент со скидкой 15%",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5461.53125,
+            "height": 103.671875,
+            "right": 359,
+            "width": 335,
+            "x": 24,
+            "y": 5357.859375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "visit-title",
+          "letterSpacing": "-1.44px",
+          "lineHeight": "51.84px",
+          "size": "48px",
+          "text": "Сначала —ваша история.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5385.15625,
+            "height": 49.296875,
+            "right": 729,
+            "width": 301,
+            "x": 428,
+            "y": 5335.859375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.725px",
+          "lineHeight": "49.3px",
+          "size": "29px",
+          "text": "Поговорим о вас",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5538.84375,
+            "height": 49.296875,
+            "right": 729,
+            "width": 299.375,
+            "x": 429.625,
+            "y": 5489.546875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.725px",
+          "lineHeight": "49.3px",
+          "size": "29px",
+          "text": "Подберём техники",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5717.2265625,
+            "height": 49.296875,
+            "right": 729,
+            "width": 299.53125,
+            "x": 429.46875,
+            "y": 5667.9296875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.725px",
+          "lineHeight": "49.3px",
+          "size": "29px",
+          "text": "Наметим продолжение",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 6179.8203125,
+            "height": 155.5078125,
+            "right": 325.5,
+            "width": 301.5,
+            "x": 24,
+            "y": 6024.3125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "education-title",
+          "letterSpacing": "-1.44px",
+          "lineHeight": "51.84px",
+          "size": "48px",
+          "text": "Практика,за которой —обучение.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 7224.078125,
+            "height": 81.59375,
+            "right": 359,
+            "width": 335,
+            "x": 24,
+            "y": 7142.484375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "questions-title",
+          "letterSpacing": "-1.4px",
+          "lineHeight": "40.8px",
+          "size": "40px",
+          "text": "Возможно, выхотели спросить.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 7677.578125,
+            "height": 56.09375,
+            "right": 729,
+            "width": 705,
+            "x": 24,
+            "y": 7621.484375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "contact-title",
+          "letterSpacing": "-1.925px",
+          "lineHeight": "56.1px",
+          "size": "55px",
+          "text": "Начнём с одного сеанса?",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 0,
+            "height": 0,
+            "right": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "booking-title",
+          "letterSpacing": "-2.17px",
+          "lineHeight": "63.24px",
+          "size": "62px",
+          "text": "Время для вас.",
+          "weight": "400"
+        }
+      ],
+      "innerHeight": 960,
+      "innerWidth": 768,
+      "scrollWidth": 753,
+      "sections": [
+        {
+          "box": {
+            "bottom": 1533.4296875,
+            "height": 737.734375,
+            "right": 729,
+            "width": 705,
+            "x": 24,
+            "y": 795.6953125
+          },
+          "clientWidth": 705,
+          "id": "approach",
+          "scrollWidth": 705
+        },
+        {
+          "box": {
+            "bottom": 2555.0703125,
+            "height": 1021.640625,
+            "right": 753,
+            "width": 753,
+            "x": 0,
+            "y": 1533.4296875
+          },
+          "clientWidth": 753,
+          "id": "sessions",
+          "scrollWidth": 753
+        },
+        {
+          "box": {
+            "bottom": 4234.6953125,
+            "height": 1679.625,
+            "right": 729,
+            "width": 705,
+            "x": 24,
+            "y": 2555.0703125
+          },
+          "clientWidth": 705,
+          "id": "work",
+          "scrollWidth": 705
+        },
+        {
+          "box": {
+            "bottom": 5235.859375,
+            "height": 1001.1640625,
+            "right": 729,
+            "width": 705,
+            "x": 24,
+            "y": 4234.6953125
+          },
+          "clientWidth": 705,
+          "id": "prices",
+          "scrollWidth": 705
+        },
+        {
+          "box": {
+            "bottom": 5904.3125,
+            "height": 668.453125,
+            "right": 729,
+            "width": 705,
+            "x": 24,
+            "y": 5235.859375
+          },
+          "clientWidth": 705,
+          "id": "first-visit",
+          "scrollWidth": 705
+        },
+        {
+          "box": {
+            "bottom": 6498.890625,
+            "height": 594.578125,
+            "right": 729,
+            "width": 705,
+            "x": 24,
+            "y": 5904.3125
+          },
+          "clientWidth": 705,
+          "id": "education",
+          "scrollWidth": 705
+        }
+      ],
+      "selection": [
+        {
+          "background": "rgb(215, 221, 197)",
+          "foreground": "rgb(32, 60, 50)",
+          "id": ""
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "foreground": "rgb(32, 60, 50)",
+          "id": "approach-title"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "foreground": "rgb(32, 60, 50)",
+          "id": "contact-title"
+        }
+      ]
+    },
+    {
+      "clientWidth": 375,
+      "dpr": 1,
+      "headings": [
+        {
+          "box": {
+            "bottom": 391.6015625,
+            "height": 234.3515625,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 157.25
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "hero-title",
+          "letterSpacing": "-4.032px",
+          "lineHeight": "78.12px",
+          "size": "84px",
+          "text": "Времявернутьсяк себе.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 1492.65625,
+            "height": 103.671875,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 1388.984375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "approach-title",
+          "letterSpacing": "-1.44px",
+          "lineHeight": "51.84px",
+          "size": "48px",
+          "text": "Забота о теле —как образ жизни.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 2695.578125,
+            "height": 103.671875,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 2591.90625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "sessions-title",
+          "letterSpacing": "-1.44px",
+          "lineHeight": "51.84px",
+          "size": "48px",
+          "text": "Разные техники.Ваше сочетание.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 2894.65625,
+            "height": 56.6875,
+            "right": 303,
+            "width": 249,
+            "x": 54,
+            "y": 2837.96875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.54px",
+          "lineHeight": "28.35px",
+          "size": "27px",
+          "text": "Комбинированный массаж",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3088.1796875,
+            "height": 45.7421875,
+            "right": 303,
+            "width": 249,
+            "x": 54,
+            "y": 3042.4375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.54px",
+          "lineHeight": "28.35px",
+          "size": "27px",
+          "text": "Китайская техника ЦЗЫ-НЛО",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3242.7109375,
+            "height": 28.34375,
+            "right": 303,
+            "width": 249,
+            "x": 54,
+            "y": 3214.3671875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.54px",
+          "lineHeight": "28.35px",
+          "size": "27px",
+          "text": "Работа со стопами",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3397.2421875,
+            "height": 28.34375,
+            "right": 303,
+            "width": 249,
+            "x": 54,
+            "y": 3368.8984375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.54px",
+          "lineHeight": "28.35px",
+          "size": "27px",
+          "text": "Гимнастика Цигун",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3551.7734375,
+            "height": 28.34375,
+            "right": 303,
+            "width": 249,
+            "x": 54,
+            "y": 3523.4296875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.54px",
+          "lineHeight": "28.35px",
+          "size": "27px",
+          "text": "Обучение ЦЗЫ-НЛО",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4087.453125,
+            "height": 155.5078125,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 3931.9453125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "work-title",
+          "letterSpacing": "-1.44px",
+          "lineHeight": "51.84px",
+          "size": "48px",
+          "text": "Внимание —в каждом движении.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4762.125,
+            "height": 28.75,
+            "right": 320,
+            "width": 300,
+            "x": 20,
+            "y": 4733.375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-session-title",
+          "letterSpacing": "-0.375px",
+          "lineHeight": "28.75px",
+          "size": "25px",
+          "text": "Сеанс массажа",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4762.125,
+            "height": 28.75,
+            "right": 636,
+            "width": 300,
+            "x": 336,
+            "y": 4733.375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-back-title",
+          "letterSpacing": "-0.375px",
+          "lineHeight": "28.75px",
+          "size": "25px",
+          "text": "Спина и плечи",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4762.125,
+            "height": 28.75,
+            "right": 952,
+            "width": 300,
+            "x": 652,
+            "y": 4733.375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-feet-title",
+          "letterSpacing": "-0.375px",
+          "lineHeight": "28.75px",
+          "size": "25px",
+          "text": "Ноги и стопы",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4762.125,
+            "height": 28.75,
+            "right": 1268,
+            "width": 300,
+            "x": 968,
+            "y": 4733.375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-hands-title",
+          "letterSpacing": "-0.375px",
+          "lineHeight": "28.75px",
+          "size": "25px",
+          "text": "Работа руками",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5120.9921875,
+            "height": 103.671875,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 5017.3203125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "prices-title",
+          "letterSpacing": "-1.44px",
+          "lineHeight": "51.84px",
+          "size": "48px",
+          "text": "Начните со знакомства.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5376.78125,
+            "height": 68.796875,
+            "right": 326,
+            "width": 277,
+            "x": 49,
+            "y": 5307.984375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-1.053px",
+          "lineHeight": "34.398px",
+          "size": "35.1px",
+          "text": "Диагностическийсеанс",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5768.1171875,
+            "height": 36.296875,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 5731.8203125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.825px",
+          "lineHeight": "36.3px",
+          "size": "33px",
+          "text": "Массаж всего тела",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 6159.484375,
+            "height": 77.59375,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 6081.890625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.825px",
+          "lineHeight": "36.3px",
+          "size": "33px",
+          "text": "Абонемент со скидкой 15%",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 6703.53125,
+            "height": 103.671875,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 6599.859375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "visit-title",
+          "letterSpacing": "-1.44px",
+          "lineHeight": "51.84px",
+          "size": "48px",
+          "text": "Сначала —ваша история.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 6953.109375,
+            "height": 45.8984375,
+            "right": 355,
+            "width": 307,
+            "x": 48,
+            "y": 6907.2109375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.675px",
+          "lineHeight": "45.9px",
+          "size": "27px",
+          "text": "Поговорим о вас",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 7103.3984375,
+            "height": 45.8984375,
+            "right": 355,
+            "width": 305.375,
+            "x": 49.625,
+            "y": 7057.5
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.675px",
+          "lineHeight": "45.9px",
+          "size": "27px",
+          "text": "Подберём техники",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 7278.3828125,
+            "height": 45.8984375,
+            "right": 355,
+            "width": 305.53125,
+            "x": 49.46875,
+            "y": 7232.484375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.675px",
+          "lineHeight": "45.9px",
+          "size": "27px",
+          "text": "Наметим продолжение",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 7704.9765625,
+            "height": 155.5078125,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 7549.46875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "education-title",
+          "letterSpacing": "-1.44px",
+          "lineHeight": "51.84px",
+          "size": "48px",
+          "text": "Практика,за которой —обучение.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 9017.703125,
+            "height": 87.71875,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 8929.984375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "questions-title",
+          "letterSpacing": "-1.505px",
+          "lineHeight": "43.86px",
+          "size": "43px",
+          "text": "Возможно, выхотели спросить.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 9605.609375,
+            "height": 97.90625,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 9507.703125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "contact-title",
+          "letterSpacing": "-1.68px",
+          "lineHeight": "48.96px",
+          "size": "48px",
+          "text": "Начнём с одного сеанса?",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 0,
+            "height": 0,
+            "right": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "booking-title",
+          "letterSpacing": "-1.68px",
+          "lineHeight": "48.96px",
+          "size": "48px",
+          "text": "Время для вас.",
+          "weight": "400"
+        }
+      ],
+      "innerHeight": 960,
+      "innerWidth": 390,
+      "scrollWidth": 375,
+      "sections": [
+        {
+          "box": {
+            "bottom": 2494.90625,
+            "height": 1207.921875,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 1286.984375
+          },
+          "clientWidth": 335,
+          "id": "approach",
+          "scrollWidth": 335
+        },
+        {
+          "box": {
+            "bottom": 3834.9453125,
+            "height": 1340.0390625,
+            "right": 375,
+            "width": 375,
+            "x": 0,
+            "y": 2494.90625
+          },
+          "clientWidth": 375,
+          "id": "sessions",
+          "scrollWidth": 375
+        },
+        {
+          "box": {
+            "bottom": 4920.3203125,
+            "height": 1085.375,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 3834.9453125
+          },
+          "clientWidth": 335,
+          "id": "work",
+          "scrollWidth": 335
+        },
+        {
+          "box": {
+            "bottom": 6500.859375,
+            "height": 1580.5390625,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 4920.3203125
+          },
+          "clientWidth": 335,
+          "id": "prices",
+          "scrollWidth": 335
+        },
+        {
+          "box": {
+            "bottom": 7447.46875,
+            "height": 946.609375,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 6500.859375
+          },
+          "clientWidth": 335,
+          "id": "first-visit",
+          "scrollWidth": 335
+        },
+        {
+          "box": {
+            "bottom": 8297.3515625,
+            "height": 849.8828125,
+            "right": 355,
+            "width": 335,
+            "x": 20,
+            "y": 7447.46875
+          },
+          "clientWidth": 335,
+          "id": "education",
+          "scrollWidth": 335
+        }
+      ],
+      "selection": [
+        {
+          "background": "rgb(215, 221, 197)",
+          "foreground": "rgb(32, 60, 50)",
+          "id": ""
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "foreground": "rgb(32, 60, 50)",
+          "id": "approach-title"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "foreground": "rgb(32, 60, 50)",
+          "id": "contact-title"
+        }
+      ]
+    },
+    {
+      "clientWidth": 305,
+      "dpr": 1,
+      "headings": [
+        {
+          "box": {
+            "bottom": 367.7890625,
+            "height": 212.0390625,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 155.75
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "hero-title",
+          "letterSpacing": "-3.648px",
+          "lineHeight": "70.68px",
+          "size": "76px",
+          "text": "Времявернутьсяк себе.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 1440.34375,
+            "height": 92.875,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 1347.46875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "approach-title",
+          "letterSpacing": "-1.29px",
+          "lineHeight": "46.44px",
+          "size": "43px",
+          "text": "Забота о теле —как образ жизни.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 2783.8046875,
+            "height": 92.875,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 2690.9296875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "sessions-title",
+          "letterSpacing": "-1.29px",
+          "lineHeight": "46.44px",
+          "size": "43px",
+          "text": "Разные техники.Ваше сочетание.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 2976.5859375,
+            "height": 50.390625,
+            "right": 237,
+            "width": 187,
+            "x": 50,
+            "y": 2926.1953125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.48px",
+          "lineHeight": "25.2px",
+          "size": "24px",
+          "text": "Комбинированный массаж",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3188.5546875,
+            "height": 42.59375,
+            "right": 237,
+            "width": 187,
+            "x": 50,
+            "y": 3145.9609375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.48px",
+          "lineHeight": "25.2px",
+          "size": "24px",
+          "text": "Китайская техника ЦЗЫ-НЛО",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3339.9375,
+            "height": 25.1953125,
+            "right": 237,
+            "width": 187,
+            "x": 50,
+            "y": 3314.7421875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.48px",
+          "lineHeight": "25.2px",
+          "size": "24px",
+          "text": "Работа со стопами",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3512.9140625,
+            "height": 25.1953125,
+            "right": 237,
+            "width": 187,
+            "x": 50,
+            "y": 3487.71875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.48px",
+          "lineHeight": "25.2px",
+          "size": "24px",
+          "text": "Гимнастика Цигун",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 3711.0859375,
+            "height": 50.390625,
+            "right": 237,
+            "width": 187,
+            "x": 50,
+            "y": 3660.6953125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.48px",
+          "lineHeight": "25.2px",
+          "size": "24px",
+          "text": "Обучение ЦЗЫ-НЛО",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4230.5703125,
+            "height": 139.3125,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 4091.2578125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "work-title",
+          "letterSpacing": "-1.29px",
+          "lineHeight": "46.44px",
+          "size": "43px",
+          "text": "Внимание —в каждом движении.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4838.3984375,
+            "height": 28.75,
+            "right": 278.3984375,
+            "width": 262.3984375,
+            "x": 16,
+            "y": 4809.6484375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-session-title",
+          "letterSpacing": "-0.375px",
+          "lineHeight": "28.75px",
+          "size": "25px",
+          "text": "Сеанс массажа",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4838.3984375,
+            "height": 28.75,
+            "right": 556.796875,
+            "width": 262.3984375,
+            "x": 294.3984375,
+            "y": 4809.6484375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-back-title",
+          "letterSpacing": "-0.375px",
+          "lineHeight": "28.75px",
+          "size": "25px",
+          "text": "Спина и плечи",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4838.3984375,
+            "height": 28.75,
+            "right": 835.1953125,
+            "width": 262.3984375,
+            "x": 572.796875,
+            "y": 4809.6484375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-feet-title",
+          "letterSpacing": "-0.375px",
+          "lineHeight": "28.75px",
+          "size": "25px",
+          "text": "Ноги и стопы",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 4838.3984375,
+            "height": 28.75,
+            "right": 1113.59375,
+            "width": 262.3984375,
+            "x": 851.1953125,
+            "y": 4809.6484375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "video-hands-title",
+          "letterSpacing": "-0.375px",
+          "lineHeight": "28.75px",
+          "size": "25px",
+          "text": "Работа руками",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5186.46875,
+            "height": 92.875,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 5093.59375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "prices-title",
+          "letterSpacing": "-1.29px",
+          "lineHeight": "46.44px",
+          "size": "43px",
+          "text": "Начните со знакомства.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5434.1328125,
+            "height": 64.671875,
+            "right": 264,
+            "width": 223,
+            "x": 41,
+            "y": 5369.4609375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.99px",
+          "lineHeight": "32.34px",
+          "size": "33px",
+          "text": "Диагностическийсеанс",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 5843.3125,
+            "height": 34.09375,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 5809.21875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.775px",
+          "lineHeight": "34.1px",
+          "size": "31px",
+          "text": "Массаж всего тела",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 6254.96875,
+            "height": 73.1875,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 6181.78125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.775px",
+          "lineHeight": "34.1px",
+          "size": "31px",
+          "text": "Абонемент со скидкой 15%",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 6812.9140625,
+            "height": 92.875,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 6720.0390625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "visit-title",
+          "letterSpacing": "-1.29px",
+          "lineHeight": "46.44px",
+          "size": "43px",
+          "text": "Сначала —ваша история.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 7087.1875,
+            "height": 45.8984375,
+            "right": 289,
+            "width": 245,
+            "x": 44,
+            "y": 7041.2890625
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.675px",
+          "lineHeight": "45.9px",
+          "size": "27px",
+          "text": "Поговорим о вас",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 7262.171875,
+            "height": 45.8984375,
+            "right": 289,
+            "width": 243.375,
+            "x": 45.625,
+            "y": 7216.2734375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.675px",
+          "lineHeight": "45.9px",
+          "size": "27px",
+          "text": "Подберём техники",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 7437.15625,
+            "height": 45.8984375,
+            "right": 289,
+            "width": 243.53125,
+            "x": 45.46875,
+            "y": 7391.2578125
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "",
+          "letterSpacing": "-0.675px",
+          "lineHeight": "45.9px",
+          "size": "27px",
+          "text": "Наметим продолжение",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 7872.25,
+            "height": 139.3125,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 7732.9375
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "education-title",
+          "letterSpacing": "-1.29px",
+          "lineHeight": "46.44px",
+          "size": "43px",
+          "text": "Практика,за которой —обучение.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 9211.5859375,
+            "height": 87.71875,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 9123.8671875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "questions-title",
+          "letterSpacing": "-1.505px",
+          "lineHeight": "43.86px",
+          "size": "43px",
+          "text": "Возможно, выхотели спросить.",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 9822.8515625,
+            "height": 85.671875,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 9737.1796875
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "contact-title",
+          "letterSpacing": "-1.47px",
+          "lineHeight": "42.84px",
+          "size": "42px",
+          "text": "Начнём с одного сеанса?",
+          "weight": "400"
+        },
+        {
+          "box": {
+            "bottom": 0,
+            "height": 0,
+            "right": 0,
+            "width": 0,
+            "x": 0,
+            "y": 0
+          },
+          "family": "\"Cormorant Garamond\", Georgia, serif",
+          "fontStyle": "normal",
+          "id": "booking-title",
+          "letterSpacing": "-1.68px",
+          "lineHeight": "48.96px",
+          "size": "48px",
+          "text": "Время для вас.",
+          "weight": "400"
+        }
+      ],
+      "innerHeight": 960,
+      "innerWidth": 320,
+      "scrollWidth": 305,
+      "sections": [
+        {
+          "box": {
+            "bottom": 2593.9296875,
+            "height": 1348.4609375,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 1245.46875
+          },
+          "clientWidth": 273,
+          "id": "approach",
+          "scrollWidth": 273
+        },
+        {
+          "box": {
+            "bottom": 3994.2578125,
+            "height": 1400.328125,
+            "right": 305,
+            "width": 305,
+            "x": 0,
+            "y": 2593.9296875
+          },
+          "clientWidth": 305,
+          "id": "sessions",
+          "scrollWidth": 305
+        },
+        {
+          "box": {
+            "bottom": 4996.59375,
+            "height": 1002.3359375,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 3994.2578125
+          },
+          "clientWidth": 273,
+          "id": "work",
+          "scrollWidth": 273
+        },
+        {
+          "box": {
+            "bottom": 6621.0390625,
+            "height": 1624.4453125,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 4996.59375
+          },
+          "clientWidth": 273,
+          "id": "prices",
+          "scrollWidth": 273
+        },
+        {
+          "box": {
+            "bottom": 7630.9375,
+            "height": 1009.8984375,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 6621.0390625
+          },
+          "clientWidth": 273,
+          "id": "first-visit",
+          "scrollWidth": 273
+        },
+        {
+          "box": {
+            "bottom": 8469.984375,
+            "height": 839.046875,
+            "right": 289,
+            "width": 273,
+            "x": 16,
+            "y": 7630.9375
+          },
+          "clientWidth": 273,
+          "id": "education",
+          "scrollWidth": 273
+        }
+      ],
+      "selection": [
+        {
+          "background": "rgb(215, 221, 197)",
+          "foreground": "rgb(32, 60, 50)",
+          "id": ""
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "foreground": "rgb(32, 60, 50)",
+          "id": "approach-title"
+        },
+        {
+          "background": "rgb(215, 221, 197)",
+          "foreground": "rgb(32, 60, 50)",
+          "id": "contact-title"
+        }
+      ]
+    }
+  ]
+}

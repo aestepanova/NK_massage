@@ -1,0 +1,39 @@
+{
+  "baseline_files": 27,
+  "current_files": 27,
+  "changed": [
+    "sites/natalia-kuznetsova/dist/styles.css"
+  ],
+  "new": [],
+  "removed": [],
+  "static_command": "python3 -B scripts/check_site.py",
+  "static_exit_code": 0,
+  "static_output": "OK: 1 HTML page(s), local links/CSS URLs and 1 JavaScript file(s) checked",
+  "exception_comparison": [
+    {
+      "width": 320,
+      "matched": 25,
+      "changes": []
+    },
+    {
+      "width": 390,
+      "matched": 25,
+      "changes": []
+    },
+    {
+      "width": 768,
+      "matched": 24,
+      "changes": []
+    },
+    {
+      "width": 1440,
+      "matched": 24,
+      "changes": []
+    }
+  ],
+  "non_typographic_css_identical": true,
+  "selection_preserved": true,
+  "reduced_motion_rule_preserved": true,
+  "font_faces": "@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:400;font-display:swap;src:url('cormorant-regular.ttf') format('truetype')}\n@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400;font-display:swap;src:url('cormorant-italic.ttf') format('truetype')}\n@font-face{font-family:'Manrope';font-style:normal;font-weight:400;font-display:swap;src:url('manrope-regular.ttf') format('truetype')}\n@font-face{font-family:'Manrope';font-style:normal;font-weight:500;font-display:swap;src:url('manrope-medium.ttf') format('truetype')}\n@font-face{font-family:'Manrope';font-style:normal;font-weight:600;font-display:swap;src:url('manrope-semibold.ttf') format('truetype')}\n",
+  "non_typographic_comparison_method": "Remove font/font-family/font-size/font-weight/font-style/line-height/letter-spacing and --type-item-size declarations; remove resulting empty rules; normalize whitespace and optional final semicolons."
+}
