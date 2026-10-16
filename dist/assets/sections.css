@@ -141,7 +141,7 @@ main>section:not(.hero):not(.hero-first) h2,.booking-dialog h2{line-height:1.2}
   .approach-principles p br{display:none}
   .pricing-section{padding-top:20px}
   .pricing-layout{padding:24px;gap:24px}
-  .first-price h3{font-size:clamp(33px,9vw,48px);margin-top:22px}
+  .first-price h3{font-size:clamp(30px,8vw,44px);margin-top:22px}
   .first-price{padding-bottom:24px}
   .regular-prices article+article{margin-top:24px;padding-top:24px}
   .first-price .button{width:100%;padding-inline:12px;gap:10px}
@@ -150,7 +150,8 @@ main>section:not(.hero):not(.hero-first) h2,.booking-dialog h2{line-height:1.2}
   .regular-prices h3{font-size:33px}
   .price-promotions{margin-top:24px}
   .first-visit{gap:26px;padding-top:32px}
-  .visit-steps>article{gap:18px;padding-block:18px}
+  .visit-intro h2{font-size:clamp(36px,10vw,48px)}
+  .visit-steps>article{display:grid;grid-template-columns:16px minmax(0,1fr);gap:16px;padding-block:18px}
   .session-row{grid-template-columns:22px minmax(0,1fr) 40px;gap:12px;padding-block:20px}
   .session-select{width:40px;height:40px}
   .session-description p{max-width:none}
