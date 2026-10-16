@@ -35,7 +35,7 @@ main>section:not(.hero):not(.hero-first) h2,.booking-dialog h2{line-height:1.2}
 .session-select{width:44px;height:44px;border-radius:6px;border-color:var(--frame)}
 .session-footnote{margin-top:28px}
 .work-section{border-bottom:1px solid var(--line)}
-.work-gallery{grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:24px;align-items:start}
+.work-gallery{grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;align-items:start}
 .media-frame{padding:6px;background:var(--surface);border:1px solid var(--frame);border-radius:10px;box-shadow:var(--media-shadow)}
 .media-frame video{border-radius:4px;object-fit:contain}
 .work-gallery figcaption{display:block;margin-top:16px}
